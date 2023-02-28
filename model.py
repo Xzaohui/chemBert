@@ -35,6 +35,19 @@ class cheBerta(nn.Module):
         return out
 
 
+class lstm(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.enbedding=nn.Embedding(9999,512)
+        self.lstm=nn.LSTM(512,512,2)
+        self.line=nn.Linear(512,2)
+    def forward(self,input_ids):
+        out=self.enbedding(input_ids)
+        out,_=self.lstm(out)
+        out=self.line(out)
+        return out[:,-1,:]
+
+
 
 
 

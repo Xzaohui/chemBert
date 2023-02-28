@@ -21,11 +21,11 @@
 
 from tokenizers.implementations import ByteLevelBPETokenizer
 from tokenizers.processors import BertProcessing
-
+import pandas as pd
 
 tokenizer = ByteLevelBPETokenizer(
-    "./tokenizer/chemical_tokenizer-vocab.json",
-    "./tokenizer/chemical_tokenizer-merges.txt",
+    "./tokenizer/vocab.json",
+    "./tokenizer/merges.txt",
 )
 tokenizer._tokenizer.post_processor = BertProcessing(
     ("</s>", tokenizer.token_to_id("</s>")),
@@ -33,4 +33,4 @@ tokenizer._tokenizer.post_processor = BertProcessing(
 )
 tokenizer.enable_truncation(max_length=512)
 
-print(tokenizer.encode("CC(=O)OC(CC(=O)O)C[N+](C)(C)C").ids)
+print(tokenizer.encode_batch(["CC(=O)OC(CC(=O)O)C[N+](C)(C)C"])[0].ids)
