@@ -6,22 +6,12 @@ from transformers import BertConfig
 import torch
 from torch import nn
 from torch.nn import CrossEntropyLoss, MSELoss
-from torch.nn.functional import gelu
+# from torch.nn.functional import gelu
 import numpy as np
 
-# from transformers.activations import gelu,swish,gelu_new
+from transformers.activations import gelu,gelu_new
 # from transformers.file_utils import add_start_docstrings, add_start_docstrings_to_callable
 from transformers.modeling_utils import PreTrainedModel, prune_linear_layer
-
-
-
-# config = BertConfig(
-#     vocab_size=9739,
-#     max_position_embeddings=514,
-#     num_attention_heads=12,
-#     num_hidden_layers=6,
-#     type_vocab_size=1,
-# )
 
 
 class cheBerta(nn.Module):
@@ -48,15 +38,46 @@ class lstm(nn.Module):
         return out[:,-1,:]
 
 
+# class BertConfig(object):
+#   """BERT模型的配置类."""
+ 
+#   def __init__(self,
+#                vocab_size=9999,
+#                hidden_size=768,
+#                num_hidden_layers=12,
+#                num_attention_heads=12,
+#                intermediate_size=3072,
+#                hidden_dropout_prob=0.1,
+#                attention_probs_dropout_prob=0.1,
+#                max_position_embeddings=512,
+#                type_vocab_size=16,
+#                initializer_range=0.02,
+#                hidden_act="gelu"):
+ 
+#     self.vocab_size = vocab_size
+#     self.hidden_size = hidden_size
+#     self.num_hidden_layers = num_hidden_layers
+#     self.num_attention_heads = num_attention_heads
+#     self.pad_token_id=1
+#     self.layer_norm_eps=1e-12
+#     self.intermediate_size = intermediate_size
+#     self.hidden_dropout_prob = hidden_dropout_prob
+#     self.attention_probs_dropout_prob = attention_probs_dropout_prob
+#     self.max_position_embeddings = max_position_embeddings
+#     self.type_vocab_size = type_vocab_size
+#     self.initializer_range = initializer_range
+#     self.output_attentions = False
+#     self.hidden_act=hidden_act
+#     self.is_decoder = False
+#     self.output_hidden_states = True
 
-
-
+# config=BertConfig()
 
 #mish激活函数
 def mish(x):
     return x * torch.tanh(nn.functional.softplus(x))
 #一共5种激活函数
-# ACT2FN = {"gelu": gelu, "relu": torch.nn.functional.relu, "swish": swish, "gelu_new": gelu_new, "mish": mish}
+ACT2FN = {"gelu": gelu, "relu": torch.nn.functional.relu, "swish": nn.functional.silu, "gelu_new": gelu_new, "mish": mish}
 
 
 BertLayerNorm = torch.nn.LayerNorm #使用LayerNorm
@@ -71,7 +92,8 @@ class BertEmbeddings(nn.Module):
         #词嵌入特征，位置编码，token词类型的段落嵌入
         self.word_embeddings = nn.Embedding(config.vocab_size, config.hidden_size, padding_idx=config.pad_token_id)
         self.position_embeddings = nn.Embedding(config.max_position_embeddings, config.hidden_size)
-        self.token_type_embeddings = nn.Embedding(config.type_vocab_size, config.hidden_size)
+
+        # self.token_type_embeddings = nn.Embedding(config.type_vocab_size, config.hidden_size)
 
         # self.LayerNorm is not snake-cased to stick with TensorFlow model variable name and be able to load
         # any TensorFlow checkpoint file
@@ -102,10 +124,11 @@ class BertEmbeddings(nn.Module):
         if inputs_embeds is None:
             inputs_embeds = self.word_embeddings(input_ids)
         position_embeddings = self.position_embeddings(position_ids)
-        token_type_embeddings = self.token_type_embeddings(token_type_ids)
+
+        # token_type_embeddings = self.token_type_embeddings(token_type_ids)
 
         #最后的embedding结果是输入的词嵌入+位置嵌入+类型嵌入
-        embeddings = inputs_embeds + position_embeddings + token_type_embeddings
+        embeddings = inputs_embeds + position_embeddings #+ token_type_embeddings
         embeddings = self.LayerNorm(embeddings) #LN，加快收敛
         embeddings = self.dropout(embeddings) #dropout
         return embeddings #返回嵌入的结果
@@ -739,13 +762,17 @@ class BertForPreTraining(BertPreTrainedModel):
         ]  # add hidden states and attention if they are here
 
         #计算loss
-        if masked_lm_labels is not None and next_sentence_label is not None:
-            loss_fct = CrossEntropyLoss() #MLM用交叉熵，实际上会只算mask部分的loss，所以和DAE很像。
-            masked_lm_loss = loss_fct(prediction_scores.view(-1, self.config.vocab_size), masked_lm_labels.view(-1))
-            #NSP用cls的预测也是跟label算一次交叉熵
-            next_sentence_loss = loss_fct(seq_relationship_score.view(-1, 2), next_sentence_label.view(-1))
-            total_loss = masked_lm_loss + next_sentence_loss
-            outputs = (total_loss,) + outputs
+        # if masked_lm_labels is not None and next_sentence_label is not None:
+        #     loss_fct = CrossEntropyLoss() #MLM用交叉熵，实际上会只算mask部分的loss，所以和DAE很像。
+        #     masked_lm_loss = loss_fct(prediction_scores.view(-1, self.config.vocab_size), masked_lm_labels.view(-1))
+        #     #NSP用cls的预测也是跟label算一次交叉熵
+        #     next_sentence_loss = loss_fct(seq_relationship_score.view(-1, 2), next_sentence_label.view(-1))
+        #     total_loss = masked_lm_loss + next_sentence_loss
+        #     outputs = (total_loss,) + outputs
+
+        loss_fct = CrossEntropyLoss() #MLM用交叉熵，实际上会只算mask部分的loss，所以和DAE很像。
+        masked_lm_loss = loss_fct(prediction_scores.view(-1, self.config.vocab_size), masked_lm_labels.view(-1))
+        outputs = (masked_lm_loss,) + outputs
 
         return outputs  # (loss), prediction_scores, seq_relationship_score, (hidden_states), (attentions)
 
