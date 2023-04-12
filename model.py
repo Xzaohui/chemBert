@@ -679,18 +679,18 @@ class BertModel(BertPreTrainedModel):
         return outputs  # sequence_output, pooled_output, (hidden_states), (attentions)
 
 
-class BertForPreTraining(BertPreTrainedModel):
+class BertForPreTraining(nn.Module):
     '''最终的预训练类。
     loss来自两部分，一部分是掩码模型的平均值，一部分是next sentence prediction的平均值。
     掩码部分真实标签值只有掩码单元有意义，其它部分均为-1，在计算loss的时候会忽略掉这部分。
     '''
-    def __init__(self, config):
+    def __init__(self, config,model):
         super().__init__(config)
 
-        self.bert = BertModel(config)#实例化BERT
+        self.bert = model#实例化BERT
         self.cls = BertPreTrainingHeads(config)#两个任务类
 
-        self.init_weights()#初始化权重
+        # self.init_weights()#初始化权重
 
     def get_output_embeddings(self):
         return self.cls.predictions.decoder #cls的预测结果
@@ -704,7 +704,7 @@ class BertForPreTraining(BertPreTrainedModel):
         head_mask=None,
         inputs_embeds=None,
         masked_lm_labels=None,
-        next_sentence_label=None,
+        # next_sentence_label=None,
     ):
         r"""
         masked_lm_labels (``torch.LongTensor`` of shape ``(batch_size, sequence_length)``, `optional`, defaults to :obj:`None`):

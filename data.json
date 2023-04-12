@@ -1,0 +1,96 @@
+{
+    "CC(=O)OC(CC(=O)[O-])C[N+](C)(C)C": {},
+    "CC(=O)OC(CC(=O)O)C[N+](C)(C)C": {
+        "> <PUBCHEM_XLOGP3_AA>": "-0.3",
+        "> <PUBCHEM_EXACT_MASS>": "204.12358306",
+        "> <PUBCHEM_MOLECULAR_WEIGHT>": "204.24",
+        "> <PUBCHEM_CACTVS_TPSA>": "63.6",
+        "> <PUBCHEM_MONOISOTOPIC_WEIGHT>": "204.12358306",
+        "> <PUBCHEM_TOTAL_CHARGE>": "1",
+        "> <PUBCHEM_HEAVY_ATOM_COUNT>": "14"
+    },
+    "C1=CC(C(C(=C1)C(=O)O)O)O": {
+        "> <PUBCHEM_XLOGP3_AA>": "-0.3",
+        "> <PUBCHEM_EXACT_MASS>": "156.04225873",
+        "> <PUBCHEM_MOLECULAR_WEIGHT>": "156.14",
+        "> <PUBCHEM_CACTVS_TPSA>": "77.8",
+        "> <PUBCHEM_MONOISOTOPIC_WEIGHT>": "156.04225873",
+        "> <PUBCHEM_TOTAL_CHARGE>": "0",
+        "> <PUBCHEM_HEAVY_ATOM_COUNT>": "11"
+    },
+    "CC(CN)O": {
+        "> <PUBCHEM_EXACT_MASS>": "75.068413911",
+        "> <PUBCHEM_MOLECULAR_WEIGHT>": "75.11",
+        "> <PUBCHEM_CACTVS_TPSA>": "46.2",
+        "> <PUBCHEM_MONOISOTOPIC_WEIGHT>": "75.068413911",
+        "> <PUBCHEM_TOTAL_CHARGE>": "0",
+        "> <PUBCHEM_HEAVY_ATOM_COUNT>": "5"
+    },
+    "C(C(=O)COP(=O)(O)O)N": {
+        "> <PUBCHEM_XLOGP3_AA>": "-5",
+        "> <PUBCHEM_EXACT_MASS>": "169.01400935",
+        "> <PUBCHEM_MOLECULAR_WEIGHT>": "169.07",
+        "> <PUBCHEM_CACTVS_TPSA>": "110",
+        "> <PUBCHEM_MONOISOTOPIC_WEIGHT>": "169.01400935",
+        "> <PUBCHEM_TOTAL_CHARGE>": "0",
+        "> <PUBCHEM_HEAVY_ATOM_COUNT>": "10"
+    },
+    "C1=CC(=C(C=C1[N+](=O)[O-])[N+](=O)[O-])Cl": {
+        "> <PUBCHEM_EXACT_MASS>": "201.9781343",
+        "> <PUBCHEM_MOLECULAR_WEIGHT>": "202.55",
+        "> <PUBCHEM_CACTVS_TPSA>": "91.6",
+        "> <PUBCHEM_MONOISOTOPIC_WEIGHT>": "201.9781343",
+        "> <PUBCHEM_TOTAL_CHARGE>": "0",
+        "> <PUBCHEM_HEAVY_ATOM_COUNT>": "13"
+    },
+    "CCN1C=NC2=C(N=CN=C21)N": {
+        "> <PUBCHEM_EXACT_MASS>": "163.08579531",
+        "> <PUBCHEM_MOLECULAR_WEIGHT>": "163.18",
+        "> <PUBCHEM_CACTVS_TPSA>": "69.6",
+        "> <PUBCHEM_MONOISOTOPIC_WEIGHT>": "163.08579531",
+        "> <PUBCHEM_TOTAL_CHARGE>": "0",
+        "> <PUBCHEM_HEAVY_ATOM_COUNT>": "12"
+    },
+    "CCC(C)(C(C(=O)O)O)O": {
+        "> <PUBCHEM_XLOGP3_AA>": "-0.4",
+        "> <PUBCHEM_EXACT_MASS>": "148.07355886",
+        "> <PUBCHEM_MOLECULAR_WEIGHT>": "148.16",
+        "> <PUBCHEM_CACTVS_TPSA>": "77.8",
+        "> <PUBCHEM_MONOISOTOPIC_WEIGHT>": "148.07355886",
+        "> <PUBCHEM_TOTAL_CHARGE>": "0",
+        "> <PUBCHEM_HEAVY_ATOM_COUNT>": "10"
+    },
+    "C1(C(C(C(C(C1O)O)OP(=O)(O)O)O)O)O": {
+        "> <PUBCHEM_XLOGP3_AA>": "-4.8",
+        "> <PUBCHEM_EXACT_MASS>": "260.02971899",
+        "> <PUBCHEM_MOLECULAR_WEIGHT>": "260.14",
+        "> <PUBCHEM_CACTVS_TPSA>": "168",
+        "> <PUBCHEM_MONOISOTOPIC_WEIGHT>": "260.02971899",
+        "> <PUBCHEM_TOTAL_CHARGE>": "0",
+        "> <PUBCHEM_HEAVY_ATOM_COUNT>": "16"
+    },
+    "C(CCl)Cl": {
+        "> <PUBCHEM_EXACT_MASS>": "97.9690055",
+        "> <PUBCHEM_MOLECULAR_WEIGHT>": "98.96",
+        "> <PUBCHEM_CACTVS_TPSA>": "0",
+        "> <PUBCHEM_MONOISOTOPIC_WEIGHT>": "97.9690055",
+        "> <PUBCHEM_TOTAL_CHARGE>": "0",
+        "> <PUBCHEM_HEAVY_ATOM_COUNT>": "4"
+    },
+    "C1=C(C=C(C(=C1O)O)O)O": {
+        "> <PUBCHEM_EXACT_MASS>": "142.02660867",
+        "> <PUBCHEM_MOLECULAR_WEIGHT>": "142.11",
+        "> <PUBCHEM_CACTVS_TPSA>": "80.9",
+        "> <PUBCHEM_MONOISOTOPIC_WEIGHT>": "142.02660867",
+        "> <PUBCHEM_TOTAL_CHARGE>": "0",
+        "> <PUBCHEM_HEAVY_ATOM_COUNT>": "10"
+    },
+    "C1=CC(=C(C=C1Cl)Cl)Cl": {
+        "> <PUBCHEM_EXACT_MASS>": "179.930033",
+        "> <PUBCHEM_MOLECULAR_WEIGHT>": "181.4",
+        "> <PUBCHEM_CACTVS_TPSA>": "0",
+        "> <PUBCHEM_MONOISOTOPIC_WEIGHT>": "179.930033",
+        "> <PUBCHEM_TOTAL_CHARGE>": "0",
+        "> <PUBCHEM_HEAVY_ATOM_COUNT>": "9"
+    }
+}
