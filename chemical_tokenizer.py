@@ -33,4 +33,6 @@ tokenizer._tokenizer.post_processor = BertProcessing(
 )
 tokenizer.enable_truncation(max_length=512)
 
-print(tokenizer.encode_batch(["CC(=O)OC(CC(=O)O)C[N+](C)(C)C"])[0].ids)
+tokenizer.enable_padding(pad_id=tokenizer.token_to_id("<pad>"), pad_token="<pad>", pad_to_multiple_of=512)
+
+print(tokenizer.encode_batch(["CC(=O)OC(CC(=O)O)C[N+](C)(C)C"])[0].attention_mask)
