@@ -1,7 +1,8 @@
 import torch
-import numpy as np
-from model import BertModel
-from transformers import BertConfig
+# import numpy as np
+# from model import BertModel
+# from transformers import BertConfig
+
 
 # config=BertConfig(vocab_size=9999)
 
@@ -17,9 +18,8 @@ from transformers import BertConfig
 # 掩码这里使用了加号，对于不掩码的位置来说，掩码值为0
 # 对于掩码的位置来说，掩码值为-10000。使用softmax层之后，可以让-10000处的值为0。
 
-# print(np.random.choice(np.arange(-5, 5, 0.1), (5, 2)))
+# print(torch.cuda.is_available())
 
-print(np.arange(-5, 5, 0.1))
 
 
 
