@@ -10,7 +10,7 @@ data_title=['> <PUBCHEM_XLOGP3_AA>','> <PUBCHEM_EXACT_MASS>','> <PUBCHEM_MOLECUL
 def train_data():
     fdata=open('data.json','w',encoding='utf-8')
 
-    files= os.listdir(r'C:\Users\83912\Desktop\project\chemRoBerta\data')
+    files= os.listdir(r'C:\Users\83912\Desktop\project\chemBert\data')
     # files=[1]
 
     smiles_list=[]
@@ -18,7 +18,7 @@ def train_data():
     data_total={}
     for file in files:
 
-        file_path=r'C:\Users\83912\Desktop\project\chemRoBerta\data\\'+file
+        file_path=r'C:\Users\83912\Desktop\project\chemBert\data\\'+file
         # file_path='C:\Users\83912\Desktop\project\chemRoBerta\data\tmp.txt'
 
         data=[]
@@ -59,13 +59,13 @@ def smiles_data(begin=0):
     f1=open('smiles.txt','w',encoding='utf-8')
     f2=open('names.txt','w',encoding='utf-8')
 
-    files= os.listdir(r'C:\Users\83912\Desktop\project\chemRoBerta\data')
+    files= os.listdir(r'C:\Users\83912\Desktop\project\chemBert\data')
     # files=[1]
 
     print(files[begin:])
     for file in files[begin:]:
 
-        file_path=r'C:\Users\83912\Desktop\project\chemRoBerta\data\\'+file
+        file_path=r'C:\Users\83912\Desktop\project\chemBert\data\\'+file
 
         data=[]
         with open(file_path,'r',encoding='utf-8') as f:
