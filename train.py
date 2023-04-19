@@ -1,23 +1,32 @@
-from transformers import AutoTokenizer, AutoModel
+from transformers import RobertaTokenizer, AutoModel
 from transformers import AdamW, get_linear_schedule_with_warmup
-from model import cheBerta
+from model import chemBert_c,chemBert_r
 import torch.nn as nn
 import data_loader
 import torch
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import DataLoader
 import datetime
 from model import lstm
 import lstm_data
+import data_loader
 
-device='cuda:7'
+
+device='cuda'
 batch_size=8
-tokenizer = AutoTokenizer.from_pretrained("DeepChem/ChemBERTa-77M-MLM")
+tokenizer = RobertaTokenizer.from_pretrained("DeepChem/ChemBERTa-77M-MLM")
 
-train_dataloader=DataLoader(data_loader.data_frame['NR-AR']['train'],batch_size=batch_size,shuffle=True ,num_workers = 0)
-dev_dataloader=DataLoader(data_loader.data_frame['NR-AR']['dev'],batch_size=batch_size,shuffle=True ,num_workers = 0)
-test_dataloader=DataLoader(data_loader.data_frame['NR-AR']['test'],batch_size=batch_size,shuffle=True ,num_workers = 0)
-model = cheBerta(AutoModel.from_pretrained("DeepChem/ChemBERTa-77M-MLM"))
+# data_frame=data_loader.train_data_tox()
+# train_dataloader=DataLoader(data_frame['NR-AR']['train'],batch_size=batch_size,shuffle=True ,num_workers = 0)
+# dev_dataloader=DataLoader(data_frame['NR-AR']['dev'],batch_size=batch_size,shuffle=True ,num_workers = 0)
+# test_dataloader=DataLoader(data_frame['NR-AR']['test'],batch_size=batch_size,shuffle=True ,num_workers = 0)
+# model = chemBert_c(AutoModel.from_pretrained("DeepChem/ChemBERTa-77M-MLM"))
 
+data_frame=data_loader.train_data_bert()
+train_dataloader=DataLoader(data_frame[data_loader.data_choose]['train'],batch_size=batch_size,shuffle=True ,num_workers = 0)
+dev_dataloader=DataLoader(data_frame[data_loader.data_choose]['dev'],batch_size=batch_size,shuffle=True ,num_workers = 0)
+
+m=AutoModel.from_pretrained("DeepChem/ChemBERTa-77M-MLM")
+model = chemBert_r(m)
 
 # train_dataloader=DataLoader(lstm_data.data_frame['NR-AR']['train'],batch_size=batch_size,shuffle=True ,num_workers = 0)
 # dev_dataloader=DataLoader(lstm_data.data_frame['NR-AR']['dev'],batch_size=batch_size,shuffle=True ,num_workers = 0)
@@ -26,10 +35,51 @@ model = cheBerta(AutoModel.from_pretrained("DeepChem/ChemBERTa-77M-MLM"))
 
 model.to(device=device)
 
-criterion = nn.CrossEntropyLoss()
+# criterion = nn.CrossEntropyLoss()
+
+criterion = nn.MSELoss()
 
 
-def train(epoch=1):
+def train_bert(epoch=1):
+    optimizer = AdamW(model.parameters(), lr=2e-5, eps=1e-8)
+    total_steps = len(train_dataloader) * epoch
+    scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0.06*total_steps,num_training_steps=total_steps)
+
+    best=999
+    for e in range(epoch):
+        for i,(train_data,attention_mask,train_lab) in enumerate(train_dataloader):
+            optimizer.zero_grad()
+            model.train()
+            out=model(train_data.to(device),attention_mask.to(device))
+            loss=criterion(out.squeeze(-1),train_lab.to(device))
+            loss.backward()
+            optimizer.step()
+            scheduler.step()
+            if i%5==0:
+                print(loss)
+            if i%50==0:
+                torch.save(model, './model/model_bert/model.pt')
+
+                # dev_num=len(data_frame['> <PUBCHEM_EXACT_MASS>']['dev'])
+                # error_list=[]
+                # model.eval()
+                # for dev_data,attention_mask,dev_lab in dev_dataloader:
+                #     out=model(dev_data.to(device),attention_mask.to(device))
+                #     out=out.to('cpu').unsqueeze(-1)
+                #     error_list.append(criterion(out,dev_lab).item())
+                # print("=================================================")
+                # print(datetime.datetime.now)
+                # print('epoch:'+str(e)+'step:'+str(i))
+                # if sum(error_list)/dev_num < best:
+                #     print('now_best:'+str(best)+'->'+str(sum(error_list)/dev_num))
+                #     best=sum(error_list)/dev_num
+                #     torch.save(model, './model/model_bert/model.pt')
+                #     tokenizer.save_pretrained('./model/model_bert')
+                # else:
+                #     print('best:'+str(best))
+
+
+def train_bert_toxic(epoch=1):
     optimizer = AdamW(model.parameters(), lr=2e-5, eps=1e-8)
     total_steps = len(train_dataloader) * epoch
     scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0.06*total_steps,num_training_steps=total_steps)
@@ -62,7 +112,7 @@ def train(epoch=1):
                 if correct_num/dev_num > best:
                     print('now_best:'+str(best)+'->'+str(correct_num/dev_num))
                     best=correct_num/dev_num
-                    torch.save(model, './model/model_bert/model.pt')
+                    torch.save(m, './model/model_bert/model.pt')
                     tokenizer.save_pretrained('./model/model_bert')
                 else:
                     print('best:'+str(best))
@@ -109,5 +159,8 @@ def train_lstm(epoch=1):
 
 
 if __name__=='__main__':
-    train()
+    # train_toxic()
     # train_lstm()
+    train_bert(10)
+
+    pass

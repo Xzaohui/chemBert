@@ -14,13 +14,26 @@ from transformers.activations import gelu,gelu_new
 from transformers.modeling_utils import PreTrainedModel, prune_linear_layer
 
 
-class cheBerta(nn.Module):
+class chemBert_c(nn.Module):
     def __init__(self,encoder):
         super().__init__()
         self.encoder=encoder
         self.line=nn.Linear(384,2)
     def forward(self,input_ids,attention_mask):
         out=self.encoder(input_ids,attention_mask).pooler_output
+        out=self.line(out)
+        return out
+    
+class chemBert_r(nn.Module):
+    def __init__(self,encoder):
+        super().__init__()
+        self.encoder=encoder
+        self.line=nn.Linear(384,1)
+        self.drop=nn.Dropout(0.2)
+
+    def forward(self,input_ids,attention_mask):
+        out=self.encoder(input_ids,attention_mask).pooler_output
+        out=self.drop(out)
         out=self.line(out)
         return out
 

@@ -15,11 +15,17 @@ import torch
 # print(tf)
 # print(model(tf,tf1))
 
-# 掩码这里使用了加号，对于不掩码的位置来说，掩码值为0
-# 对于掩码的位置来说，掩码值为-10000。使用softmax层之后，可以让-10000处的值为0。
-
 # print(torch.cuda.is_available())
 
+# from sklearn.ensemble import RandomForestRegressor #导入随机森林模型
+# forest = RandomForestRegressor(n_estimators=500,random_state=1,n_jobs=-1)
+# forest.fit([[1,2,3],[4,5,6]],[1,2])
+# print(forest.predict([[1,2,3]]))
 
 
+from rdkit.Chem import Descriptors, MolFromSmiles
+from rdkit.ML.Descriptors import MoleculeDescriptors
+descs = [desc_name[0] for desc_name in Descriptors._descList]
+desc_calc = MoleculeDescriptors.MolecularDescriptorCalculator(descs)
+print(desc_calc.CalcDescriptors(MolFromSmiles('C1=CC=CC=C1')))
 

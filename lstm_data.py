@@ -25,7 +25,7 @@ class dataset(Dataset):
     def __getitem__(self,idx):
         return self.total_data[idx],self.total_lab[idx]
 
-tox=pd.read_csv('tox21.csv',header=0)
+tox=pd.read_csv('./origin/tox21.csv',header=0)
 # tox=tox.applymap(lambda x: x if str(x) != 'nan' else 2.0)
 tox=tox.dropna()
 
