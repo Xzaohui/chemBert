@@ -51,6 +51,8 @@ def train_data_rf():
     data=json.load(f)
     data_tmp={}
 
+    f=open(r'C:\Users\83912\Desktop\project\chemBert\data\descs.json','w',encoding='utf-8')
+
 
     i=0
     for smile in data:
@@ -65,8 +67,8 @@ def train_data_rf():
             mol=MolFromSmiles(smile)
             descs=','.join([str(v) for v in desc_calc.CalcDescriptors(mol)])
             data_tmp[t][descs]=data[smile][t]
-    
-    train_num=100000
+    json.dump(data_tmp,f,ensure_ascii=False)
+    train_num=1000
 
     for t in data_tmp:
         input_ids=list(data_tmp[t].keys())
@@ -159,7 +161,7 @@ def pretrain_data_manage():
 
 if __name__=='__main__':
     # train_data_bert()
-    print(train_data_rf()[data_choose]['train'][0][0])
+    print(train_data_rf()[data_choose]['dev'][0])
 
     pass
     

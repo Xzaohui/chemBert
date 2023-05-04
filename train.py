@@ -9,7 +9,10 @@ import datetime
 from model import lstm
 import lstm_data
 import data_loader
-
+import numpy as np
+import pandas as pd
+from sklearn.ensemble import RandomForestRegressor #导入随机森林模型
+from sklearn.externals import joblib
 
 device='cuda'
 batch_size=8
@@ -157,10 +160,20 @@ def train_lstm(epoch=1):
                 else:
                     print('best:'+str(best))
 
+def train_rf():
+    train_data=data_loader.train_data_rf()
+    forest = RandomForestRegressor(n_estimators=500,random_state=1,n_jobs=-1)
+    forest.fit(train_data[data_loader.data_choose][0],train_data[data_loader.data_choose][1])
+    joblib.dump(forest, './model/model_rf/model.pkl')
+    print(forest.score(train_data['train'][data_loader.data_choose][0],train_data['train'][data_loader.data_choose][1]))
+    print(forest.score(train_data['test'][data_loader.data_choose][0],train_data['test'][data_loader.data_choose][1]))
+
+
 
 if __name__=='__main__':
     # train_toxic()
     # train_lstm()
-    train_bert(10)
+    # train_bert(10)
+    train_rf()
 
     pass
