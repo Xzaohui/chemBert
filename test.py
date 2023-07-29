@@ -1,4 +1,4 @@
-import torch
+# import torch
 # import numpy as np
 # from model import BertModel
 # from transformers import BertConfig
@@ -37,21 +37,21 @@ import torch
 
 
 
-from rdkit import Chem
-from rdkit.Chem import Draw
-from rdkit.Chem import AllChem
-rxn = AllChem.ReactionFromSmarts('[C:1](=[O:2])-[OD1].[O!H0:3]-[C!H0:4]>>[C:1](=[O:2])-[O:3]-[C:4]')
-reactants = (AllChem.MolFromSmiles('O=C(O)CCCCC(=O)OCCCO'), AllChem.MolFromSmiles('O=C(O)CCCCC(=O)OCCCO'))
-products = rxn.RunReactants(reactants)
+# from rdkit import Chem
+# from rdkit.Chem import Draw
+# from rdkit.Chem import AllChem
+# rxn = AllChem.ReactionFromSmarts('[C:1](=[O:2])-[OD1].[O!H0:3]-[C!H0:4]>>[C:1](=[O:2])-[O:3]-[C:4]')
+# reactants = (AllChem.MolFromSmiles('O=C(O)CCCCC(=O)OCCCO'), AllChem.MolFromSmiles('O=C(O)CCCCC(=O)OCCCO'))
+# products = rxn.RunReactants(reactants)
 
-# print(len(products))
-# for p in products:
-#     smi = AllChem.MolToSmiles(p[0])
-#     print(smi)
+# # print(len(products))
+# # for p in products:
+# #     smi = AllChem.MolToSmiles(p[0])
+# #     print(smi)
 
-mol = Chem.MolFromSmiles('OCC1CCC(CC1)COC(=O)c1cccc(c1)C(=O)OCC1CCC(CC1)COC(=O)c1cccc(c1)C(=O)OCC1CCC(CC1)CO')
-Draw.MolToImage(mol, size=(300,300), kekulize=True)
-Draw.ShowMol(mol, size=(300,300), kekulize=False)
+# mol = Chem.MolFromSmiles('OCC1CCC(CC1)COC(=O)c1cccc(c1)C(=O)OCC1CCC(CC1)COC(=O)c1cccc(c1)C(=O)OCC1CCC(CC1)CO')
+# Draw.MolToImage(mol, size=(300,300), kekulize=True)
+# Draw.ShowMol(mol, size=(300,300), kekulize=False)
 
 
 # import json
@@ -87,4 +87,3 @@ Draw.ShowMol(mol, size=(300,300), kekulize=False)
 
 # plt.legend()
 # plt.show()
-

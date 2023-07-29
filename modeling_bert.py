@@ -21,9 +21,6 @@ Created on May 6, 2020
 #10 其他任务（注释中都有参数说明和小例子可以直接跑）
 
 
-#思路挺清晰的。
-
-
 import logging
 import math
 import os
@@ -373,8 +370,8 @@ class BertIntermediate(nn.Module):
 
 
 class BertOutput(nn.Module):
-     '''输出层，在FFN后面加了shortcut和layer norm
-     '''
+    '''输出层，在FFN后面加了shortcut和layer norm
+    '''
     def __init__(self, config):
         super().__init__()
         self.dense = nn.Linear(config.intermediate_size, config.hidden_size)
@@ -389,8 +386,8 @@ class BertOutput(nn.Module):
 
 
 class BertLayer(nn.Module):
-     '''一层encoder，即一个Transformer（的encoder部分）
-     '''
+    '''一层encoder，即一个Transformer（的encoder部分）
+    '''
     def __init__(self, config):
         super().__init__()
         self.attention = BertAttention(config)
@@ -430,8 +427,8 @@ class BertLayer(nn.Module):
 
 
 class BertEncoder(nn.Module):
-     '''12层Encoder，即12个Transformer
-     '''
+    '''12层Encoder，即12个Transformer
+    '''
     def __init__(self, config):
         super().__init__()
         self.output_attentions = config.output_attentions
@@ -474,11 +471,11 @@ class BertEncoder(nn.Module):
 
 
 class BertPooler(nn.Module):
-     '''开始做两大任务，首先是NPS任务
-     Pooler是把隐藏层(hidden state)中对应#CLS#的token的特征向量提取出来。
-     对于分类问题来说，最后使用第一个字符[CLS]的表示来进行分类。[CLS]需要在微调阶段继续进行训练。
-     非分类问题可忽略。
-     '''
+    '''开始做两大任务，首先是NPS任务
+    Pooler是把隐藏层(hidden state)中对应#CLS#的token的特征向量提取出来。
+    对于分类问题来说，最后使用第一个字符[CLS]的表示来进行分类。[CLS]需要在微调阶段继续进行训练。
+    非分类问题可忽略。
+    '''
     def __init__(self, config):
         super().__init__()
         self.dense = nn.Linear(config.hidden_size, config.hidden_size)
@@ -494,8 +491,8 @@ class BertPooler(nn.Module):
 
 
 class BertPredictionHeadTransform(nn.Module):
-     '''封装了一个顺序为：线性变换，激活，Layer Normal 的变换流程，为后续的 Masked language modeling 任务做准备。
-     '''
+    '''封装了一个顺序为：线性变换，激活，Layer Normal 的变换流程，为后续的 Masked language modeling 任务做准备。
+    '''
     def __init__(self, config):
         super().__init__()
         self.dense = nn.Linear(config.hidden_size, config.hidden_size)
@@ -539,8 +536,8 @@ class BertLMPredictionHead(nn.Module):
 
 
 class BertOnlyMLMHead(nn.Module):
-     '''prediction_scores 用于 mask language modeling 任务
-     '''
+    '''prediction_scores 用于 mask language modeling 任务
+    '''
     def __init__(self, config):
         super().__init__()
         self.predictions = BertLMPredictionHead(config)
@@ -551,8 +548,8 @@ class BertOnlyMLMHead(nn.Module):
 
 
 class BertOnlyNSPHead(nn.Module):
-     '''seq_relationship_scre 用于 next sentence classfifcation 任务
-     '''
+    '''seq_relationship_scre 用于 next sentence classfifcation 任务
+    '''
     def __init__(self, config):
         super().__init__()
         self.seq_relationship = nn.Linear(config.hidden_size, 2)#句子的关系
