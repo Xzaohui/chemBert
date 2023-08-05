@@ -1,26 +1,3 @@
-'''
-Created on May 6, 2020
-@author: nakaizura
-'''
-
-
-#---------PyTorch BERT model-------
-
-#这段模型的代码首先是载入了参数
-
-#然后是BERT模型的正文：
-#1 嵌入。由三个嵌入编码加和组成
-#2 自注意力
-#3 add && norm
-#4 多头注意力
-#5 FFN
-#6 得到整个Transformer的encoder部分
-#7 12个Transformer
-#8 两个任务，MLM和NSP
-#9 完整的BERT模型
-#10 其他任务（注释中都有参数说明和小例子可以直接跑）
-
-
 import logging
 import math
 import os
@@ -37,53 +14,24 @@ from .modeling_utils import PreTrainedModel, prune_linear_layer
 
 logger = logging.getLogger(__name__)
 
-#各种预训练好了的BERT模型
-BERT_PRETRAINED_MODEL_ARCHIVE_MAP = {
-    "bert-base-uncased": "https://cdn.huggingface.co/bert-base-uncased-pytorch_model.bin",
-    "bert-large-uncased": "https://cdn.huggingface.co/bert-large-uncased-pytorch_model.bin",
-    "bert-base-cased": "https://cdn.huggingface.co/bert-base-cased-pytorch_model.bin",
-    "bert-large-cased": "https://cdn.huggingface.co/bert-large-cased-pytorch_model.bin",
-    "bert-base-multilingual-uncased": "https://cdn.huggingface.co/bert-base-multilingual-uncased-pytorch_model.bin",
-    "bert-base-multilingual-cased": "https://cdn.huggingface.co/bert-base-multilingual-cased-pytorch_model.bin",
-    "bert-base-chinese": "https://cdn.huggingface.co/bert-base-chinese-pytorch_model.bin",
-    "bert-base-german-cased": "https://cdn.huggingface.co/bert-base-german-cased-pytorch_model.bin",
-    "bert-large-uncased-whole-word-masking": "https://cdn.huggingface.co/bert-large-uncased-whole-word-masking-pytorch_model.bin",
-    "bert-large-cased-whole-word-masking": "https://cdn.huggingface.co/bert-large-cased-whole-word-masking-pytorch_model.bin",
-    "bert-large-uncased-whole-word-masking-finetuned-squad": "https://cdn.huggingface.co/bert-large-uncased-whole-word-masking-finetuned-squad-pytorch_model.bin",
-    "bert-large-cased-whole-word-masking-finetuned-squad": "https://cdn.huggingface.co/bert-large-cased-whole-word-masking-finetuned-squad-pytorch_model.bin",
-    "bert-base-cased-finetuned-mrpc": "https://cdn.huggingface.co/bert-base-cased-finetuned-mrpc-pytorch_model.bin",
-    "bert-base-german-dbmdz-cased": "https://cdn.huggingface.co/bert-base-german-dbmdz-cased-pytorch_model.bin",
-    "bert-base-german-dbmdz-uncased": "https://cdn.huggingface.co/bert-base-german-dbmdz-uncased-pytorch_model.bin",
-    "bert-base-japanese": "https://cdn.huggingface.co/cl-tohoku/bert-base-japanese/pytorch_model.bin",
-    "bert-base-japanese-whole-word-masking": "https://cdn.huggingface.co/cl-tohoku/bert-base-japanese-whole-word-masking/pytorch_model.bin",
-    "bert-base-japanese-char": "https://cdn.huggingface.co/cl-tohoku/bert-base-japanese-char/pytorch_model.bin",
-    "bert-base-japanese-char-whole-word-masking": "https://cdn.huggingface.co/cl-tohoku/bert-base-japanese-char-whole-word-masking/pytorch_model.bin",
-    "bert-base-finnish-cased-v1": "https://cdn.huggingface.co/TurkuNLP/bert-base-finnish-cased-v1/pytorch_model.bin",
-    "bert-base-finnish-uncased-v1": "https://cdn.huggingface.co/TurkuNLP/bert-base-finnish-uncased-v1/pytorch_model.bin",
-    "bert-base-dutch-cased": "https://cdn.huggingface.co/wietsedv/bert-base-dutch-cased/pytorch_model.bin",
-}
-
 
 def load_tf_weights_in_bert(model, config, tf_checkpoint_path):
-    """ 加载tf的checkpoints到pytorch的模型中
-    """
     try:
         import re
         import numpy as np
         import tensorflow as tf
-    except ImportError: #需要安装TF
+    except ImportError:
         logger.error(
             "Loading a TensorFlow model in PyTorch, requires TensorFlow to be installed. Please see "
             "https://www.tensorflow.org/install/ for installation instructions."
         )
         raise
-    tf_path = os.path.abspath(tf_checkpoint_path)#checkpoint的路径
+    tf_path = os.path.abspath(tf_checkpoint_path)
     logger.info("Converting TensorFlow checkpoint from {}".format(tf_path))
-    #加载TF模型的参数
     init_vars = tf.train.list_variables(tf_path)
     names = []
     arrays = []
-    for name, shape in init_vars: #保存变量信息
+    for name, shape in init_vars:
         logger.info("Loading TF weight {} with shape {}".format(name, shape))
         array = tf.train.load_variable(tf_path, name)
         names.append(name)
@@ -91,9 +39,6 @@ def load_tf_weights_in_bert(model, config, tf_checkpoint_path):
 
     for name, array in zip(names, arrays):
         name = name.split("/")
-        # 优化器adam不需要用预设定的参数（因为它是自适应调整），所以相关的都不做处理continue
-        # adam_v and adam_m are variables used in AdamWeightDecayOptimizer to calculated m and v
-        # which are not required for using pretrained model
         if any(
             n in ["adam_v", "adam_m", "AdamWeightDecayOptimizer", "AdamWeightDecayOptimizer_1", "global_step"]
             for n in name
@@ -103,11 +48,11 @@ def load_tf_weights_in_bert(model, config, tf_checkpoint_path):
         pointer = model
         for m_name in name:
             if re.fullmatch(r"[A-Za-z]+_\d+", m_name):
-                scope_names = re.split(r"_(\d+)", m_name) #字符串匹配找到所有的name
+                scope_names = re.split(r"_(\d+)", m_name)
             else:
                 scope_names = [m_name]
-            if scope_names[0] == "kernel" or scope_names[0] == "gamma": #一一对应name返回对象属性
-                pointer = getattr(pointer, "weight") #返回属性
+            if scope_names[0] == "kernel" or scope_names[0] == "gamma":
+                pointer = getattr(pointer, "weight")
             elif scope_names[0] == "output_bias" or scope_names[0] == "beta":
                 pointer = getattr(pointer, "bias")
             elif scope_names[0] == "output_weights":
@@ -122,7 +67,7 @@ def load_tf_weights_in_bert(model, config, tf_checkpoint_path):
                     continue
             if len(scope_names) >= 2:
                 num = int(scope_names[1])
-                pointer = pointer[num] #大于2就用列表
+                pointer = pointer[num]
         if m_name[-11:] == "_embeddings":
             pointer = getattr(pointer, "weight")
         elif m_name == "kernel":
@@ -134,7 +79,7 @@ def load_tf_weights_in_bert(model, config, tf_checkpoint_path):
             raise
         logger.info("Initialize PyTorch weight {}".format(name))
         pointer.data = torch.from_numpy(array)
-    return model #返回模型
+    return model
 
 
 #mish激活函数
@@ -897,18 +842,6 @@ class BertForPreTraining(BertPreTrainedModel):
             outputs = (total_loss,) + outputs
 
         return outputs  # (loss), prediction_scores, seq_relationship_score, (hidden_states), (attentions)
-
-
-
-
-
-#-------------------下面是一堆用能BERT做的预训练任务---------------------------
-#MLM任务
-#NSP任务
-#句子分类任务
-#句子选择任务
-#token分类or标注任务
-#QA问答任务
 
 
 
