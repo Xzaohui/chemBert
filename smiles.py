@@ -17,11 +17,18 @@ from rdkit.Chem import Draw
 from rdkit.Chem import AllChem
 
 # 聚醚
-rxn = AllChem.ReactionFromSmarts('[C:1]-[O!H0:2].[O!H0:3]-[C!H0:4]>>[C:1]-[O:3]-[C:4]')
-reactants = (AllChem.MolFromSmiles('OCCO'), AllChem.MolFromSmiles('OCCC(C)CCO'))
-products = rxn.RunReactants(reactants)
-for p in products:
-    print(AllChem.MolToSmiles(p[0]))
+# rxn = AllChem.ReactionFromSmarts('[C:1]-[O!H0:2].[O!H0:3]-[C!H0:4]>>[C:1]-[O:3]-[C:4]')
+# reactants = (AllChem.MolFromSmiles('OCCO'), AllChem.MolFromSmiles('OCCC(C)CCO'))
+# products = rxn.RunReactants(reactants)
+# for p in products:
+#     print(AllChem.MolToSmiles(p[0]))
+
+# 碳酸酯
+# rxn = AllChem.ReactionFromSmarts('[C:1]-[O!H0:2].[CH3:3]-[O:4]-[C:5](=[O:6])>>[C:1]-[O:4]-[C:5](=[O:6])')
+# reactants = (AllChem.MolFromSmiles('OCCO'), AllChem.MolFromSmiles('COC(=O)OCCO'))
+# products = rxn.RunReactants(reactants)
+# for p in products:
+#     print(AllChem.MolToSmiles(p[0]))
 
 # 基团保护
 # rxn = AllChem.ReactionFromSmarts('[B:1].[O!H0:2]>>[O:2]-[X:1]')

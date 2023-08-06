@@ -28,7 +28,7 @@ while True:
         for product2 in intermediate_product.keys():
             mol1 = Chem.MolFromSmiles(product1)
             mol2 = Chem.MolFromSmiles(product2)
-            if len(set(intermediate_product[product1][0]+intermediate_product[product2][0]))>2 or Descriptors.MolWt(mol1)+Descriptors.MolWt(mol2)>5000:
+            if len(set(intermediate_product[product1][0]+intermediate_product[product2][0]))>1 or Descriptors.MolWt(mol1)+Descriptors.MolWt(mol2)>5000:
                 continue
             reactants = (mol1, mol2)
             products = rxn.RunReactants(reactants)
