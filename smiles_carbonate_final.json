@@ -1,193 +1,4 @@
 {
-    "COC(=O)OCCO": [
-        [
-            "COC(=O)OC",
-            "C(CO)O"
-        ],
-        "常见"
-    ],
-    "COC(=O)OCCOCCO": [
-        [
-            "COC(=O)OC",
-            "C(COCCO)O"
-        ],
-        "常见"
-    ],
-    "COC(=O)OC(C)CO": [
-        [
-            "CC(CO)O",
-            "COC(=O)OC"
-        ],
-        "常见"
-    ],
-    "COC(=O)OCC(C)O": [
-        [
-            "CC(CO)O",
-            "COC(=O)OC"
-        ],
-        "常见"
-    ],
-    "COC(=O)OCCCCO": [
-        [
-            "OCCCCO",
-            "COC(=O)OC"
-        ],
-        "常见"
-    ],
-    "COC(=O)OCC(C)(C)CO": [
-        [
-            "CC(C)(CO)CO",
-            "COC(=O)OC"
-        ],
-        "常见"
-    ],
-    "COC(=O)OCC(C)CO": [
-        [
-            "CC(CO)CO",
-            "COC(=O)OC"
-        ],
-        "常见"
-    ],
-    "COC(=O)OCCCCCCO": [
-        [
-            "COC(=O)OC",
-            "C(CCCO)CCO"
-        ],
-        "常见"
-    ],
-    "COC(=O)OC(C)CCO": [
-        [
-            "CC(CCO)O",
-            "COC(=O)OC"
-        ],
-        "常见"
-    ],
-    "COC(=O)OCCC(C)O": [
-        [
-            "CC(CCO)O",
-            "COC(=O)OC"
-        ],
-        "常见"
-    ],
-    "COC(=O)OCCCO": [
-        [
-            "COC(=O)OC",
-            "C(CO)CO"
-        ],
-        "常见"
-    ],
-    "COC(=O)OCCCCCO": [
-        [
-            "C(CCO)CCO",
-            "COC(=O)OC"
-        ],
-        "常见"
-    ],
-    "COC(=O)OCCC(C)CCO": [
-        [
-            "COC(=O)OC",
-            "CC(CCO)CCO"
-        ],
-        "常见"
-    ],
-    "CCC(CO)CC(CC)COC(=O)OC": [
-        [
-            "CCC(CC(CC)CO)CO",
-            "COC(=O)OC"
-        ],
-        "常见"
-    ],
-    "COC(=O)OC(C(C)C)C(C)(C)CO": [
-        [
-            "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
-        ],
-        "常见"
-    ],
-    "COC(=O)OCC(C)(C)C(O)C(C)C": [
-        [
-            "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
-        ],
-        "常见"
-    ],
-    "CCC(O)OC(CC)OC(=O)OC": [
-        [
-            "CCC(O)OC(CC)O",
-            "COC(=O)OC"
-        ],
-        "常见"
-    ],
-    "COC(=O)OCC1CCC(CO)CC1": [
-        [
-            "COC(=O)OC",
-            "C1CC(CCC1CO)CO"
-        ],
-        "常见"
-    ],
-    "COC(=O)OC1CCC(O)CC1": [
-        [
-            "COC(=O)OC",
-            "C1CC(CCC1O)O"
-        ],
-        "常见"
-    ],
-    "CCCCC(CC)(CO)COC(=O)OC": [
-        [
-            "CCCCC(CC)(CO)CO",
-            "COC(=O)OC"
-        ],
-        "常见"
-    ],
-    "CCCC(OC(=O)OC)C(CC)CO": [
-        [
-            "COC(=O)OC",
-            "CCCC(C(CC)CO)O"
-        ],
-        "常见"
-    ],
-    "CCCC(O)C(CC)COC(=O)OC": [
-        [
-            "COC(=O)OC",
-            "CCCC(C(CC)CO)O"
-        ],
-        "常见"
-    ],
-    "COC(=O)OCCCCCCCCCCCCO": [
-        [
-            "C(CCCCCCO)CCCCCO",
-            "COC(=O)OC"
-        ],
-        "常见"
-    ],
-    "COC(=O)OC1CCCCCCCCC1O": [
-        [
-            "OC1CCCCCCCCC1O",
-            "COC(=O)OC"
-        ],
-        "常见"
-    ],
-    "COC(=O)OC(C)CC(O)(C(F)(F)F)C(F)(F)F": [
-        [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
-            "COC(=O)OC"
-        ],
-        "常见"
-    ],
-    "COC(=O)OC(CC(C)O)(C(F)(F)F)C(F)(F)F": [
-        [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
-            "COC(=O)OC"
-        ],
-        "常见"
-    ],
-    "COC(=O)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
-        [
-            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
-            "COC(=O)OC"
-        ],
-        "常见"
-    ],
     "O=C(OCCO)OCCO": [
         [
             "COC(=O)OC",
@@ -198,47 +9,47 @@
     "O=C(OCCO)OCCOCCO": [
         [
             "COC(=O)OC",
-            "C(COCCO)O",
-            "C(CO)O"
+            "C(CO)O",
+            "C(COCCO)O"
         ],
         "常见"
     ],
     "CC(CO)OC(=O)OCCO": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
+            "CC(CO)O",
             "C(CO)O"
         ],
         "常见"
     ],
     "CC(O)COC(=O)OCCO": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
+            "CC(CO)O",
             "C(CO)O"
         ],
         "常见"
     ],
     "O=C(OCCO)OCCCCO": [
         [
-            "OCCCCO",
             "COC(=O)OC",
+            "OCCCCO",
             "C(CO)O"
         ],
         "常见"
     ],
     "CC(C)(CO)COC(=O)OCCO": [
         [
-            "CC(C)(CO)CO",
             "COC(=O)OC",
+            "CC(C)(CO)CO",
             "C(CO)O"
         ],
         "常见"
     ],
     "CC(CO)COC(=O)OCCO": [
         [
-            "CC(CO)CO",
             "COC(=O)OC",
+            "CC(CO)CO",
             "C(CO)O"
         ],
         "常见"
@@ -253,32 +64,32 @@
     ],
     "CC(CCO)OC(=O)OCCO": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
-            "C(CO)O"
+            "C(CO)O",
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OCCO": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
-            "C(CO)O"
+            "C(CO)O",
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "O=C(OCCO)OCCCO": [
         [
-            "C(CO)CO",
             "COC(=O)OC",
-            "C(CO)O"
+            "C(CO)O",
+            "C(CO)CO"
         ],
         "常见"
     ],
     "O=C(OCCO)OCCCCCO": [
         [
-            "C(CCO)CCO",
             "COC(=O)OC",
+            "C(CCO)CCO",
             "C(CO)O"
         ],
         "常见"
@@ -293,32 +104,32 @@
     ],
     "CCC(CO)CC(CC)COC(=O)OCCO": [
         [
-            "CCC(CC(CC)CO)CO",
             "COC(=O)OC",
-            "C(CO)O"
+            "C(CO)O",
+            "CCC(CC(CC)CO)CO"
         ],
         "常见"
     ],
     "CC(C)C(OC(=O)OCCO)C(C)(C)CO": [
         [
-            "CC(C)C(C(C)(C)CO)O",
             "COC(=O)OC",
+            "CC(C)C(C(C)(C)CO)O",
             "C(CO)O"
         ],
         "常见"
     ],
     "CC(C)C(O)C(C)(C)COC(=O)OCCO": [
         [
-            "CC(C)C(C(C)(C)CO)O",
             "COC(=O)OC",
+            "CC(C)C(C(C)(C)CO)O",
             "C(CO)O"
         ],
         "常见"
     ],
     "CCC(O)OC(CC)OC(=O)OCCO": [
         [
-            "CCC(O)OC(CC)O",
             "COC(=O)OC",
+            "CCC(O)OC(CC)O",
             "C(CO)O"
         ],
         "常见"
@@ -334,71 +145,71 @@
     "O=C(OCCO)OC1CCC(O)CC1": [
         [
             "COC(=O)OC",
-            "C1CC(CCC1O)O",
-            "C(CO)O"
+            "C(CO)O",
+            "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OCCO": [
         [
-            "CCCCC(CC)(CO)CO",
             "COC(=O)OC",
+            "CCCCC(CC)(CO)CO",
             "C(CO)O"
         ],
         "常见"
     ],
     "CCCC(OC(=O)OCCO)C(CC)CO": [
         [
-            "CCCC(C(CC)CO)O",
             "COC(=O)OC",
-            "C(CO)O"
+            "C(CO)O",
+            "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(O)C(CC)COC(=O)OCCO": [
         [
-            "CCCC(C(CC)CO)O",
             "COC(=O)OC",
-            "C(CO)O"
+            "C(CO)O",
+            "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "O=C(OCCO)OCCCCCCCCCCCCO": [
         [
-            "C(CCCCCCO)CCCCCO",
             "COC(=O)OC",
-            "C(CO)O"
+            "C(CO)O",
+            "C(CCCCCCO)CCCCCO"
         ],
         "常见"
     ],
     "O=C(OCCO)OC1CCCCCCCCC1O": [
         [
-            "OC1CCCCCCCCC1O",
             "COC(=O)OC",
+            "OC1CCCCCCCCC1O",
             "C(CO)O"
         ],
         "常见"
     ],
     "CC(CC(O)(C(F)(F)F)C(F)(F)F)OC(=O)OCCO": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
-            "C(CO)O"
+            "C(CO)O",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(O)CC(OC(=O)OCCO)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
-            "C(CO)O"
+            "C(CO)O",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "O=C(OCCO)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
-            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
             "COC(=O)OC",
+            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
             "C(CO)O"
         ],
         "常见"
@@ -412,40 +223,40 @@
     ],
     "CC(CO)OC(=O)OCCOCCO": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
+            "CC(CO)O",
             "C(COCCO)O"
         ],
         "常见"
     ],
     "CC(O)COC(=O)OCCOCCO": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
+            "CC(CO)O",
             "C(COCCO)O"
         ],
         "常见"
     ],
     "O=C(OCCCCO)OCCOCCO": [
         [
-            "OCCCCO",
             "COC(=O)OC",
+            "OCCCCO",
             "C(COCCO)O"
         ],
         "常见"
     ],
     "CC(C)(CO)COC(=O)OCCOCCO": [
         [
-            "CC(C)(CO)CO",
             "COC(=O)OC",
+            "CC(C)(CO)CO",
             "C(COCCO)O"
         ],
         "常见"
     ],
     "CC(CO)COC(=O)OCCOCCO": [
         [
-            "CC(CO)CO",
             "COC(=O)OC",
+            "CC(CO)CO",
             "C(COCCO)O"
         ],
         "常见"
@@ -453,24 +264,24 @@
     "O=C(OCCCCCCO)OCCOCCO": [
         [
             "COC(=O)OC",
-            "C(COCCO)O",
-            "C(CCCO)CCO"
+            "C(CCCO)CCO",
+            "C(COCCO)O"
         ],
         "常见"
     ],
     "CC(CCO)OC(=O)OCCOCCO": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
-            "C(COCCO)O"
+            "C(COCCO)O",
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OCCOCCO": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
-            "C(COCCO)O"
+            "C(COCCO)O",
+            "CC(CCO)O"
         ],
         "常见"
     ],
@@ -484,8 +295,8 @@
     ],
     "O=C(OCCCCCO)OCCOCCO": [
         [
-            "C(CCO)CCO",
             "COC(=O)OC",
+            "C(CCO)CCO",
             "C(COCCO)O"
         ],
         "常见"
@@ -493,15 +304,15 @@
     "CC(CCO)CCOC(=O)OCCOCCO": [
         [
             "COC(=O)OC",
-            "C(COCCO)O",
-            "CC(CCO)CCO"
+            "CC(CCO)CCO",
+            "C(COCCO)O"
         ],
         "常见"
     ],
     "CCC(CO)CC(CC)COC(=O)OCCOCCO": [
         [
-            "CCC(CC(CC)CO)CO",
             "COC(=O)OC",
+            "CCC(CC(CC)CO)CO",
             "C(COCCO)O"
         ],
         "常见"
@@ -509,23 +320,23 @@
     "CC(C)C(OC(=O)OCCOCCO)C(C)(C)CO": [
         [
             "COC(=O)OC",
-            "C(COCCO)O",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "C(COCCO)O"
         ],
         "常见"
     ],
     "CC(C)C(O)C(C)(C)COC(=O)OCCOCCO": [
         [
             "COC(=O)OC",
-            "C(COCCO)O",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "C(COCCO)O"
         ],
         "常见"
     ],
     "CCC(O)OC(CC)OC(=O)OCCOCCO": [
         [
-            "CCC(O)OC(CC)O",
             "COC(=O)OC",
+            "CCC(O)OC(CC)O",
             "C(COCCO)O"
         ],
         "常见"
@@ -533,8 +344,8 @@
     "O=C(OCCOCCO)OCC1CCC(CO)CC1": [
         [
             "COC(=O)OC",
-            "C(COCCO)O",
-            "C1CC(CCC1CO)CO"
+            "C1CC(CCC1CO)CO",
+            "C(COCCO)O"
         ],
         "常见"
     ],
@@ -548,8 +359,8 @@
     ],
     "CCCCC(CC)(CO)COC(=O)OCCOCCO": [
         [
-            "CCCCC(CC)(CO)CO",
             "COC(=O)OC",
+            "CCCCC(CC)(CO)CO",
             "C(COCCO)O"
         ],
         "常见"
@@ -572,955 +383,955 @@
     ],
     "O=C(OCCCCCCCCCCCCO)OCCOCCO": [
         [
-            "C(CCCCCCO)CCCCCO",
             "COC(=O)OC",
+            "C(CCCCCCO)CCCCCO",
             "C(COCCO)O"
         ],
         "常见"
     ],
     "O=C(OCCOCCO)OC1CCCCCCCCC1O": [
         [
-            "OC1CCCCCCCCC1O",
             "COC(=O)OC",
+            "OC1CCCCCCCCC1O",
             "C(COCCO)O"
         ],
         "常见"
     ],
     "CC(CC(O)(C(F)(F)F)C(F)(F)F)OC(=O)OCCOCCO": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "C(COCCO)O"
         ],
         "常见"
     ],
     "CC(O)CC(OC(=O)OCCOCCO)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "C(COCCO)O"
         ],
         "常见"
     ],
     "O=C(OCCOCCO)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
-            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
             "COC(=O)OC",
+            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
             "C(COCCO)O"
         ],
         "常见"
     ],
     "CC(CO)OC(=O)OC(C)CO": [
         [
-            "CC(CO)O",
-            "COC(=O)OC"
+            "COC(=O)OC",
+            "CC(CO)O"
         ],
         "常见"
     ],
     "CC(O)COC(=O)OC(C)CO": [
         [
-            "CC(CO)O",
-            "COC(=O)OC"
+            "COC(=O)OC",
+            "CC(CO)O"
         ],
         "常见"
     ],
     "CC(CO)OC(=O)OCCCCO": [
         [
+            "COC(=O)OC",
             "OCCCCO",
-            "CC(CO)O",
-            "COC(=O)OC"
+            "CC(CO)O"
         ],
         "常见"
     ],
     "CC(CO)OC(=O)OCC(C)(C)CO": [
         [
-            "CC(C)(CO)CO",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "CC(C)(CO)CO"
         ],
         "常见"
     ],
     "CC(CO)COC(=O)OC(C)CO": [
         [
+            "COC(=O)OC",
             "CC(CO)CO",
-            "CC(CO)O",
-            "COC(=O)OC"
+            "CC(CO)O"
         ],
         "常见"
     ],
     "CC(CO)OC(=O)OCCCCCCO": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
+            "CC(CO)O",
             "C(CCCO)CCO"
         ],
         "常见"
     ],
     "CC(CO)OC(=O)OC(C)CCO": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OC(C)CO": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(CO)OC(=O)OCCCO": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
+            "CC(CO)O",
             "C(CO)CO"
         ],
         "常见"
     ],
     "CC(CO)OC(=O)OCCCCCO": [
         [
-            "C(CCO)CCO",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "C(CCO)CCO"
         ],
         "常见"
     ],
     "CC(CCO)CCOC(=O)OC(C)CO": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
+            "CC(CO)O",
             "CC(CCO)CCO"
         ],
         "常见"
     ],
     "CCC(CO)CC(CC)COC(=O)OC(C)CO": [
         [
-            "CCC(CC(CC)CO)CO",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "CCC(CC(CC)CO)CO"
         ],
         "常见"
     ],
     "CC(CO)OC(=O)OC(C(C)C)C(C)(C)CO": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CC(CO)O"
         ],
         "常见"
     ],
     "CC(CO)OC(=O)OCC(C)(C)C(O)C(C)C": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CC(CO)O"
         ],
         "常见"
     ],
     "CCC(O)OC(CC)OC(=O)OC(C)CO": [
         [
-            "CCC(O)OC(CC)O",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "CCC(O)OC(CC)O"
         ],
         "常见"
     ],
     "CC(CO)OC(=O)OCC1CCC(CO)CC1": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
+            "CC(CO)O",
             "C1CC(CCC1CO)CO"
         ],
         "常见"
     ],
     "CC(CO)OC(=O)OC1CCC(O)CC1": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
+            "CC(CO)O",
             "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OC(C)CO": [
         [
-            "CCCCC(CC)(CO)CO",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "CCCCC(CC)(CO)CO"
         ],
         "常见"
     ],
     "CCCC(OC(=O)OC(C)CO)C(CC)CO": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
+            "CC(CO)O",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(O)C(CC)COC(=O)OC(C)CO": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
+            "CC(CO)O",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CC(CO)OC(=O)OCCCCCCCCCCCCO": [
         [
-            "C(CCCCCCO)CCCCCO",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "C(CCCCCCO)CCCCCO"
         ],
         "常见"
     ],
     "CC(CO)OC(=O)OC1CCCCCCCCC1O": [
         [
+            "COC(=O)OC",
             "OC1CCCCCCCCC1O",
-            "CC(CO)O",
-            "COC(=O)OC"
+            "CC(CO)O"
         ],
         "常见"
     ],
     "CC(CO)OC(=O)OC(C)CC(O)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(O)CC(OC(=O)OC(C)CO)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(CO)OC(=O)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
-            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O"
         ],
         "常见"
     ],
     "CC(O)COC(=O)OCC(C)O": [
         [
-            "CC(CO)O",
-            "COC(=O)OC"
+            "COC(=O)OC",
+            "CC(CO)O"
         ],
         "常见"
     ],
     "CC(O)COC(=O)OCCCCO": [
         [
+            "COC(=O)OC",
             "OCCCCO",
-            "CC(CO)O",
-            "COC(=O)OC"
+            "CC(CO)O"
         ],
         "常见"
     ],
     "CC(O)COC(=O)OCC(C)(C)CO": [
         [
-            "CC(C)(CO)CO",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "CC(C)(CO)CO"
         ],
         "常见"
     ],
     "CC(O)COC(=O)OCC(C)CO": [
         [
+            "COC(=O)OC",
             "CC(CO)CO",
-            "CC(CO)O",
-            "COC(=O)OC"
+            "CC(CO)O"
         ],
         "常见"
     ],
     "CC(O)COC(=O)OCCCCCCO": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
+            "CC(CO)O",
             "C(CCCO)CCO"
         ],
         "常见"
     ],
     "CC(O)COC(=O)OC(C)CCO": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OCC(C)O": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)COC(=O)OCCCO": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
+            "CC(CO)O",
             "C(CO)CO"
         ],
         "常见"
     ],
     "CC(O)COC(=O)OCCCCCO": [
         [
-            "C(CCO)CCO",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "C(CCO)CCO"
         ],
         "常见"
     ],
     "CC(O)COC(=O)OCCC(C)CCO": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
+            "CC(CO)O",
             "CC(CCO)CCO"
         ],
         "常见"
     ],
     "CCC(CO)CC(CC)COC(=O)OCC(C)O": [
         [
-            "CCC(CC(CC)CO)CO",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "CCC(CC(CC)CO)CO"
         ],
         "常见"
     ],
     "CC(O)COC(=O)OC(C(C)C)C(C)(C)CO": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CC(CO)O"
         ],
         "常见"
     ],
     "CC(O)COC(=O)OCC(C)(C)C(O)C(C)C": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CC(CO)O"
         ],
         "常见"
     ],
     "CCC(O)OC(CC)OC(=O)OCC(C)O": [
         [
-            "CCC(O)OC(CC)O",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "CCC(O)OC(CC)O"
         ],
         "常见"
     ],
     "CC(O)COC(=O)OCC1CCC(CO)CC1": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
+            "CC(CO)O",
             "C1CC(CCC1CO)CO"
         ],
         "常见"
     ],
     "CC(O)COC(=O)OC1CCC(O)CC1": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
+            "CC(CO)O",
             "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OCC(C)O": [
         [
-            "CCCCC(CC)(CO)CO",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "CCCCC(CC)(CO)CO"
         ],
         "常见"
     ],
     "CCCC(OC(=O)OCC(C)O)C(CC)CO": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
+            "CC(CO)O",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(O)C(CC)COC(=O)OCC(C)O": [
         [
-            "CC(CO)O",
             "COC(=O)OC",
+            "CC(CO)O",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CC(O)COC(=O)OCCCCCCCCCCCCO": [
         [
-            "C(CCCCCCO)CCCCCO",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "C(CCCCCCO)CCCCCO"
         ],
         "常见"
     ],
     "CC(O)COC(=O)OC1CCCCCCCCC1O": [
         [
+            "COC(=O)OC",
             "OC1CCCCCCCCC1O",
-            "CC(CO)O",
-            "COC(=O)OC"
+            "CC(CO)O"
         ],
         "常见"
     ],
     "CC(O)COC(=O)OC(C)CC(O)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(O)COC(=O)OC(CC(C)O)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(O)COC(=O)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
-            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
+            "COC(=O)OC",
             "CC(CO)O",
-            "COC(=O)OC"
+            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O"
         ],
         "常见"
     ],
     "O=C(OCCCCO)OCCCCO": [
         [
-            "OCCCCO",
-            "COC(=O)OC"
+            "COC(=O)OC",
+            "OCCCCO"
         ],
         "常见"
     ],
     "CC(C)(CO)COC(=O)OCCCCO": [
         [
-            "CC(C)(CO)CO",
+            "COC(=O)OC",
             "OCCCCO",
-            "COC(=O)OC"
+            "CC(C)(CO)CO"
         ],
         "常见"
     ],
     "CC(CO)COC(=O)OCCCCO": [
         [
-            "CC(CO)CO",
+            "COC(=O)OC",
             "OCCCCO",
-            "COC(=O)OC"
+            "CC(CO)CO"
         ],
         "常见"
     ],
     "O=C(OCCCCO)OCCCCCCO": [
         [
-            "OCCCCO",
             "COC(=O)OC",
+            "OCCCCO",
             "C(CCCO)CCO"
         ],
         "常见"
     ],
     "CC(CCO)OC(=O)OCCCCO": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "OCCCCO",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OCCCCO": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "OCCCCO",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "O=C(OCCCO)OCCCCO": [
         [
-            "OCCCCO",
             "COC(=O)OC",
+            "OCCCCO",
             "C(CO)CO"
         ],
         "常见"
     ],
     "O=C(OCCCCO)OCCCCCO": [
         [
-            "C(CCO)CCO",
+            "COC(=O)OC",
             "OCCCCO",
-            "COC(=O)OC"
+            "C(CCO)CCO"
         ],
         "常见"
     ],
     "CC(CCO)CCOC(=O)OCCCCO": [
         [
-            "OCCCCO",
             "COC(=O)OC",
+            "OCCCCO",
             "CC(CCO)CCO"
         ],
         "常见"
     ],
     "CCC(CO)CC(CC)COC(=O)OCCCCO": [
         [
-            "OCCCCO",
             "COC(=O)OC",
+            "OCCCCO",
             "CCC(CC(CC)CO)CO"
         ],
         "常见"
     ],
     "CC(C)C(OC(=O)OCCCCO)C(C)(C)CO": [
         [
-            "OCCCCO",
             "COC(=O)OC",
+            "OCCCCO",
             "CC(C)C(C(C)(C)CO)O"
         ],
         "常见"
     ],
     "CC(C)C(O)C(C)(C)COC(=O)OCCCCO": [
         [
-            "OCCCCO",
             "COC(=O)OC",
+            "OCCCCO",
             "CC(C)C(C(C)(C)CO)O"
         ],
         "常见"
     ],
     "CCC(O)OC(CC)OC(=O)OCCCCO": [
         [
-            "CCC(O)OC(CC)O",
+            "COC(=O)OC",
             "OCCCCO",
-            "COC(=O)OC"
+            "CCC(O)OC(CC)O"
         ],
         "常见"
     ],
     "O=C(OCCCCO)OCC1CCC(CO)CC1": [
         [
-            "OCCCCO",
             "COC(=O)OC",
+            "OCCCCO",
             "C1CC(CCC1CO)CO"
         ],
         "常见"
     ],
     "O=C(OCCCCO)OC1CCC(O)CC1": [
         [
-            "OCCCCO",
             "COC(=O)OC",
+            "OCCCCO",
             "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OCCCCO": [
         [
-            "CCCCC(CC)(CO)CO",
+            "COC(=O)OC",
             "OCCCCO",
-            "COC(=O)OC"
+            "CCCCC(CC)(CO)CO"
         ],
         "常见"
     ],
     "CCCC(OC(=O)OCCCCO)C(CC)CO": [
         [
-            "OCCCCO",
             "COC(=O)OC",
+            "OCCCCO",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(O)C(CC)COC(=O)OCCCCO": [
         [
-            "OCCCCO",
             "COC(=O)OC",
+            "OCCCCO",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "O=C(OCCCCO)OCCCCCCCCCCCCO": [
         [
-            "C(CCCCCCO)CCCCCO",
+            "COC(=O)OC",
             "OCCCCO",
-            "COC(=O)OC"
+            "C(CCCCCCO)CCCCCO"
         ],
         "常见"
     ],
     "O=C(OCCCCO)OC1CCCCCCCCC1O": [
         [
-            "OCCCCO",
             "COC(=O)OC",
+            "OCCCCO",
             "OC1CCCCCCCCC1O"
         ],
         "常见"
     ],
     "CC(CC(O)(C(F)(F)F)C(F)(F)F)OC(=O)OCCCCO": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
+            "COC(=O)OC",
             "OCCCCO",
-            "COC(=O)OC"
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(O)CC(OC(=O)OCCCCO)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
+            "COC(=O)OC",
             "OCCCCO",
-            "COC(=O)OC"
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "O=C(OCCCCO)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
-            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
+            "COC(=O)OC",
             "OCCCCO",
-            "COC(=O)OC"
+            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O"
         ],
         "常见"
     ],
     "CC(C)(CO)COC(=O)OCC(C)(C)CO": [
         [
-            "CC(C)(CO)CO",
-            "COC(=O)OC"
+            "COC(=O)OC",
+            "CC(C)(CO)CO"
         ],
         "常见"
     ],
     "CC(CO)COC(=O)OCC(C)(C)CO": [
         [
-            "CC(C)(CO)CO",
+            "COC(=O)OC",
             "CC(CO)CO",
-            "COC(=O)OC"
+            "CC(C)(CO)CO"
         ],
         "常见"
     ],
     "CC(C)(CO)COC(=O)OCCCCCCO": [
         [
-            "CC(C)(CO)CO",
             "COC(=O)OC",
+            "CC(C)(CO)CO",
             "C(CCCO)CCO"
         ],
         "常见"
     ],
     "CC(CCO)OC(=O)OCC(C)(C)CO": [
         [
+            "COC(=O)OC",
             "CC(C)(CO)CO",
-            "CC(CCO)O",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OCC(C)(C)CO": [
         [
+            "COC(=O)OC",
             "CC(C)(CO)CO",
-            "CC(CCO)O",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(C)(CO)COC(=O)OCCCO": [
         [
-            "CC(C)(CO)CO",
             "COC(=O)OC",
+            "CC(C)(CO)CO",
             "C(CO)CO"
         ],
         "常见"
     ],
     "CC(C)(CO)COC(=O)OCCCCCO": [
         [
-            "CC(C)(CO)CO",
+            "COC(=O)OC",
             "C(CCO)CCO",
-            "COC(=O)OC"
+            "CC(C)(CO)CO"
         ],
         "常见"
     ],
     "CC(CCO)CCOC(=O)OCC(C)(C)CO": [
         [
-            "CC(C)(CO)CO",
             "COC(=O)OC",
-            "CC(CCO)CCO"
+            "CC(CCO)CCO",
+            "CC(C)(CO)CO"
         ],
         "常见"
     ],
     "CCC(CO)CC(CC)COC(=O)OCC(C)(C)CO": [
         [
+            "COC(=O)OC",
             "CC(C)(CO)CO",
-            "CCC(CC(CC)CO)CO",
-            "COC(=O)OC"
+            "CCC(CC(CC)CO)CO"
         ],
         "常见"
     ],
     "CC(C)C(OC(=O)OCC(C)(C)CO)C(C)(C)CO": [
         [
-            "CC(C)(CO)CO",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CC(C)(CO)CO"
         ],
         "常见"
     ],
     "CC(C)C(O)C(C)(C)COC(=O)OCC(C)(C)CO": [
         [
-            "CC(C)(CO)CO",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CC(C)(CO)CO"
         ],
         "常见"
     ],
     "CCC(O)OC(CC)OC(=O)OCC(C)(C)CO": [
         [
+            "COC(=O)OC",
             "CC(C)(CO)CO",
-            "CCC(O)OC(CC)O",
-            "COC(=O)OC"
+            "CCC(O)OC(CC)O"
         ],
         "常见"
     ],
     "CC(C)(CO)COC(=O)OCC1CCC(CO)CC1": [
         [
-            "CC(C)(CO)CO",
             "COC(=O)OC",
+            "CC(C)(CO)CO",
             "C1CC(CCC1CO)CO"
         ],
         "常见"
     ],
     "CC(C)(CO)COC(=O)OC1CCC(O)CC1": [
         [
-            "CC(C)(CO)CO",
             "COC(=O)OC",
+            "CC(C)(CO)CO",
             "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OCC(C)(C)CO": [
         [
-            "CC(C)(CO)CO",
             "COC(=O)OC",
-            "CCCCC(CC)(CO)CO"
+            "CCCCC(CC)(CO)CO",
+            "CC(C)(CO)CO"
         ],
         "常见"
     ],
     "CCCC(OC(=O)OCC(C)(C)CO)C(CC)CO": [
         [
-            "CC(C)(CO)CO",
             "COC(=O)OC",
+            "CC(C)(CO)CO",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(O)C(CC)COC(=O)OCC(C)(C)CO": [
         [
-            "CC(C)(CO)CO",
             "COC(=O)OC",
+            "CC(C)(CO)CO",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CC(C)(CO)COC(=O)OCCCCCCCCCCCCO": [
         [
+            "COC(=O)OC",
             "CC(C)(CO)CO",
-            "C(CCCCCCO)CCCCCO",
-            "COC(=O)OC"
+            "C(CCCCCCO)CCCCCO"
         ],
         "常见"
     ],
     "CC(C)(CO)COC(=O)OC1CCCCCCCCC1O": [
         [
-            "CC(C)(CO)CO",
+            "COC(=O)OC",
             "OC1CCCCCCCCC1O",
-            "COC(=O)OC"
+            "CC(C)(CO)CO"
         ],
         "常见"
     ],
     "CC(CC(O)(C(F)(F)F)C(F)(F)F)OC(=O)OCC(C)(C)CO": [
         [
+            "COC(=O)OC",
             "CC(C)(CO)CO",
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
-            "COC(=O)OC"
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(O)CC(OC(=O)OCC(C)(C)CO)(C(F)(F)F)C(F)(F)F": [
         [
+            "COC(=O)OC",
             "CC(C)(CO)CO",
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
-            "COC(=O)OC"
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(C)(CO)COC(=O)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
-            "CC(C)(CO)CO",
+            "COC(=O)OC",
             "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
-            "COC(=O)OC"
+            "CC(C)(CO)CO"
         ],
         "常见"
     ],
     "CC(CO)COC(=O)OCC(C)CO": [
         [
-            "CC(CO)CO",
-            "COC(=O)OC"
+            "COC(=O)OC",
+            "CC(CO)CO"
         ],
         "常见"
     ],
     "CC(CO)COC(=O)OCCCCCCO": [
         [
-            "CC(CO)CO",
             "COC(=O)OC",
+            "CC(CO)CO",
             "C(CCCO)CCO"
         ],
         "常见"
     ],
     "CC(CO)COC(=O)OC(C)CCO": [
         [
-            "CC(CO)CO",
             "COC(=O)OC",
+            "CC(CO)CO",
             "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OCC(C)CO": [
         [
-            "CC(CO)CO",
             "COC(=O)OC",
+            "CC(CO)CO",
             "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(CO)COC(=O)OCCCO": [
         [
-            "CC(CO)CO",
             "COC(=O)OC",
+            "CC(CO)CO",
             "C(CO)CO"
         ],
         "常见"
     ],
     "CC(CO)COC(=O)OCCCCCO": [
         [
+            "COC(=O)OC",
             "CC(CO)CO",
-            "C(CCO)CCO",
-            "COC(=O)OC"
+            "C(CCO)CCO"
         ],
         "常见"
     ],
     "CC(CCO)CCOC(=O)OCC(C)CO": [
         [
-            "CC(CO)CO",
             "COC(=O)OC",
+            "CC(CO)CO",
             "CC(CCO)CCO"
         ],
         "常见"
     ],
     "CCC(CO)CC(CC)COC(=O)OCC(C)CO": [
         [
+            "COC(=O)OC",
             "CC(CO)CO",
-            "CCC(CC(CC)CO)CO",
-            "COC(=O)OC"
+            "CCC(CC(CC)CO)CO"
         ],
         "常见"
     ],
     "CC(CO)COC(=O)OC(C(C)C)C(C)(C)CO": [
         [
-            "CC(CO)CO",
             "COC(=O)OC",
+            "CC(CO)CO",
             "CC(C)C(C(C)(C)CO)O"
         ],
         "常见"
     ],
     "CC(CO)COC(=O)OCC(C)(C)C(O)C(C)C": [
         [
-            "CC(CO)CO",
             "COC(=O)OC",
+            "CC(CO)CO",
             "CC(C)C(C(C)(C)CO)O"
         ],
         "常见"
     ],
     "CCC(O)OC(CC)OC(=O)OCC(C)CO": [
         [
+            "COC(=O)OC",
             "CC(CO)CO",
-            "CCC(O)OC(CC)O",
-            "COC(=O)OC"
+            "CCC(O)OC(CC)O"
         ],
         "常见"
     ],
     "CC(CO)COC(=O)OCC1CCC(CO)CC1": [
         [
-            "CC(CO)CO",
             "COC(=O)OC",
+            "CC(CO)CO",
             "C1CC(CCC1CO)CO"
         ],
         "常见"
     ],
     "CC(CO)COC(=O)OC1CCC(O)CC1": [
         [
-            "CC(CO)CO",
             "COC(=O)OC",
+            "CC(CO)CO",
             "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OCC(C)CO": [
         [
-            "CCCCC(CC)(CO)CO",
+            "COC(=O)OC",
             "CC(CO)CO",
-            "COC(=O)OC"
+            "CCCCC(CC)(CO)CO"
         ],
         "常见"
     ],
     "CCCC(OC(=O)OCC(C)CO)C(CC)CO": [
         [
-            "CC(CO)CO",
             "COC(=O)OC",
+            "CC(CO)CO",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(O)C(CC)COC(=O)OCC(C)CO": [
         [
-            "CC(CO)CO",
             "COC(=O)OC",
+            "CC(CO)CO",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CC(CO)COC(=O)OCCCCCCCCCCCCO": [
         [
+            "COC(=O)OC",
             "CC(CO)CO",
-            "C(CCCCCCO)CCCCCO",
-            "COC(=O)OC"
+            "C(CCCCCCO)CCCCCO"
         ],
         "常见"
     ],
     "CC(CO)COC(=O)OC1CCCCCCCCC1O": [
         [
+            "COC(=O)OC",
             "CC(CO)CO",
-            "OC1CCCCCCCCC1O",
-            "COC(=O)OC"
+            "OC1CCCCCCCCC1O"
         ],
         "常见"
     ],
     "CC(CO)COC(=O)OC(C)CC(O)(C(F)(F)F)C(F)(F)F": [
         [
+            "COC(=O)OC",
             "CC(CO)CO",
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
-            "COC(=O)OC"
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(O)CC(OC(=O)OCC(C)CO)(C(F)(F)F)C(F)(F)F": [
         [
+            "COC(=O)OC",
             "CC(CO)CO",
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
-            "COC(=O)OC"
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(CO)COC(=O)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
+            "COC(=O)OC",
             "CC(CO)CO",
-            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
-            "COC(=O)OC"
+            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O"
         ],
         "常见"
     ],
@@ -1533,32 +1344,32 @@
     ],
     "CC(CCO)OC(=O)OCCCCCCO": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
-            "C(CCCO)CCO"
+            "C(CCCO)CCO",
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OCCCCCCO": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
-            "C(CCCO)CCO"
+            "C(CCCO)CCO",
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "O=C(OCCCO)OCCCCCCO": [
         [
-            "C(CO)CO",
             "COC(=O)OC",
-            "C(CCCO)CCO"
+            "C(CCCO)CCO",
+            "C(CO)CO"
         ],
         "常见"
     ],
     "O=C(OCCCCCO)OCCCCCCO": [
         [
-            "C(CCO)CCO",
             "COC(=O)OC",
+            "C(CCO)CCO",
             "C(CCCO)CCO"
         ],
         "常见"
@@ -1573,406 +1384,406 @@
     ],
     "CCC(CO)CC(CC)COC(=O)OCCCCCCO": [
         [
-            "CCC(CC(CC)CO)CO",
             "COC(=O)OC",
-            "C(CCCO)CCO"
+            "C(CCCO)CCO",
+            "CCC(CC(CC)CO)CO"
         ],
         "常见"
     ],
     "CC(C)C(OC(=O)OCCCCCCO)C(C)(C)CO": [
         [
-            "CC(C)C(C(C)(C)CO)O",
             "COC(=O)OC",
+            "CC(C)C(C(C)(C)CO)O",
             "C(CCCO)CCO"
         ],
         "常见"
     ],
     "CC(C)C(O)C(C)(C)COC(=O)OCCCCCCO": [
         [
-            "CC(C)C(C(C)(C)CO)O",
             "COC(=O)OC",
+            "CC(C)C(C(C)(C)CO)O",
             "C(CCCO)CCO"
         ],
         "常见"
     ],
     "CCC(O)OC(CC)OC(=O)OCCCCCCO": [
         [
-            "CCC(O)OC(CC)O",
             "COC(=O)OC",
-            "C(CCCO)CCO"
+            "C(CCCO)CCO",
+            "CCC(O)OC(CC)O"
         ],
         "常见"
     ],
     "O=C(OCCCCCCO)OCC1CCC(CO)CC1": [
         [
             "COC(=O)OC",
-            "C1CC(CCC1CO)CO",
-            "C(CCCO)CCO"
+            "C(CCCO)CCO",
+            "C1CC(CCC1CO)CO"
         ],
         "常见"
     ],
     "O=C(OCCCCCCO)OC1CCC(O)CC1": [
         [
             "COC(=O)OC",
-            "C1CC(CCC1O)O",
-            "C(CCCO)CCO"
+            "C(CCCO)CCO",
+            "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OCCCCCCO": [
         [
-            "CCCCC(CC)(CO)CO",
             "COC(=O)OC",
+            "CCCCC(CC)(CO)CO",
             "C(CCCO)CCO"
         ],
         "常见"
     ],
     "CCCC(OC(=O)OCCCCCCO)C(CC)CO": [
         [
-            "CCCC(C(CC)CO)O",
             "COC(=O)OC",
-            "C(CCCO)CCO"
+            "C(CCCO)CCO",
+            "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(O)C(CC)COC(=O)OCCCCCCO": [
         [
-            "CCCC(C(CC)CO)O",
             "COC(=O)OC",
-            "C(CCCO)CCO"
+            "C(CCCO)CCO",
+            "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "O=C(OCCCCCCO)OCCCCCCCCCCCCO": [
         [
-            "C(CCCCCCO)CCCCCO",
             "COC(=O)OC",
-            "C(CCCO)CCO"
+            "C(CCCO)CCO",
+            "C(CCCCCCO)CCCCCO"
         ],
         "常见"
     ],
     "O=C(OCCCCCCO)OC1CCCCCCCCC1O": [
         [
-            "OC1CCCCCCCCC1O",
             "COC(=O)OC",
+            "OC1CCCCCCCCC1O",
             "C(CCCO)CCO"
         ],
         "常见"
     ],
     "CC(CC(O)(C(F)(F)F)C(F)(F)F)OC(=O)OCCCCCCO": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
-            "C(CCCO)CCO"
+            "C(CCCO)CCO",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(O)CC(OC(=O)OCCCCCCO)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
-            "C(CCCO)CCO"
+            "C(CCCO)CCO",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "O=C(OCCCCCCO)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
-            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
             "COC(=O)OC",
+            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
             "C(CCCO)CCO"
         ],
         "常见"
     ],
     "CC(CCO)OC(=O)OC(C)CCO": [
         [
-            "CC(CCO)O",
-            "COC(=O)OC"
+            "COC(=O)OC",
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OC(C)CCO": [
         [
-            "CC(CCO)O",
-            "COC(=O)OC"
+            "COC(=O)OC",
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(CCO)OC(=O)OCCCO": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
+            "CC(CCO)O",
             "C(CO)CO"
         ],
         "常见"
     ],
     "CC(CCO)OC(=O)OCCCCCO": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "C(CCO)CCO",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(CCO)CCOC(=O)OC(C)CCO": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
-            "CC(CCO)CCO"
+            "CC(CCO)CCO",
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CCC(CO)CC(CC)COC(=O)OC(C)CCO": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "CCC(CC(CC)CO)CO",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(CCO)OC(=O)OC(C(C)C)C(C)(C)CO": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(CCO)OC(=O)OCC(C)(C)C(O)C(C)C": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CCC(O)OC(CC)OC(=O)OC(C)CCO": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "CCC(O)OC(CC)O",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(CCO)OC(=O)OCC1CCC(CO)CC1": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
-            "C1CC(CCC1CO)CO"
+            "C1CC(CCC1CO)CO",
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(CCO)OC(=O)OC1CCC(O)CC1": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
+            "CC(CCO)O",
             "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OC(C)CCO": [
         [
+            "COC(=O)OC",
             "CCCCC(CC)(CO)CO",
-            "CC(CCO)O",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CCCC(OC(=O)OC(C)CCO)C(CC)CO": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
+            "CC(CCO)O",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(O)C(CC)COC(=O)OC(C)CCO": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
+            "CC(CCO)O",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CC(CCO)OC(=O)OCCCCCCCCCCCCO": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "C(CCCCCCO)CCCCCO",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(CCO)OC(=O)OC1CCCCCCCCC1O": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "OC1CCCCCCCCC1O",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(CCO)OC(=O)OC(C)CC(O)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)CC(OC(=O)OC(C)CCO)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(CCO)OC(=O)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OCCC(C)O": [
         [
-            "CC(CCO)O",
-            "COC(=O)OC"
+            "COC(=O)OC",
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OCCCO": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
+            "CC(CCO)O",
             "C(CO)CO"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OCCCCCO": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "C(CCO)CCO",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OCCC(C)CCO": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
-            "CC(CCO)CCO"
+            "CC(CCO)CCO",
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CCC(CO)CC(CC)COC(=O)OCCC(C)O": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "CCC(CC(CC)CO)CO",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OC(C(C)C)C(C)(C)CO": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OCC(C)(C)C(O)C(C)C": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CCC(O)OC(CC)OC(=O)OCCC(C)O": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "CCC(O)OC(CC)O",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OCC1CCC(CO)CC1": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
-            "C1CC(CCC1CO)CO"
+            "C1CC(CCC1CO)CO",
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OC1CCC(O)CC1": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
+            "CC(CCO)O",
             "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OCCC(C)O": [
         [
+            "COC(=O)OC",
             "CCCCC(CC)(CO)CO",
-            "CC(CCO)O",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CCCC(OC(=O)OCCC(C)O)C(CC)CO": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
+            "CC(CCO)O",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(O)C(CC)COC(=O)OCCC(C)O": [
         [
-            "CC(CCO)O",
             "COC(=O)OC",
+            "CC(CCO)O",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OCCCCCCCCCCCCO": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "C(CCCCCCO)CCCCCO",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OC1CCCCCCCCC1O": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "OC1CCCCCCCCC1O",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OC(C)CC(O)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OC(CC(C)O)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
     "CC(O)CCOC(=O)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
-            "CC(CCO)O",
+            "COC(=O)OC",
             "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
-            "COC(=O)OC"
+            "CC(CCO)O"
         ],
         "常见"
     ],
@@ -1985,8 +1796,8 @@
     ],
     "O=C(OCCCO)OCCCCCO": [
         [
-            "C(CCO)CCO",
             "COC(=O)OC",
+            "C(CCO)CCO",
             "C(CO)CO"
         ],
         "常见"
@@ -2001,32 +1812,32 @@
     ],
     "CCC(CO)CC(CC)COC(=O)OCCCO": [
         [
-            "CCC(CC(CC)CO)CO",
             "COC(=O)OC",
+            "CCC(CC(CC)CO)CO",
             "C(CO)CO"
         ],
         "常见"
     ],
     "CC(C)C(OC(=O)OCCCO)C(C)(C)CO": [
         [
-            "CC(C)C(C(C)(C)CO)O",
             "COC(=O)OC",
+            "CC(C)C(C(C)(C)CO)O",
             "C(CO)CO"
         ],
         "常见"
     ],
     "CC(C)C(O)C(C)(C)COC(=O)OCCCO": [
         [
-            "CC(C)C(C(C)(C)CO)O",
             "COC(=O)OC",
+            "CC(C)C(C(C)(C)CO)O",
             "C(CO)CO"
         ],
         "常见"
     ],
     "CCC(O)OC(CC)OC(=O)OCCCO": [
         [
-            "CCC(O)OC(CC)O",
             "COC(=O)OC",
+            "CCC(O)OC(CC)O",
             "C(CO)CO"
         ],
         "常见"
@@ -2049,192 +1860,192 @@
     ],
     "CCCCC(CC)(CO)COC(=O)OCCCO": [
         [
-            "CCCCC(CC)(CO)CO",
             "COC(=O)OC",
+            "CCCCC(CC)(CO)CO",
             "C(CO)CO"
         ],
         "常见"
     ],
     "CCCC(OC(=O)OCCCO)C(CC)CO": [
         [
-            "CCCC(C(CC)CO)O",
             "COC(=O)OC",
+            "CCCC(C(CC)CO)O",
             "C(CO)CO"
         ],
         "常见"
     ],
     "CCCC(O)C(CC)COC(=O)OCCCO": [
         [
-            "CCCC(C(CC)CO)O",
             "COC(=O)OC",
+            "CCCC(C(CC)CO)O",
             "C(CO)CO"
         ],
         "常见"
     ],
     "O=C(OCCCO)OCCCCCCCCCCCCO": [
         [
-            "C(CCCCCCO)CCCCCO",
             "COC(=O)OC",
+            "C(CCCCCCO)CCCCCO",
             "C(CO)CO"
         ],
         "常见"
     ],
     "O=C(OCCCO)OC1CCCCCCCCC1O": [
         [
-            "OC1CCCCCCCCC1O",
             "COC(=O)OC",
+            "OC1CCCCCCCCC1O",
             "C(CO)CO"
         ],
         "常见"
     ],
     "CC(CC(O)(C(F)(F)F)C(F)(F)F)OC(=O)OCCCO": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "C(CO)CO"
         ],
         "常见"
     ],
     "CC(O)CC(OC(=O)OCCCO)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "C(CO)CO"
         ],
         "常见"
     ],
     "O=C(OCCCO)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
-            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
             "COC(=O)OC",
+            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
             "C(CO)CO"
         ],
         "常见"
     ],
     "O=C(OCCCCCO)OCCCCCO": [
         [
-            "C(CCO)CCO",
-            "COC(=O)OC"
+            "COC(=O)OC",
+            "C(CCO)CCO"
         ],
         "常见"
     ],
     "CC(CCO)CCOC(=O)OCCCCCO": [
         [
-            "C(CCO)CCO",
             "COC(=O)OC",
+            "C(CCO)CCO",
             "CC(CCO)CCO"
         ],
         "常见"
     ],
     "CCC(CO)CC(CC)COC(=O)OCCCCCO": [
         [
+            "COC(=O)OC",
             "C(CCO)CCO",
-            "CCC(CC(CC)CO)CO",
-            "COC(=O)OC"
+            "CCC(CC(CC)CO)CO"
         ],
         "常见"
     ],
     "CC(C)C(OC(=O)OCCCCCO)C(C)(C)CO": [
         [
-            "C(CCO)CCO",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "C(CCO)CCO"
         ],
         "常见"
     ],
     "CC(C)C(O)C(C)(C)COC(=O)OCCCCCO": [
         [
-            "C(CCO)CCO",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "C(CCO)CCO"
         ],
         "常见"
     ],
     "CCC(O)OC(CC)OC(=O)OCCCCCO": [
         [
-            "C(CCO)CCO",
             "COC(=O)OC",
+            "C(CCO)CCO",
             "CCC(O)OC(CC)O"
         ],
         "常见"
     ],
     "O=C(OCCCCCO)OCC1CCC(CO)CC1": [
         [
-            "C(CCO)CCO",
             "COC(=O)OC",
+            "C(CCO)CCO",
             "C1CC(CCC1CO)CO"
         ],
         "常见"
     ],
     "O=C(OCCCCCO)OC1CCC(O)CC1": [
         [
-            "C(CCO)CCO",
             "COC(=O)OC",
+            "C(CCO)CCO",
             "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OCCCCCO": [
         [
-            "CCCCC(CC)(CO)CO",
+            "COC(=O)OC",
             "C(CCO)CCO",
-            "COC(=O)OC"
+            "CCCCC(CC)(CO)CO"
         ],
         "常见"
     ],
     "CCCC(OC(=O)OCCCCCO)C(CC)CO": [
         [
-            "C(CCO)CCO",
             "COC(=O)OC",
+            "C(CCO)CCO",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(O)C(CC)COC(=O)OCCCCCO": [
         [
-            "C(CCO)CCO",
             "COC(=O)OC",
+            "C(CCO)CCO",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "O=C(OCCCCCO)OCCCCCCCCCCCCO": [
         [
-            "C(CCCCCCO)CCCCCO",
+            "COC(=O)OC",
             "C(CCO)CCO",
-            "COC(=O)OC"
+            "C(CCCCCCO)CCCCCO"
         ],
         "常见"
     ],
     "O=C(OCCCCCO)OC1CCCCCCCCC1O": [
         [
-            "C(CCO)CCO",
+            "COC(=O)OC",
             "OC1CCCCCCCCC1O",
-            "COC(=O)OC"
+            "C(CCO)CCO"
         ],
         "常见"
     ],
     "CC(CC(O)(C(F)(F)F)C(F)(F)F)OC(=O)OCCCCCO": [
         [
-            "C(CCO)CCO",
             "COC(=O)OC",
+            "C(CCO)CCO",
             "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(O)CC(OC(=O)OCCCCCO)(C(F)(F)F)C(F)(F)F": [
         [
-            "C(CCO)CCO",
             "COC(=O)OC",
+            "C(CCO)CCO",
             "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "O=C(OCCCCCO)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
-            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
+            "COC(=O)OC",
             "C(CCO)CCO",
-            "COC(=O)OC"
+            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O"
         ],
         "常见"
     ],
@@ -2247,33 +2058,33 @@
     ],
     "CCC(CO)CC(CC)COC(=O)OCCC(C)CCO": [
         [
-            "CCC(CC(CC)CO)CO",
             "COC(=O)OC",
-            "CC(CCO)CCO"
+            "CC(CCO)CCO",
+            "CCC(CC(CC)CO)CO"
         ],
         "常见"
     ],
     "CC(CCO)CCOC(=O)OC(C(C)C)C(C)(C)CO": [
         [
             "COC(=O)OC",
-            "CC(CCO)CCO",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CC(CCO)CCO"
         ],
         "常见"
     ],
     "CC(CCO)CCOC(=O)OCC(C)(C)C(O)C(C)C": [
         [
             "COC(=O)OC",
-            "CC(CCO)CCO",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CC(CCO)CCO"
         ],
         "常见"
     ],
     "CCC(O)OC(CC)OC(=O)OCCC(C)CCO": [
         [
-            "CCC(O)OC(CC)O",
             "COC(=O)OC",
-            "CC(CCO)CCO"
+            "CC(CCO)CCO",
+            "CCC(O)OC(CC)O"
         ],
         "常见"
     ],
@@ -2295,9 +2106,9 @@
     ],
     "CCCCC(CC)(CO)COC(=O)OCCC(C)CCO": [
         [
-            "CCCCC(CC)(CO)CO",
             "COC(=O)OC",
-            "CC(CCO)CCO"
+            "CC(CCO)CCO",
+            "CCCCC(CC)(CO)CO"
         ],
         "常见"
     ],
@@ -2319,152 +2130,152 @@
     ],
     "CC(CCO)CCOC(=O)OCCCCCCCCCCCCO": [
         [
-            "C(CCCCCCO)CCCCCO",
             "COC(=O)OC",
-            "CC(CCO)CCO"
+            "CC(CCO)CCO",
+            "C(CCCCCCO)CCCCCO"
         ],
         "常见"
     ],
     "CC(CCO)CCOC(=O)OC1CCCCCCCCC1O": [
         [
-            "OC1CCCCCCCCC1O",
             "COC(=O)OC",
+            "OC1CCCCCCCCC1O",
             "CC(CCO)CCO"
         ],
         "常见"
     ],
     "CC(CCO)CCOC(=O)OC(C)CC(O)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
-            "CC(CCO)CCO"
+            "CC(CCO)CCO",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(O)CC(OC(=O)OCCC(C)CCO)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
-            "CC(CCO)CCO"
+            "CC(CCO)CCO",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(CCO)CCOC(=O)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
-            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
             "COC(=O)OC",
-            "CC(CCO)CCO"
+            "CC(CCO)CCO",
+            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O"
         ],
         "常见"
     ],
     "CCC(CO)CC(CC)COC(=O)OCC(CC)CC(CC)CO": [
         [
-            "CCC(CC(CC)CO)CO",
-            "COC(=O)OC"
+            "COC(=O)OC",
+            "CCC(CC(CC)CO)CO"
         ],
         "常见"
     ],
     "CCC(CO)CC(CC)COC(=O)OC(C(C)C)C(C)(C)CO": [
         [
-            "CCC(CC(CC)CO)CO",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CCC(CC(CC)CO)CO"
         ],
         "常见"
     ],
     "CCC(CO)CC(CC)COC(=O)OCC(C)(C)C(O)C(C)C": [
         [
-            "CCC(CC(CC)CO)CO",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CCC(CC(CC)CO)CO"
         ],
         "常见"
     ],
     "CCC(CO)CC(CC)COC(=O)OC(CC)OC(O)CC": [
         [
+            "COC(=O)OC",
             "CCC(O)OC(CC)O",
-            "CCC(CC(CC)CO)CO",
-            "COC(=O)OC"
+            "CCC(CC(CC)CO)CO"
         ],
         "常见"
     ],
     "CCC(CO)CC(CC)COC(=O)OCC1CCC(CO)CC1": [
         [
-            "CCC(CC(CC)CO)CO",
             "COC(=O)OC",
-            "C1CC(CCC1CO)CO"
+            "C1CC(CCC1CO)CO",
+            "CCC(CC(CC)CO)CO"
         ],
         "常见"
     ],
     "CCC(CO)CC(CC)COC(=O)OC1CCC(O)CC1": [
         [
-            "CCC(CC(CC)CO)CO",
             "COC(=O)OC",
+            "CCC(CC(CC)CO)CO",
             "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OCC(CC)CC(CC)CO": [
         [
+            "COC(=O)OC",
             "CCCCC(CC)(CO)CO",
-            "CCC(CC(CC)CO)CO",
-            "COC(=O)OC"
+            "CCC(CC(CC)CO)CO"
         ],
         "常见"
     ],
     "CCCC(OC(=O)OCC(CC)CC(CC)CO)C(CC)CO": [
         [
-            "CCC(CC(CC)CO)CO",
             "COC(=O)OC",
+            "CCC(CC(CC)CO)CO",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(O)C(CC)COC(=O)OCC(CC)CC(CC)CO": [
         [
-            "CCC(CC(CC)CO)CO",
             "COC(=O)OC",
+            "CCC(CC(CC)CO)CO",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCC(CO)CC(CC)COC(=O)OCCCCCCCCCCCCO": [
         [
+            "COC(=O)OC",
             "C(CCCCCCO)CCCCCO",
-            "CCC(CC(CC)CO)CO",
-            "COC(=O)OC"
+            "CCC(CC(CC)CO)CO"
         ],
         "常见"
     ],
     "CCC(CO)CC(CC)COC(=O)OC1CCCCCCCCC1O": [
         [
-            "CCC(CC(CC)CO)CO",
             "COC(=O)OC",
-            "OC1CCCCCCCCC1O"
+            "OC1CCCCCCCCC1O",
+            "CCC(CC(CC)CO)CO"
         ],
         "常见"
     ],
     "CCC(CO)CC(CC)COC(=O)OC(C)CC(O)(C(F)(F)F)C(F)(F)F": [
         [
+            "COC(=O)OC",
             "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
-            "CCC(CC(CC)CO)CO",
-            "COC(=O)OC"
+            "CCC(CC(CC)CO)CO"
         ],
         "常见"
     ],
     "CCC(CO)CC(CC)COC(=O)OC(CC(C)O)(C(F)(F)F)C(F)(F)F": [
         [
+            "COC(=O)OC",
             "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
-            "CCC(CC(CC)CO)CO",
-            "COC(=O)OC"
+            "CCC(CC(CC)CO)CO"
         ],
         "常见"
     ],
     "CCC(CO)CC(CC)COC(=O)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
+            "COC(=O)OC",
             "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
-            "CCC(CC(CC)CO)CO",
-            "COC(=O)OC"
+            "CCC(CC(CC)CO)CO"
         ],
         "常见"
     ],
@@ -2484,89 +2295,89 @@
     ],
     "CCC(O)OC(CC)OC(=O)OC(C(C)C)C(C)(C)CO": [
         [
-            "CCC(O)OC(CC)O",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CCC(O)OC(CC)O"
         ],
         "常见"
     ],
     "CC(C)C(OC(=O)OCC1CCC(CO)CC1)C(C)(C)CO": [
         [
             "COC(=O)OC",
-            "C1CC(CCC1CO)CO",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "C1CC(CCC1CO)CO"
         ],
         "常见"
     ],
     "CC(C)C(OC(=O)OC1CCC(O)CC1)C(C)(C)CO": [
         [
             "COC(=O)OC",
-            "C1CC(CCC1O)O",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OC(C(C)C)C(C)(C)CO": [
         [
-            "CCCCC(CC)(CO)CO",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CCCCC(CC)(CO)CO"
         ],
         "常见"
     ],
     "CCCC(OC(=O)OC(C(C)C)C(C)(C)CO)C(CC)CO": [
         [
-            "CCCC(C(CC)CO)O",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(O)C(CC)COC(=O)OC(C(C)C)C(C)(C)CO": [
         [
-            "CCCC(C(CC)CO)O",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CC(C)C(OC(=O)OCCCCCCCCCCCCO)C(C)(C)CO": [
         [
-            "C(CCCCCCO)CCCCCO",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "C(CCCCCCO)CCCCCO"
         ],
         "常见"
     ],
     "CC(C)C(OC(=O)OC1CCCCCCCCC1O)C(C)(C)CO": [
         [
-            "OC1CCCCCCCCC1O",
             "COC(=O)OC",
+            "OC1CCCCCCCCC1O",
             "CC(C)C(C(C)(C)CO)O"
         ],
         "常见"
     ],
     "CC(CC(O)(C(F)(F)F)C(F)(F)F)OC(=O)OC(C(C)C)C(C)(C)CO": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(O)CC(OC(=O)OC(C(C)C)C(C)(C)CO)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(C)C(OC(=O)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO)C(C)(C)CO": [
         [
-            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O"
         ],
         "常见"
     ],
@@ -2579,176 +2390,176 @@
     ],
     "CCC(O)OC(CC)OC(=O)OCC(C)(C)C(O)C(C)C": [
         [
-            "CCC(O)OC(CC)O",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CCC(O)OC(CC)O"
         ],
         "常见"
     ],
     "CC(C)C(O)C(C)(C)COC(=O)OCC1CCC(CO)CC1": [
         [
             "COC(=O)OC",
-            "C1CC(CCC1CO)CO",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "C1CC(CCC1CO)CO"
         ],
         "常见"
     ],
     "CC(C)C(O)C(C)(C)COC(=O)OC1CCC(O)CC1": [
         [
             "COC(=O)OC",
-            "C1CC(CCC1O)O",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OCC(C)(C)C(O)C(C)C": [
         [
-            "CCCCC(CC)(CO)CO",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CCCCC(CC)(CO)CO"
         ],
         "常见"
     ],
     "CCCC(OC(=O)OCC(C)(C)C(O)C(C)C)C(CC)CO": [
         [
-            "CCCC(C(CC)CO)O",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(O)C(CC)COC(=O)OCC(C)(C)C(O)C(C)C": [
         [
-            "CCCC(C(CC)CO)O",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CC(C)C(O)C(C)(C)COC(=O)OCCCCCCCCCCCCO": [
         [
-            "C(CCCCCCO)CCCCCO",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "C(CCCCCCO)CCCCCO"
         ],
         "常见"
     ],
     "CC(C)C(O)C(C)(C)COC(=O)OC1CCCCCCCCC1O": [
         [
-            "OC1CCCCCCCCC1O",
             "COC(=O)OC",
+            "OC1CCCCCCCCC1O",
             "CC(C)C(C(C)(C)CO)O"
         ],
         "常见"
     ],
     "CC(CC(O)(C(F)(F)F)C(F)(F)F)OC(=O)OCC(C)(C)C(O)C(C)C": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(O)CC(OC(=O)OCC(C)(C)C(O)C(C)C)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(C)C(O)C(C)(C)COC(=O)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
-            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
             "COC(=O)OC",
-            "CC(C)C(C(C)(C)CO)O"
+            "CC(C)C(C(C)(C)CO)O",
+            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O"
         ],
         "常见"
     ],
     "CCC(O)OC(CC)OC(=O)OC(CC)OC(O)CC": [
         [
-            "CCC(O)OC(CC)O",
-            "COC(=O)OC"
+            "COC(=O)OC",
+            "CCC(O)OC(CC)O"
         ],
         "常见"
     ],
     "CCC(O)OC(CC)OC(=O)OCC1CCC(CO)CC1": [
         [
-            "CCC(O)OC(CC)O",
             "COC(=O)OC",
+            "CCC(O)OC(CC)O",
             "C1CC(CCC1CO)CO"
         ],
         "常见"
     ],
     "CCC(O)OC(CC)OC(=O)OC1CCC(O)CC1": [
         [
-            "CCC(O)OC(CC)O",
             "COC(=O)OC",
+            "CCC(O)OC(CC)O",
             "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OC(CC)OC(O)CC": [
         [
+            "COC(=O)OC",
             "CCCCC(CC)(CO)CO",
-            "CCC(O)OC(CC)O",
-            "COC(=O)OC"
+            "CCC(O)OC(CC)O"
         ],
         "常见"
     ],
     "CCCC(OC(=O)OC(CC)OC(O)CC)C(CC)CO": [
         [
-            "CCC(O)OC(CC)O",
             "COC(=O)OC",
+            "CCC(O)OC(CC)O",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(O)C(CC)COC(=O)OC(CC)OC(O)CC": [
         [
-            "CCC(O)OC(CC)O",
             "COC(=O)OC",
+            "CCC(O)OC(CC)O",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCC(O)OC(CC)OC(=O)OCCCCCCCCCCCCO": [
         [
-            "C(CCCCCCO)CCCCCO",
+            "COC(=O)OC",
             "CCC(O)OC(CC)O",
-            "COC(=O)OC"
+            "C(CCCCCCO)CCCCCO"
         ],
         "常见"
     ],
     "CCC(O)OC(CC)OC(=O)OC1CCCCCCCCC1O": [
         [
-            "CCC(O)OC(CC)O",
+            "COC(=O)OC",
             "OC1CCCCCCCCC1O",
-            "COC(=O)OC"
+            "CCC(O)OC(CC)O"
         ],
         "常见"
     ],
     "CCC(O)OC(CC)OC(=O)OC(C)CC(O)(C(F)(F)F)C(F)(F)F": [
         [
-            "CCC(O)OC(CC)O",
             "COC(=O)OC",
+            "CCC(O)OC(CC)O",
             "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CCC(O)OC(CC)OC(=O)OC(CC(C)O)(C(F)(F)F)C(F)(F)F": [
         [
-            "CCC(O)OC(CC)O",
             "COC(=O)OC",
+            "CCC(O)OC(CC)O",
             "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CCC(O)OC(CC)OC(=O)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
+            "COC(=O)OC",
             "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
-            "CCC(O)OC(CC)O",
-            "COC(=O)OC"
+            "CCC(O)OC(CC)O"
         ],
         "常见"
     ],
@@ -2762,71 +2573,71 @@
     "O=C(OCC1CCC(CO)CC1)OC1CCC(O)CC1": [
         [
             "COC(=O)OC",
-            "C1CC(CCC1O)O",
-            "C1CC(CCC1CO)CO"
+            "C1CC(CCC1CO)CO",
+            "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OCC1CCC(CO)CC1": [
         [
-            "CCCCC(CC)(CO)CO",
             "COC(=O)OC",
+            "CCCCC(CC)(CO)CO",
             "C1CC(CCC1CO)CO"
         ],
         "常见"
     ],
     "CCCC(OC(=O)OCC1CCC(CO)CC1)C(CC)CO": [
         [
-            "CCCC(C(CC)CO)O",
             "COC(=O)OC",
-            "C1CC(CCC1CO)CO"
+            "C1CC(CCC1CO)CO",
+            "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(O)C(CC)COC(=O)OCC1CCC(CO)CC1": [
         [
-            "CCCC(C(CC)CO)O",
             "COC(=O)OC",
-            "C1CC(CCC1CO)CO"
+            "C1CC(CCC1CO)CO",
+            "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "O=C(OCCCCCCCCCCCCO)OCC1CCC(CO)CC1": [
         [
-            "C(CCCCCCO)CCCCCO",
             "COC(=O)OC",
-            "C1CC(CCC1CO)CO"
+            "C1CC(CCC1CO)CO",
+            "C(CCCCCCO)CCCCCO"
         ],
         "常见"
     ],
     "O=C(OCC1CCC(CO)CC1)OC1CCCCCCCCC1O": [
         [
-            "OC1CCCCCCCCC1O",
             "COC(=O)OC",
+            "OC1CCCCCCCCC1O",
             "C1CC(CCC1CO)CO"
         ],
         "常见"
     ],
     "CC(CC(O)(C(F)(F)F)C(F)(F)F)OC(=O)OCC1CCC(CO)CC1": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
-            "C1CC(CCC1CO)CO"
+            "C1CC(CCC1CO)CO",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(O)CC(OC(=O)OCC1CCC(CO)CC1)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
-            "C1CC(CCC1CO)CO"
+            "C1CC(CCC1CO)CO",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "O=C(OCC1CCC(CO)CC1)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
-            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
             "COC(=O)OC",
+            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
             "C1CC(CCC1CO)CO"
         ],
         "常见"
@@ -2840,8 +2651,8 @@
     ],
     "CCCCC(CC)(CO)COC(=O)OC1CCC(O)CC1": [
         [
-            "CCCCC(CC)(CO)CO",
             "COC(=O)OC",
+            "CCCCC(CC)(CO)CO",
             "C1CC(CCC1O)O"
         ],
         "常见"
@@ -2849,119 +2660,119 @@
     "CCCC(OC(=O)OC1CCC(O)CC1)C(CC)CO": [
         [
             "COC(=O)OC",
-            "C1CC(CCC1O)O",
-            "CCCC(C(CC)CO)O"
+            "CCCC(C(CC)CO)O",
+            "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "CCCC(O)C(CC)COC(=O)OC1CCC(O)CC1": [
         [
             "COC(=O)OC",
-            "C1CC(CCC1O)O",
-            "CCCC(C(CC)CO)O"
+            "CCCC(C(CC)CO)O",
+            "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "O=C(OCCCCCCCCCCCCO)OC1CCC(O)CC1": [
         [
-            "C(CCCCCCO)CCCCCO",
             "COC(=O)OC",
+            "C(CCCCCCO)CCCCCO",
             "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "O=C(OC1CCC(O)CC1)OC1CCCCCCCCC1O": [
         [
-            "OC1CCCCCCCCC1O",
             "COC(=O)OC",
+            "OC1CCCCCCCCC1O",
             "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "CC(CC(O)(C(F)(F)F)C(F)(F)F)OC(=O)OC1CCC(O)CC1": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "CC(O)CC(OC(=O)OC1CCC(O)CC1)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "O=C(OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO)OC1CCC(O)CC1": [
         [
-            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
             "COC(=O)OC",
+            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
             "C1CC(CCC1O)O"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OCC(CC)(CO)CCCC": [
         [
-            "CCCCC(CC)(CO)CO",
-            "COC(=O)OC"
+            "COC(=O)OC",
+            "CCCCC(CC)(CO)CO"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OC(CCC)C(CC)CO": [
         [
-            "CCCCC(CC)(CO)CO",
             "COC(=O)OC",
+            "CCCCC(CC)(CO)CO",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OCC(CC)C(O)CCC": [
         [
-            "CCCCC(CC)(CO)CO",
             "COC(=O)OC",
+            "CCCCC(CC)(CO)CO",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OCCCCCCCCCCCCO": [
         [
+            "COC(=O)OC",
             "CCCCC(CC)(CO)CO",
-            "C(CCCCCCO)CCCCCO",
-            "COC(=O)OC"
+            "C(CCCCCCO)CCCCCO"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OC1CCCCCCCCC1O": [
         [
-            "CCCCC(CC)(CO)CO",
+            "COC(=O)OC",
             "OC1CCCCCCCCC1O",
-            "COC(=O)OC"
+            "CCCCC(CC)(CO)CO"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OC(C)CC(O)(C(F)(F)F)C(F)(F)F": [
         [
+            "COC(=O)OC",
             "CCCCC(CC)(CO)CO",
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
-            "COC(=O)OC"
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OC(CC(C)O)(C(F)(F)F)C(F)(F)F": [
         [
+            "COC(=O)OC",
             "CCCCC(CC)(CO)CO",
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
-            "COC(=O)OC"
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CCCCC(CC)(CO)COC(=O)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
+            "COC(=O)OC",
             "CCCCC(CC)(CO)CO",
-            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
-            "COC(=O)OC"
+            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O"
         ],
         "常见"
     ],
@@ -2981,40 +2792,40 @@
     ],
     "CCCC(OC(=O)OCCCCCCCCCCCCO)C(CC)CO": [
         [
-            "C(CCCCCCO)CCCCCO",
             "COC(=O)OC",
+            "C(CCCCCCO)CCCCCO",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(OC(=O)OC1CCCCCCCCC1O)C(CC)CO": [
         [
-            "OC1CCCCCCCCC1O",
             "COC(=O)OC",
+            "OC1CCCCCCCCC1O",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(OC(=O)OC(C)CC(O)(C(F)(F)F)C(F)(F)F)C(CC)CO": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(OC(=O)OC(CC(C)O)(C(F)(F)F)C(F)(F)F)C(CC)CO": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(OC(=O)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO)C(CC)CO": [
         [
-            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
             "COC(=O)OC",
+            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
@@ -3028,155 +2839,155 @@
     ],
     "CCCC(O)C(CC)COC(=O)OCCCCCCCCCCCCO": [
         [
-            "C(CCCCCCO)CCCCCO",
             "COC(=O)OC",
+            "C(CCCCCCO)CCCCCO",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(O)C(CC)COC(=O)OC1CCCCCCCCC1O": [
         [
-            "OC1CCCCCCCCC1O",
             "COC(=O)OC",
+            "OC1CCCCCCCCC1O",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(O)C(CC)COC(=O)OC(C)CC(O)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(O)C(CC)COC(=O)OC(CC(C)O)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "COC(=O)OC",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "CCCC(O)C(CC)COC(=O)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
-            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
             "COC(=O)OC",
+            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
             "CCCC(C(CC)CO)O"
         ],
         "常见"
     ],
     "O=C(OCCCCCCCCCCCCO)OCCCCCCCCCCCCO": [
         [
-            "C(CCCCCCO)CCCCCO",
-            "COC(=O)OC"
+            "COC(=O)OC",
+            "C(CCCCCCO)CCCCCO"
         ],
         "常见"
     ],
     "O=C(OCCCCCCCCCCCCO)OC1CCCCCCCCC1O": [
         [
-            "C(CCCCCCO)CCCCCO",
+            "COC(=O)OC",
             "OC1CCCCCCCCC1O",
-            "COC(=O)OC"
+            "C(CCCCCCO)CCCCCO"
         ],
         "常见"
     ],
     "CC(CC(O)(C(F)(F)F)C(F)(F)F)OC(=O)OCCCCCCCCCCCCO": [
         [
-            "C(CCCCCCO)CCCCCO",
             "COC(=O)OC",
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
+            "C(CCCCCCO)CCCCCO"
         ],
         "常见"
     ],
     "CC(O)CC(OC(=O)OCCCCCCCCCCCCO)(C(F)(F)F)C(F)(F)F": [
         [
-            "C(CCCCCCO)CCCCCO",
             "COC(=O)OC",
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
+            "C(CCCCCCO)CCCCCO"
         ],
         "常见"
     ],
     "O=C(OCCCCCCCCCCCCO)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
+            "COC(=O)OC",
             "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
-            "C(CCCCCCO)CCCCCO",
-            "COC(=O)OC"
+            "C(CCCCCCO)CCCCCO"
         ],
         "常见"
     ],
     "O=C(OC1CCCCCCCCC1O)OC1CCCCCCCCC1O": [
         [
-            "OC1CCCCCCCCC1O",
-            "COC(=O)OC"
+            "COC(=O)OC",
+            "OC1CCCCCCCCC1O"
         ],
         "常见"
     ],
     "CC(CC(O)(C(F)(F)F)C(F)(F)F)OC(=O)OC1CCCCCCCCC1O": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
+            "COC(=O)OC",
             "OC1CCCCCCCCC1O",
-            "COC(=O)OC"
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(O)CC(OC(=O)OC1CCCCCCCCC1O)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
+            "COC(=O)OC",
             "OC1CCCCCCCCC1O",
-            "COC(=O)OC"
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "O=C(OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO)OC1CCCCCCCCC1O": [
         [
-            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
+            "COC(=O)OC",
             "OC1CCCCCCCCC1O",
-            "COC(=O)OC"
+            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O"
         ],
         "常见"
     ],
     "CC(CC(O)(C(F)(F)F)C(F)(F)F)OC(=O)OC(C)CC(O)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
-            "COC(=O)OC"
+            "COC(=O)OC",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(O)CC(OC(=O)OC(C)CC(O)(C(F)(F)F)C(F)(F)F)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
-            "COC(=O)OC"
+            "COC(=O)OC",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(CC(O)(C(F)(F)F)C(F)(F)F)OC(=O)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
+            "COC(=O)OC",
             "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
-            "COC(=O)OC"
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(O)CC(OC(=O)OC(CC(C)O)(C(F)(F)F)C(F)(F)F)(C(F)(F)F)C(F)(F)F": [
         [
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
-            "COC(=O)OC"
+            "COC(=O)OC",
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "CC(O)CC(OC(=O)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO)(C(F)(F)F)C(F)(F)F": [
         [
+            "COC(=O)OC",
             "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
-            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O",
-            "COC(=O)OC"
+            "CC(CC(C(F)(F)F)(C(F)(F)F)O)O"
         ],
         "常见"
     ],
     "O=C(OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO)OCC(F)(F)C(F)(F)C(F)(F)C(F)(F)CO": [
         [
-            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O",
-            "COC(=O)OC"
+            "COC(=O)OC",
+            "C(C(C(C(C(CO)(F)F)(F)F)(F)F)(F)F)O"
         ],
         "常见"
     ]

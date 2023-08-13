@@ -19,7 +19,7 @@ intermediate_product={}
 intermediate_product[coc]=[[coc],'常见']
 
 
-tmp_product=intermediate_product.copy()
+tmp_product={}
 
 for product1,v in intermediate_product.items():
     rxn = AllChem.ReactionFromSmarts('[C:1]-[O!H0:2].[CH3:3]-[O:4]-[C:5](=[O:6])>>[C:1]-[O:4]-[C:5](=[O:6])')
@@ -32,7 +32,7 @@ for product1,v in intermediate_product.items():
             if AllChem.MolToSmiles(p[0]) not in tmp_product.keys():
                 tmp_product[AllChem.MolToSmiles(p[0])]=[list(set(v[0]+[product2])),'常见']
 intermediate_product=tmp_product.copy()
-
+tmp_product={}
 for product1,v in intermediate_product.items():
     rxn = AllChem.ReactionFromSmarts('[C:1]-[O!H0:2].[CH3:3]-[O:4]-[C:5](=[O:6])>>[C:1]-[O:4]-[C:5](=[O:6])')
     for product2 in oh:

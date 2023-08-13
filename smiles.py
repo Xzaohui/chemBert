@@ -47,11 +47,11 @@ from rdkit.Chem import AllChem
 
 # 环氧开环 
 # 醇
-# rxn = AllChem.ReactionFromSmarts('[C:1]-[C:2]1-[CH2:3]-[O:4]1.[O:5]-[C:6]>>[C:1]-[C:2](-[OH:4])-[C:3]-[O:5]-[C:6]')
-# reactants = (AllChem.MolFromSmiles('CCOCC(O)COCC(C)(C)COCC1CO1'), AllChem.MolFromSmiles('CCO'))
-# products = rxn.RunReactants(reactants)
-# for p in products:
-#     print(AllChem.MolToSmiles(p[0]))
+rxn = AllChem.ReactionFromSmarts('[C:1]-[C:2]1-[CH2:3]-[O:4]1.[O:5]-[C:6]>>[C:1]-[C:2](-[OH:4])-[C:3]-[O:5]-[C:6]')
+reactants = (AllChem.MolFromSmiles('CC(C)(COCC(O)CO(CCO)CCO)COCC1CO1'), AllChem.MolFromSmiles('OCCC(C)CCO'))
+products = rxn.RunReactants(reactants)
+for p in products:
+    print(AllChem.MolToSmiles(p[0]))
 
 # 酸
 # rxn = AllChem.ReactionFromSmarts('[C:1]-[C:2]1-[CH2:3]-[O:4]1.[C:5](=[O:6])-[OH:7]>>[C:1]-[C:2](-[OH:4])-[C:3]-[O:7]-[C:5](=[O:6])')
@@ -131,7 +131,7 @@ from rdkit.Chem import AllChem
 
 # print(list(res))
 
-# mol = Chem.MolFromSmiles('CC(C)(CO)C(=O)OCCOC(=O)C(C)(C)COC(=O)C(C)(C)CO')
+# mol = Chem.MolFromSmiles('C(CO)O')
 
 # Draw.MolToImage(mol, size=(300,300), kekulize=True)
 # Draw.ShowMol(mol, size=(300,300), kekulize=False)
