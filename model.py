@@ -1,7 +1,7 @@
 import logging
 import math
 import os
-
+import torch.nn.functional as F
 from transformers import BertConfig
 import torch
 from torch import nn
@@ -18,7 +18,7 @@ class chemBert_c(nn.Module):
     def __init__(self,encoder):
         super().__init__()
         self.encoder=encoder
-        self.line=nn.Linear(384,2)
+        self.line=nn.Linear(768,2)
     def forward(self,input_ids,attention_mask):
         out=self.encoder(input_ids,attention_mask).pooler_output
         out=self.line(out)
@@ -28,13 +28,11 @@ class chemBert_r(nn.Module):
     def __init__(self,encoder):
         super().__init__()
         self.encoder=encoder
-        self.line=nn.Linear(384,1)
-        self.drop=nn.Dropout(0.2)
-
+        self.line=nn.Linear(768,1)
     def forward(self,input_ids,attention_mask):
         out=self.encoder(input_ids,attention_mask).pooler_output
-        out=self.drop(out)
         out=self.line(out)
+        out=-F.logsigmoid(out)
         return out
 
 

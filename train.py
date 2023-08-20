@@ -1,4 +1,4 @@
-from transformers import RobertaTokenizer, AutoModel
+from transformers import AutoTokenizer, AutoModel
 from transformers import AdamW, get_linear_schedule_with_warmup
 from model import chemBert_c,chemBert_r
 import torch.nn as nn
@@ -8,27 +8,33 @@ from torch.utils.data import DataLoader
 import datetime
 from model import lstm
 import lstm_data
-import data_loader
 import numpy as np
 import pandas as pd
-from sklearn.ensemble import RandomForestRegressor #导入随机森林模型
-from sklearn.externals import joblib
+# from sklearn.ensemble import RandomForestRegressor
+# from sklearn.externals import joblib
 
 device='cuda'
-batch_size=8
-tokenizer = RobertaTokenizer.from_pretrained("DeepChem/ChemBERTa-77M-MLM")
+batch_size=1
+tokenizer = AutoTokenizer.from_pretrained("/mnt/workspace/chemBert/model/bertMolE")
+data_choose='> <PUBCHEM_CACTVS_TPSA>'
+data_choose='D_MS刚性-C3H8'
+model_name='TPSA'
+model_name='A-SUB'
+model_name='COF'
+model_name='D-SUB'
 
 # data_frame=data_loader.train_data_tox()
 # train_dataloader=DataLoader(data_frame['NR-AR']['train'],batch_size=batch_size,shuffle=True ,num_workers = 0)
 # dev_dataloader=DataLoader(data_frame['NR-AR']['dev'],batch_size=batch_size,shuffle=True ,num_workers = 0)
 # test_dataloader=DataLoader(data_frame['NR-AR']['test'],batch_size=batch_size,shuffle=True ,num_workers = 0)
-# model = chemBert_c(AutoModel.from_pretrained("DeepChem/ChemBERTa-77M-MLM"))
+# model = chemBert_c(AutoModel.from_pretrained(""))
 
-data_frame=data_loader.train_data_bert()
-train_dataloader=DataLoader(data_frame[data_loader.data_choose]['train'],batch_size=batch_size,shuffle=True ,num_workers = 0)
-dev_dataloader=DataLoader(data_frame[data_loader.data_choose]['dev'],batch_size=batch_size,shuffle=True ,num_workers = 0)
-
-m=AutoModel.from_pretrained("DeepChem/ChemBERTa-77M-MLM")
+# A-SBU-smile COF-smile D-SBU-smile
+data_frame=data_loader.train_data_bert('/mnt/workspace/chemBert/data/D-SBU-smile.json', tokenizer)
+train_dataloader=DataLoader(data_frame[data_choose]['train'],batch_size=batch_size,shuffle=True ,num_workers = 0)
+# dev_dataloader=DataLoader(data_frame[data_choose]['dev'],batch_size=batch_size,shuffle=True ,num_workers = 0)
+# m=AutoModel.from_pretrained("/mnt/workspace/chemBert/model/ChemBERTa-77M-MLM")
+m=torch.load('/mnt/workspace/chemBert/model/bertMolE/model.pt')
 model = chemBert_r(m)
 
 # train_dataloader=DataLoader(lstm_data.data_frame['NR-AR']['train'],batch_size=batch_size,shuffle=True ,num_workers = 0)
@@ -58,11 +64,9 @@ def train_bert(epoch=1):
             loss.backward()
             optimizer.step()
             scheduler.step()
-            if i%5==0:
+            if i%10==0:
                 print(loss)
-            if i%50==0:
-                torch.save(model, './model/model_bert/model.pt')
-
+                
                 # dev_num=len(data_frame['> <PUBCHEM_EXACT_MASS>']['dev'])
                 # error_list=[]
                 # model.eval()
@@ -80,7 +84,7 @@ def train_bert(epoch=1):
                 #     tokenizer.save_pretrained('./model/model_bert')
                 # else:
                 #     print('best:'+str(best))
-
+    torch.save(model, './model/model_{}.pt'.format(model_name))
 
 def train_bert_toxic(epoch=1):
     optimizer = AdamW(model.parameters(), lr=2e-5, eps=1e-8)
@@ -173,7 +177,5 @@ def train_rf():
 if __name__=='__main__':
     # train_toxic()
     # train_lstm()
-    # train_bert(10)
-    train_rf()
-
-    pass
+    train_bert(20)
+    # train_rf()

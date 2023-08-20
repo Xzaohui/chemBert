@@ -1,5 +1,6 @@
 import os
 import json
+import pandas as pd
 smiles=['> <PUBCHEM_OPENEYE_CAN_SMILES>']  #'> <PUBCHEM_OPENEYE_ISO_SMILES>' 
 names=['> <PUBCHEM_IUPAC_OPENEYE_NAME>' , '> <PUBCHEM_IUPAC_CAS_NAME>' , '> <PUBCHEM_IUPAC_NAME_MARKUP>' , '> <PUBCHEM_IUPAC_NAME>' , '> <PUBCHEM_IUPAC_SYSTEMATIC_NAME>' , '> <PUBCHEM_IUPAC_TRADITIONAL_NAME>']
 data_title=['> <PUBCHEM_XLOGP3_AA>','> <PUBCHEM_EXACT_MASS>','> <PUBCHEM_MOLECULAR_WEIGHT>','> <PUBCHEM_CACTVS_TPSA>','> <PUBCHEM_MONOISOTOPIC_WEIGHT>','> <PUBCHEM_TOTAL_CHARGE>','> <PUBCHEM_HEAVY_ATOM_COUNT>']
@@ -91,7 +92,16 @@ def smiles_data(begin=0):
 
 
 # train_data()
-smiles_data()
+# smiles_data()
+
+df=pd.read_excel('/mnt/workspace/chemBert/data/51.xlsx')
+# f=open('/mnt/workspace/chemBert/data/51.json')
+data={}
+for line in pd.DataFrame(df).itertuples():
+    # data[line._12]={'D_MS刚性-C3H8':line._15*1e9}
+    # data[line._13]={'D_MS刚性-C3H8':line._15*1e9}
+    data[line._14]={'D_MS刚性-C3H8':line._15*1e9}
+json.dump(data,open('/mnt/workspace/chemBert/data/COF-smile.json','w'),ensure_ascii=False,indent=4)
 
 
 # for line in f.readlines():
