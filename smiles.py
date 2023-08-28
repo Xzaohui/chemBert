@@ -1,15 +1,15 @@
-oh=['CCC(C)CC','C1CCC(CC1)','CC1CCC(CC1)C','CC','C(C)C']
-cooh=['CCCC','CCCCCCCC','c1cccc(c1)','c1ccccc1','c1ccc(cc1)']
+# oh=['CCC(C)CC','C1CCC(CC1)','CC1CCC(CC1)C','CC','C(C)C']
+# cooh=['CCCC','CCCCCCCC','c1cccc(c1)','c1ccccc1','c1ccc(cc1)']
 
 
-for i in range(len(oh)):
-    oh[i]='O'+oh[i]+'O'
+# for i in range(len(oh)):
+#     oh[i]='O'+oh[i]+'O'
 
-for i in range(len(cooh)):
-    cooh[i]='O=C(O)'+cooh[i]+'C(=O)O'
+# for i in range(len(cooh)):
+#     cooh[i]='O=C(O)'+cooh[i]+'C(=O)O'
 
-toh=oh[:]
-tcooh=cooh[:]
+# toh=oh[:]
+# tcooh=cooh[:]
 
 
 from rdkit import Chem
@@ -47,11 +47,11 @@ from rdkit.Chem import AllChem
 
 # 环氧开环 
 # 醇
-rxn = AllChem.ReactionFromSmarts('[C:1]-[C:2]1-[CH2:3]-[O:4]1.[O:5]-[C:6]>>[C:1]-[C:2](-[OH:4])-[C:3]-[O:5]-[C:6]')
-reactants = (AllChem.MolFromSmiles('CC(C)(COCC(O)CO(CCO)CCO)COCC1CO1'), AllChem.MolFromSmiles('OCCC(C)CCO'))
-products = rxn.RunReactants(reactants)
-for p in products:
-    print(AllChem.MolToSmiles(p[0]))
+# rxn = AllChem.ReactionFromSmarts('[C:1]-[C:2]1-[CH2:3]-[O:4]1.[O:5]-[C:6]>>[C:1]-[C:2](-[OH:4])-[C:3]-[O:5]-[C:6]')
+# reactants = (AllChem.MolFromSmiles('CC(C)(COCC(O)CO(CCO)CCO)COCC1CO1'), AllChem.MolFromSmiles('OCCC(C)CCO'))
+# products = rxn.RunReactants(reactants)
+# for p in products:
+#     print(AllChem.MolToSmiles(p[0]))
 
 # 酸
 # rxn = AllChem.ReactionFromSmarts('[C:1]-[C:2]1-[CH2:3]-[O:4]1.[C:5](=[O:6])-[OH:7]>>[C:1]-[C:2](-[OH:4])-[C:3]-[O:7]-[C:5](=[O:6])')
@@ -131,10 +131,10 @@ for p in products:
 
 # print(list(res))
 
-# mol = Chem.MolFromSmiles('C(CO)O')
+mol = Chem.MolFromSmiles('CC(C)(COCC(O)COCCOC(=O)OCCO)COCC1CO1')
 
-# Draw.MolToImage(mol, size=(300,300), kekulize=True)
-# Draw.ShowMol(mol, size=(300,300), kekulize=False)
+Draw.MolToImage(mol, size=(300,300), kekulize=True)
+Draw.ShowMol(mol, size=(300,300), kekulize=False)
 
 # from rdkit.Chem import Descriptors
 # print(Descriptors.MolWt(mol)) # 计算分子量

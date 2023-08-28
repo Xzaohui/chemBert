@@ -1,7 +1,7 @@
 # import torch
 # import numpy as np
 # from model import BertModel
-# from transformers import BertConfig
+# from transformers import BertConfig,AutoModelForCausalLM
 
 
 # config=BertConfig(vocab_size=9999)
