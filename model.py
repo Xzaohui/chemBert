@@ -32,7 +32,6 @@ class chemBert_r(nn.Module):
     def forward(self,input_ids,attention_mask):
         out=self.encoder(input_ids,attention_mask).pooler_output
         out=self.line(out)
-        out=-F.logsigmoid(out)
         return out
 
 

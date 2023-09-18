@@ -45,7 +45,7 @@ intermediate_product={}
 final_product={}
 
 for i in range(len(t_material)):
-    intermediate_product[t_material[i]]=[[t_material[i]],'常见']
+    intermediate_product[t_material[i]]=[[t_material[i]],'非常见']
 
 for i in range(len(m_material)):
     functional_group = Chem.MolFromSmarts("[O!H0]")
@@ -70,7 +70,7 @@ for i in range(len(m_material)):
             tmp1=tmp2
             
     for p in tmp1:
-        intermediate_product[p]=[[m_material[i]],'常见']
+        intermediate_product[p]=[[m_material[i]],'非常见']
 
 tmp_product=intermediate_product.copy()
 while True:
@@ -80,17 +80,17 @@ while True:
         for product2 in intermediate_product.keys():
             mol1 = Chem.MolFromSmiles(product1)
             mol2 = Chem.MolFromSmiles(product2)
-            if len(set(intermediate_product[product1][0]+intermediate_product[product2][0]))>2 or Descriptors.MolWt(mol1)+Descriptors.MolWt(mol2)>5000:
+            if len(set(intermediate_product[product1][0]+intermediate_product[product2][0]))>3 or Descriptors.MolWt(mol1)+Descriptors.MolWt(mol2)>1000:
                 continue
             reactants = (mol1, mol2)
             products = rxn.RunReactants(reactants)
             for p in products:
                 if AllChem.MolToSmiles(p[0]) not in tmp_product.keys():
-                    tmp_product[AllChem.MolToSmiles(p[0])]=[list(set(v[0]+intermediate_product[product2][0])),'常见']
+                    tmp_product[AllChem.MolToSmiles(p[0])]=[list(set(v[0]+intermediate_product[product2][0])),'非常见']
                     flag=1
     intermediate_product=tmp_product.copy()
-    if len(intermediate_product)>1e3:
-        break
+    # if len(intermediate_product)>1e3:
+    #     break
     if flag==0:
         break
 
@@ -138,13 +138,15 @@ for product1,v in tqdm(intermediate_product.items()):
             else:
                 tmp1=tmp2
         for p in tmp1:
+            v[1]='常见'
             final_product[p]=v
     else:
+        v[1]='常见'
         final_product[product1]=v
 
     
-
-json.dump(final_product,open('smiles_final.json','w'),indent=4,ensure_ascii=False)
+final_product.update(intermediate_product)
+json.dump(final_product,open('/root/smiles/smiles_esterification_final.json','w'),indent=4,ensure_ascii=False)
 
 
 

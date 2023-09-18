@@ -7,21 +7,18 @@ import torch
 from torch.utils.data import DataLoader
 import datetime
 from model import lstm
-import lstm_data
+# import lstm_data
 import numpy as np
 import pandas as pd
 # from sklearn.ensemble import RandomForestRegressor
 # from sklearn.externals import joblib
 
-device='cuda'
+device='cpu'
 batch_size=1
-tokenizer = AutoTokenizer.from_pretrained("/mnt/workspace/chemBert/model/bertMolE")
+tokenizer = AutoTokenizer.from_pretrained("./models/chembert")
 data_choose='> <PUBCHEM_CACTVS_TPSA>'
-data_choose='D_MS刚性-C3H8'
-model_name='TPSA'
-model_name='A-SUB'
-model_name='COF'
-model_name='D-SUB'
+data_choose='formation_energy'
+model_name='formation_energy'
 
 # data_frame=data_loader.train_data_tox()
 # train_dataloader=DataLoader(data_frame['NR-AR']['train'],batch_size=batch_size,shuffle=True ,num_workers = 0)
@@ -30,11 +27,11 @@ model_name='D-SUB'
 # model = chemBert_c(AutoModel.from_pretrained(""))
 
 # A-SBU-smile COF-smile D-SBU-smile
-data_frame=data_loader.train_data_bert('/mnt/workspace/chemBert/data/D-SBU-smile.json', tokenizer)
+data_frame=data_loader.train_data_bert('./data/crystal.json', tokenizer)
 train_dataloader=DataLoader(data_frame[data_choose]['train'],batch_size=batch_size,shuffle=True ,num_workers = 0)
 # dev_dataloader=DataLoader(data_frame[data_choose]['dev'],batch_size=batch_size,shuffle=True ,num_workers = 0)
 # m=AutoModel.from_pretrained("/mnt/workspace/chemBert/model/ChemBERTa-77M-MLM")
-m=torch.load('/mnt/workspace/chemBert/model/bertMolE/model.pt')
+m=torch.load('./models/chembert/chembert.pt')
 model = chemBert_r(m)
 
 # train_dataloader=DataLoader(lstm_data.data_frame['NR-AR']['train'],batch_size=batch_size,shuffle=True ,num_workers = 0)
@@ -84,7 +81,7 @@ def train_bert(epoch=1):
                 #     tokenizer.save_pretrained('./model/model_bert')
                 # else:
                 #     print('best:'+str(best))
-    torch.save(model, './model/model_{}.pt'.format(model_name))
+    torch.save(model, './models/model_{}.pt'.format(model_name))
 
 def train_bert_toxic(epoch=1):
     optimizer = AdamW(model.parameters(), lr=2e-5, eps=1e-8)
@@ -119,7 +116,7 @@ def train_bert_toxic(epoch=1):
                 if correct_num/dev_num > best:
                     print('now_best:'+str(best)+'->'+str(correct_num/dev_num))
                     best=correct_num/dev_num
-                    torch.save(m, './model/model_bert/model.pt')
+                    torch.save(m, './models/model.pt')
                     tokenizer.save_pretrained('./model/model_bert')
                 else:
                     print('best:'+str(best))

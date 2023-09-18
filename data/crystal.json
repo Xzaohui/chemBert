@@ -1,0 +1,1978 @@
+{
+    "O.O.O.O.O.O.O.O.O.O.O.O.[GeH4].[GeH4].[GeH4].[GeH4].[MgH2].[MgH2].[SnH2].[SnH2]": {
+        "formation_energy": -2.166565192749999,
+        "band_gap": 2.2274
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Cr].[Cr].[Cr].[Cr].[Cr].[Cr]": {
+        "formation_energy": -1.336841339545454,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.[AlH3].[BaH2].[BaH2].[Fe].[Fe].[Fe]": {
+        "formation_energy": -2.264626048571428,
+        "band_gap": 0.06059999999999999
+    },
+    "O.O.O.O.O.O.O.O.[MgH2].[MgH2].[Mo].[Mo].[Mo]": {
+        "formation_energy": -2.301682573076924,
+        "band_gap": 1.3002
+    },
+    "F.F.F.F.F.F.[BiH3].[MgH2]": {
+        "formation_energy": -2.9354517602675,
+        "band_gap": 0.05459999999999998
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[AlH3].[AlH3].[AlH3].[BaH2].[BaH2].[BaH2].[BaH2].[BaH2].[BaH2].[W].[W].[W].[W].[W].[W]": {
+        "formation_energy": -3.119394789880625,
+        "band_gap": 1.3941
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AsH3].[AsH3].[AsH3].[AsH3].[CaH2].[CaH2].[CaH2].[CaH2].[Ni].[Ni].[Ni].[Ni]": {
+        "formation_energy": -1.927985661718749,
+        "band_gap": 0.4236
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -2.654611619625001,
+        "band_gap": 3.5397
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -2.718804710483931,
+        "band_gap": 3.1753
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo]": {
+        "formation_energy": -2.623609783625002,
+        "band_gap": 2.3963
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[V].[V].[V].[V].[V].[V].[V].[V]": {
+        "formation_energy": -2.622720285714286,
+        "band_gap": 1.5192
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4]": {
+        "formation_energy": -2.200774676944443,
+        "band_gap": 0.1091999999999995
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AlH3].[AlH3].[AlH3].[AlH3].[AlH3].[AlH3].[AlH3].[AlH3].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[V].[V].[V].[V].[V].[V].[V].[V].[V].[V].[V].[V]": {
+        "formation_energy": -2.897388287875001,
+        "band_gap": 2.617100000000001
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4]": {
+        "formation_energy": -1.816902033055556,
+        "band_gap": 0.01489999999999991
+    },
+    "O.O.O.O.O.O.O.O.[BaH2].[BaH2].[Ti].[Ti].[Ti].[Y]": {
+        "formation_energy": -3.411845583571429,
+        "band_gap": 0.07200000000000006
+    },
+    "F.F.F.F.F.F.F.F.[CaH2].[CaH2].[Fe].[Fe]": {
+        "formation_energy": -3.438182219126666,
+        "band_gap": 3.664800000000001
+    },
+    "O.O.O.[AlH3].[BiH3]": {
+        "formation_energy": -0.9049559867500008,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[Co].[Co].[Co].[Co].[Co].[Co].[Co].[Co].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo]": {
+        "formation_energy": -2.166353193295454,
+        "band_gap": 1.2147
+    },
+    "O.O.O.O.O.O.O.O.[BaH2].[SnH2].[SnH2].[SnH2].[SnH2]": {
+        "formation_energy": -1.894817076923077,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[MgH2].[MgH2].[Mn].[Mn]": {
+        "formation_energy": -2.793768670207254,
+        "band_gap": 3.9874
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[MgH2].[MgH2].[Ni].[Ni]": {
+        "formation_energy": -2.552217600449135,
+        "band_gap": 3.375799999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[W].[W].[W].[W]": {
+        "formation_energy": -2.02301670390625,
+        "band_gap": 0.1131000000000002
+    },
+    "O.O.O.O.O.O.O.O.[SnH2].[W].[W].[Y]": {
+        "formation_energy": -2.419349712500001,
+        "band_gap": 1.8678
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[Mn].[Mn].[Zn].[Zn]": {
+        "formation_energy": -2.492651129298163,
+        "band_gap": 3.2541
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2]": {
+        "formation_energy": -1.882222794285714,
+        "band_gap": 1.5413
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2]": {
+        "formation_energy": -2.8778025805,
+        "band_gap": 3.435100000000001
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[SbH3].[SbH3].[W].[W]": {
+        "formation_energy": -2.29470455425,
+        "band_gap": 1.7832
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Co].[Co].[Co].[Co].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -2.371722032282609,
+        "band_gap": 0.06700000000000017
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[CaH2].[CaH2].[Cr].[Cr]": {
+        "formation_energy": -2.88723382681277,
+        "band_gap": 3.021
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[SbH3].[SbH3].[W].[W]": {
+        "formation_energy": -2.51081777475,
+        "band_gap": 0.8145999999999995
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[Mn].[Mn].[Nd].[Nd].[Ti].[Ti]": {
+        "formation_energy": -3.071876466474313,
+        "band_gap": 1.3364
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Fe].[Fe].[Fe].[Fe].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4]": {
+        "formation_energy": -1.800687554722222,
+        "band_gap": 0.1456
+    },
+    "N.N.N.N.[TeH2].[TeH2]": {
+        "formation_energy": 1.078092371746666,
+        "band_gap": 0.1155999999999997
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4]": {
+        "formation_energy": -2.85195325275,
+        "band_gap": 2.8353
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[BaH2].[BaH2].[BaH2].[BaH2].[Mo].[Mo].[Mo].[Mo].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -3.193770053583,
+        "band_gap": 4.1767
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -1.684621225576923,
+        "band_gap": 1.9742
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.[Cr].[Cr].[Cr].[Cr].[Cr].[Cr]": {
+        "formation_energy": -2.405582213712407,
+        "band_gap": 0.1105
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[BaH2].[BaH2].[BaH2].[BaH2].[MgH2].[MgH2].[MgH2].[MgH2].[W].[W].[W].[W]": {
+        "formation_energy": -3.437068779333,
+        "band_gap": 4.3902
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[GeH4].[GeH4].[GeH4].[GeH4].[SnH2].[SnH2].[Zn].[Zn]": {
+        "formation_energy": -1.89137915225,
+        "band_gap": 2.0251
+    },
+    "O.O.O.O.O.O.O.O.[AlH3].[BaH2].[BaH2].[W].[W].[W]": {
+        "formation_energy": -1.967518354285714,
+        "band_gap": 0.3038999999999996
+    },
+    "F.F.F.F.F.[Cr]": {
+        "formation_energy": -2.011003333491666,
+        "band_gap": 0.27
+    },
+    "F.F.F.F.F.F.[BiH3].[CaH2]": {
+        "formation_energy": -3.0907416371425,
+        "band_gap": 0.07800000000000007
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AlH3].[AlH3].[AlH3].[AlH3].[SbH3].[SbH3].[SiH4].[SiH4].[V].[V].[V].[V].[V].[V].[V].[V].[V].[V].[V].[V].[V]": {
+        "formation_energy": -2.462973143367347,
+        "band_gap": 0.00990000000000002
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -2.178009846875,
+        "band_gap": 2.090299999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -2.475352840500001,
+        "band_gap": 3.6973
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4]": {
+        "formation_energy": -2.995133124875001,
+        "band_gap": 2.5302
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[MgH2].[MgH2].[V].[V]": {
+        "formation_energy": -2.783452259085496,
+        "band_gap": 2.8307
+    },
+    "O.O.O.O.O.O.[AlH3].[AlH3].[BiH3].[BiH3]": {
+        "formation_energy": -1.705834067750001,
+        "band_gap": 0.7367999999999997
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Ti].[Ti].[Ti].[Ti].[Y].[Y].[Y].[Y]": {
+        "formation_energy": -3.620780443583334,
+        "band_gap": 0.01140000000000008
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[Fe].[Fe].[Fe].[Fe]": {
+        "formation_energy": -2.339049703249999,
+        "band_gap": 0.08410000000000029
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[Ti].[Ti].[Ti].[Ti]": {
+        "formation_energy": -2.537496720462963,
+        "band_gap": 3.3311
+    },
+    "O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[W].[W].[W].[W]": {
+        "formation_energy": -1.72112484375,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti]": {
+        "formation_energy": -3.063181092467949,
+        "band_gap": 0.0
+    },
+    "S.S.S.S.S.S.S.S.[MgH2].[MgH2].[Mn].[Mn].[Mn].[Mn]": {
+        "formation_energy": -1.123568407001232,
+        "band_gap": 0.001000000000000334
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[CaH2].[CaH2].[Fe].[Fe]": {
+        "formation_energy": -2.840749992267316,
+        "band_gap": 3.9958
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[CaH2].[CaH2].[V].[V]": {
+        "formation_energy": -2.894048552721861,
+        "band_gap": 2.2931
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr]": {
+        "formation_energy": -2.477412145535715,
+        "band_gap": 0.0591999999999997
+    },
+    "O.O.O.O.O.O.O.O.[AlH3].[V].[W].[W]": {
+        "formation_energy": -2.328339004166666,
+        "band_gap": 1.9181
+    },
+    "O.O.O.O.O.O.O.O.O.O.[AlH3].[AlH3].[CaH2].[CaH2].[CaH2].[CaH2].[Cu].[Cu]": {
+        "formation_energy": -2.700299149583334,
+        "band_gap": 0.02520000000000033
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[SiH4].[SiH4].[SiH4].[SiH4].[Ti].[Ti]": {
+        "formation_energy": -3.174432089416666,
+        "band_gap": 0.08790000000000031
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Ni].[Ni].[W].[W].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -1.71491739425,
+        "band_gap": 2.914099999999999
+    },
+    "O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[V].[V].[V].[V]": {
+        "formation_energy": -2.33511107125,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[TeH2].[TeH2].[W].[W]": {
+        "formation_energy": -1.742977847187499,
+        "band_gap": 1.9937
+    },
+    "N.N.N.N.[Fe].[Fe].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": 0.04525546604800042,
+        "band_gap": 0.000500000000000167
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[V].[V]": {
+        "formation_energy": -2.546473457494046,
+        "band_gap": 1.1843
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[Fe].[Fe].[SiH4].[SiH4].[SiH4].[SiH4]": {
+        "formation_energy": -2.943855830263158,
+        "band_gap": 2.7224
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3].[CaH2].[CaH2].[Pr].[Pr]": {
+        "formation_energy": -2.44752097775,
+        "band_gap": 0.1619000000000002
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[CaH2].[Mn].[Mn]": {
+        "formation_energy": -2.660869658788551,
+        "band_gap": 0.6836000000000002
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4]": {
+        "formation_energy": -2.978332363249999,
+        "band_gap": 3.5998
+    },
+    "O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[Fe].[Fe].[Y].[Y]": {
+        "formation_energy": -3.003885191805555,
+        "band_gap": 0.004900000000000126
+    },
+    "O.O.O.O.[Mo].[Mo]": {
+        "formation_energy": -0.090239625833334,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.[CaH2].[CaH2].[Mo].[Mo].[Mo].[Mo]": {
+        "formation_energy": -2.37106812,
+        "band_gap": 2.3982
+    },
+    "O.O.O.O.O.[AlH3].[BaH2].[Cu].[Ni]": {
+        "formation_energy": -1.763310922916665,
+        "band_gap": 0.2625000000000002
+    },
+    "O.O.O.[SnH2].[Y]": {
+        "formation_energy": -2.188931088749999,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.[CaH2].[CaH2].[W].[W].[W].[W].[W].[W]": {
+        "formation_energy": -2.430560191776787,
+        "band_gap": 1.154500000000001
+    },
+    "O.O.O.O.O.O.O.O.[CaH2].[CaH2].[SnH2].[SnH2].[SnH2].[SnH2]": {
+        "formation_energy": -2.234285603571428,
+        "band_gap": 1.191999999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo]": {
+        "formation_energy": -2.178728527857143,
+        "band_gap": 0.3856000000000002
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[W].[W].[W].[W].[W].[W].[W].[W].[W].[W].[W].[W]": {
+        "formation_energy": -1.693154712874999,
+        "band_gap": 0.4477
+    },
+    "O.O.O.O.O.O.O.O.[Cu].[Cu].[Cu].[Cu].[MgH2].[MgH2].[MgH2].[MgH2]": {
+        "formation_energy": -1.767102781875,
+        "band_gap": 0.0
+    },
+    "N.N.[SbH3].[SbH3]": {
+        "formation_energy": 0.2152061488100001,
+        "band_gap": 1.3441
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BaH2].[BaH2].[BaH2].[BaH2].[BaH2].[BaH2].[BaH2].[BaH2].[BaH2].[BaH2].[BaH2].[BaH2].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Y].[Y].[Y].[Y].[Y].[Y].[Y].[Y].[Y].[Y].[Y].[Y].[Y].[Y].[Y].[Y].[Y].[Y].[Y].[Y]": {
+        "formation_energy": -2.808569324278845,
+        "band_gap": 0.1892
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[Fe].[Fe].[Re].[Re]": {
+        "formation_energy": -2.501101857631579,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[Fe].[Fe].[Mo].[Mo]": {
+        "formation_energy": -2.500306605,
+        "band_gap": 1.7667
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[Ti].[Ti].[Ti].[Ti]": {
+        "formation_energy": -3.573377578583334,
+        "band_gap": 2.4652
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[SnH2].[SnH2].[Zn].[Zn]": {
+        "formation_energy": -2.358758366812771,
+        "band_gap": 2.8793
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -2.948327333846154,
+        "band_gap": 2.317
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn]": {
+        "formation_energy": -1.71651185077977,
+        "band_gap": 0.02080000000000015
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Y].[Y].[Y].[Y]": {
+        "formation_energy": -2.104736187801724,
+        "band_gap": 0.004200000000000426
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[CaH2].[CaH2].[CaH2].[CaH2].[Co].[Co].[Co].[Co]": {
+        "formation_energy": -2.070313217159091,
+        "band_gap": 2.2433
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[W].[W].[W].[W]": {
+        "formation_energy": -1.763977742375,
+        "band_gap": 3.0902
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Ag].[Ag].[Ag].[Ag].[BiH3].[BiH3].[BiH3].[BiH3].[MgH2].[MgH2].[MgH2].[MgH2]": {
+        "formation_energy": -1.407203421093749,
+        "band_gap": 0.8257999999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[Pr].[Pr].[W].[W].[W].[W]": {
+        "formation_energy": -2.48884221875,
+        "band_gap": 2.087
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[Ni].[Ni].[Ni].[Ni]": {
+        "formation_energy": -1.134130533625,
+        "band_gap": 0.5571999999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2]": {
+        "formation_energy": -1.806998452499999,
+        "band_gap": 0.02050000000000018
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[V].[V].[V].[V].[V].[V].[V].[V].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -1.806696276153847,
+        "band_gap": 0.2248999999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo]": {
+        "formation_energy": -1.958258199347827,
+        "band_gap": 0.9097
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AlH3].[AlH3].[BaH2].[BaH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2]": {
+        "formation_energy": -1.995475396442309,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[CaH2].[CaH2].[CaH2].[CaH2].[V].[V]": {
+        "formation_energy": -2.76357910375,
+        "band_gap": 3.096200000000001
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu]": {
+        "formation_energy": -2.03876768,
+        "band_gap": 0.7153
+    },
+    "[AlH3].[AlH3].[AlH3].[AlH3].[AlH3].[Cu].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2]": {
+        "formation_energy": -0.7609084963392857,
+        "band_gap": 0.8742000000000001
+    },
+    "O.O.O.O.O.O.O.O.[AlH3].[AlH3].[AlH3].[AlH3].[Cu].[Cu]": {
+        "formation_energy": -2.668007030714285,
+        "band_gap": 0.03680000000000039
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Cr].[Cr].[Cr].[Cr].[Zn].[Zn]": {
+        "formation_energy": -1.607536816875,
+        "band_gap": 2.4293
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[BaH2].[BaH2].[BaH2].[BaH2].[BiH3].[BiH3].[BiH3].[BiH3]": {
+        "formation_energy": -2.854851329258889,
+        "band_gap": 0.402
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Mo].[Mo].[Mo].[Mo].[Zn].[Zn]": {
+        "formation_energy": -1.908335824375,
+        "band_gap": 3.637
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[W].[W].[W].[W].[Zn].[Zn]": {
+        "formation_energy": -1.883020437875001,
+        "band_gap": 4.0151
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[Cr].[Cr].[Cr].[Cr]": {
+        "formation_energy": -2.022540986874999,
+        "band_gap": 2.6083
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni]": {
+        "formation_energy": -1.259841965227273,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.P.P.[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Zn].[Zn]": {
+        "formation_energy": -2.155732702267316,
+        "band_gap": 3.3739
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SnH2].[SnH2].[SnH2].[SnH2]": {
+        "formation_energy": -3.08802997828125,
+        "band_gap": 3.5218
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.P.P.[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[MgH2].[MgH2]": {
+        "formation_energy": -2.58532974022186,
+        "band_gap": 1.9677
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[V].[V].[V].[V].[V].[V].[V].[V].[V].[V]": {
+        "formation_energy": -2.459345121057692,
+        "band_gap": 0.6642000000000001
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AlH3].[AlH3].[Cr].[Cr].[Cu].[Cu].[Cu].[Cu].[SrH2].[SrH2].[SrH2].[SrH2]": {
+        "formation_energy": -2.270703525673077,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[Co].[Co].[Co].[Co].[Co].[Co].[Co].[Co].[Co].[Co]": {
+        "formation_energy": -1.565766366826923,
+        "band_gap": 1.13
+    },
+    "O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[V].[V].[V].[V]": {
+        "formation_energy": -2.36740167,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.[Ni].[Ni].[Ni].[Ni].[Zn].[Zn]": {
+        "formation_energy": -1.077829347142858,
+        "band_gap": 0.02150000000000007
+    },
+    "O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[Ti].[Ti].[Ti].[Ti]": {
+        "formation_energy": -2.802101200416667,
+        "band_gap": 0.0
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[BaH2].[BaH2].[BaH2].[BaH2].[CaH2].[CaH2].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu]": {
+        "formation_energy": -2.898857929833,
+        "band_gap": 0.08550000000000002
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3].[TeH2].[TeH2].[TeH2].[TeH2]": {
+        "formation_energy": -1.160702324821427,
+        "band_gap": 0.2131000000000001
+    },
+    "O.O.O.O.O.O.O.O.[MgH2].[SnH2].[SnH2].[SnH2].[SnH2]": {
+        "formation_energy": -2.043654875,
+        "band_gap": 0.6105
+    },
+    "O.O.O.O.O.O.O.O.[W].[W].[W].[W].[Zn].[Zn]": {
+        "formation_energy": -1.297430707142857,
+        "band_gap": 0.4159000000000006
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[W].[W].[W].[W].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -1.714744401704546,
+        "band_gap": 2.8587
+    },
+    "N.N.N.N.[Cu].[Cu].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": 0.132963882048,
+        "band_gap": 0.02659999999999973
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[TeH2].[TeH2].[TeH2].[TeH2].[TeH2].[TeH2].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -1.610491828916667,
+        "band_gap": 1.4085
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[TeH2].[TeH2].[TeH2].[TeH2].[TeH2].[TeH2]": {
+        "formation_energy": -1.427994181057693,
+        "band_gap": 0.2560000000000002
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[Fe].[Fe].[Fe].[Fe].[W].[W].[W].[W].[W].[W]": {
+        "formation_energy": -2.252289271621622,
+        "band_gap": 1.8912
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.P.P.[MgH2].[MgH2].[W].[W]": {
+        "formation_energy": -2.477963605132274,
+        "band_gap": 1.9051
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Co].[Co].[Co].[Co].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4]": {
+        "formation_energy": -2.712556653,
+        "band_gap": 0.002299999999999969
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[AlH3].[BiH3].[BiH3].[BiH3].[BiH3].[Cu].[Cu].[Cu]": {
+        "formation_energy": -1.20474815225,
+        "band_gap": 0.0
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[BaH2].[BaH2].[BaH2].[BaH2].[Cu].[Cu].[MgH2].[MgH2].[Mo].[Mo].[Mo].[Mo]": {
+        "formation_energy": -3.236976203833,
+        "band_gap": 3.617
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[BiH3].[BiH3].[BiH3].[BiH3].[CaH2].[CaH2]": {
+        "formation_energy": -2.355518980579364,
+        "band_gap": 0.004399999999999959
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Ta].[Ta].[Ta].[Ta].[Ti].[Ti].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -2.755847980128206,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.[AlH3].[BaH2].[Cu].[Mo]": {
+        "formation_energy": -1.948649419583333,
+        "band_gap": 0.2663000000000002
+    },
+    "O.O.O.O.O.O.O.O.[V].[V].[V].[V]": {
+        "formation_energy": -2.320150879166667,
+        "band_gap": 1.2057
+    },
+    "O.O.O.[Ag].[AlH3]": {
+        "formation_energy": -0.2833732307500007,
+        "band_gap": 0.0
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.[CaH2].[Cr].[Cr]": {
+        "formation_energy": -2.740242342952,
+        "band_gap": 1.3547
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4]": {
+        "formation_energy": -3.09637127323393,
+        "band_gap": 3.6668
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BaH2].[BaH2].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo]": {
+        "formation_energy": -1.497359898645834,
+        "band_gap": 0.1143000000000001
+    },
+    "O.O.O.O.O.O.O.O.[BaH2].[BiH3].[BiH3].[BiH3].[BiH3].[CaH2]": {
+        "formation_energy": -1.980622107857142,
+        "band_gap": 0.9891999999999999
+    },
+    "O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[Ni].[Ni].[Ni].[Ni]": {
+        "formation_energy": -1.79021327125,
+        "band_gap": 2.4575
+    },
+    "O.O.O.O.O.O.O.O.[CaH2].[SbH3].[SbH3].[SbH3].[SbH3]": {
+        "formation_energy": -1.685229323846154,
+        "band_gap": 0.01620000000000044
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[Ni].[Ni].[Zn].[Zn]": {
+        "formation_energy": -2.252918955449133,
+        "band_gap": 3.6686
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo]": {
+        "formation_energy": -2.224666606666667,
+        "band_gap": 1.622599999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[Fe].[Fe].[Fe].[Fe].[Zn].[Zn].[Zn]": {
+        "formation_energy": -1.449570101081081,
+        "band_gap": 0.01920000000000011
+    },
+    "F.F.F.F.F.[AlH3].[V]": {
+        "formation_energy": -3.488035617278571,
+        "band_gap": 3.3043
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[Fe].[Fe].[Fe].[Fe].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo]": {
+        "formation_energy": -2.08010679081081,
+        "band_gap": 0.01679999999999993
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[SbH3].[SbH3].[W].[W].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -1.726972490750001,
+        "band_gap": 1.0426
+    },
+    "O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[SnH2].[SnH2].[SnH2].[SnH2]": {
+        "formation_energy": -2.059439123906249,
+        "band_gap": 1.0611
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.P.P.[Ni].[Ni]": {
+        "formation_energy": -2.16956320719888,
+        "band_gap": 0.4399
+    },
+    "O.O.O.O.O.O.O.O.[Cr].[Cr].[Cr].[Cr].[MgH2].[MgH2].[MgH2].[MgH2]": {
+        "formation_energy": -2.22121717125,
+        "band_gap": 0.3106
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Cr].[Cr].[SiH4].[SiH4].[SiH4].[SiH4]": {
+        "formation_energy": -2.761410825277776,
+        "band_gap": 0.02220000000000022
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.P.P.[Co].[Co].[Co].[Co].[Co].[Co].[Zn].[Zn]": {
+        "formation_energy": -2.260418959540043,
+        "band_gap": 2.362000000000001
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Cu].[Cu].[Cu].[Cu].[SrH2].[SrH2].[SrH2].[SrH2].[V].[V]": {
+        "formation_energy": -2.020893404479165,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BaH2].[BaH2].[BaH2].[BaH2].[BaH2].[BaH2].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[TlH3].[TlH3].[TlH3].[Y]": {
+        "formation_energy": -1.755855873412162,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4]": {
+        "formation_energy": -2.944913108924289,
+        "band_gap": 3.2252
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[BaH2].[BaH2].[BaH2].[BaH2].[CaH2].[Cu].[Cu].[Fe].[Fe].[Fe].[Fe]": {
+        "formation_energy": -3.103001229572307,
+        "band_gap": 2.4964
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Zn].[Zn]": {
+        "formation_energy": -1.29281805451923,
+        "band_gap": 0.8953999999999995
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti]": {
+        "formation_energy": -3.451910791636905,
+        "band_gap": 2.6654
+    },
+    "O.O.[W]": {
+        "formation_energy": -1.755501294166667,
+        "band_gap": 2.0251
+    },
+    "O.O.O.O.O.O.O.O.[V].[V].[V].[V].[Y].[Y]": {
+        "formation_energy": -2.714805496428572,
+        "band_gap": 0.5403000000000002
+    },
+    "O.O.O.O.O.O.O.O.[Cu].[Cu].[Cu].[Cu].[MgH2].[MgH2]": {
+        "formation_energy": -1.288350722142857,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.[AlH3].[AlH3].[Co].[Co].[Co].[Co]": {
+        "formation_energy": -1.771002232142857,
+        "band_gap": 0.2497999999999996
+    },
+    "O.O.O.O.O.O.O.O.[AlH3].[AlH3].[Cr].[Cr].[Cr].[Cr]": {
+        "formation_energy": -2.135822636428572,
+        "band_gap": 0.0
+    },
+    "N.N.N.N.[Fe].[Fe].[MgH2].[MgH2].[MgH2].[MgH2]": {
+        "formation_energy": -0.6156390249520001,
+        "band_gap": 0.1593
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Mn].[Mn].[Mn].[Mn].[Y].[Y].[Y].[Y]": {
+        "formation_energy": -3.026554831717861,
+        "band_gap": 0.4735
+    },
+    "O.O.O.O.O.O.O.O.O.O.[Ag].[Ag].[Ag].[Ag].[CaH2].[CaH2].[CaH2].[CaH2]": {
+        "formation_energy": -1.627008017361111,
+        "band_gap": 0.0552999999999999
+    },
+    "O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[Cu].[Cu].[Cu].[Cu]": {
+        "formation_energy": -2.03403796875,
+        "band_gap": 0.09109999999999996
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[GaH3].[GaH3].[Mn].[Mn].[Mn].[Mn].[SrH2].[SrH2].[SrH2].[SrH2]": {
+        "formation_energy": -2.302041613202384,
+        "band_gap": 0.009600000000000053
+    },
+    "O.O.O.O.O.O.O.O.[Cr].[Cr].[Cr].[Cr].[Y].[Y]": {
+        "formation_energy": -2.630064547857143,
+        "band_gap": 0.6911999999999994
+    },
+    "O.O.O.O.O.O.O.O.[Mn].[Mn].[Mn].[Mn].[Y].[Y]": {
+        "formation_energy": -2.57028471638266,
+        "band_gap": 0.2231999999999994
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Cr].[Cr].[La].[La].[SnH2].[SnH2].[Zn].[Zn]": {
+        "formation_energy": -2.4781677915,
+        "band_gap": 2.5524
+    },
+    "O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[SnH2].[SnH2].[SnH2].[SnH2]": {
+        "formation_energy": -2.458408504583332,
+        "band_gap": 1.412500000000001
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[Mo].[Mo]": {
+        "formation_energy": -2.449749964494047,
+        "band_gap": 1.3462
+    },
+    "O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3].[CaH2].[CaH2].[CaH2].[CaH2]": {
+        "formation_energy": -2.244174429027778,
+        "band_gap": 2.1187
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[Co].[Co].[GeH4].[GeH4].[GeH4].[GeH4]": {
+        "formation_energy": -2.30618767725,
+        "band_gap": 2.328
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[GeH4].[MgH2].[MgH2].[MgH2].[MgH2].[Ni].[Ni].[Ni].[Ni]": {
+        "formation_energy": -2.120274935,
+        "band_gap": 3.1581
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[GeH4].[GeH4].[GeH4].[GeH4].[V].[V]": {
+        "formation_energy": -2.167728794166667,
+        "band_gap": 1.6114
+    },
+    "O.O.O.O.O.O.O.O.[Fe].[Fe].[Fe].[Fe].[Zn].[Zn]": {
+        "formation_energy": -1.781934520714285,
+        "band_gap": 1.8597
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[Cr].[Cr].[Cr].[Cr].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -2.809860326207143,
+        "band_gap": 3.0903
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[GeH4].[GeH4].[GeH4].[GeH4].[MgH2].[MgH2].[V].[V]": {
+        "formation_energy": -2.36284606125,
+        "band_gap": 0.3241000000000005
+    },
+    "O.O.O.O.O.O.[Fe].[MgH2].[MgH2].[W]": {
+        "formation_energy": -2.48846033375,
+        "band_gap": 2.3714
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[MgH2].[MgH2].[MgH2].[MgH2].[Mn].[Mn].[Mn].[Mn]": {
+        "formation_energy": -3.204294381898472,
+        "band_gap": 1.7288
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[Fe].[Fe].[Fe].[Fe].[MgH2].[MgH2].[MgH2].[MgH2]": {
+        "formation_energy": -3.188247222992856,
+        "band_gap": 3.7122
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[MgH2].[MgH2].[MgH2].[MgH2].[V].[V].[V].[V]": {
+        "formation_energy": -3.443019903350001,
+        "band_gap": 2.4842
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[CaH2].[CaH2].[CaH2].[CaH2].[W].[W].[W].[W]": {
+        "formation_energy": -3.268675607278571,
+        "band_gap": 3.7607
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[Cr].[Cr].[Cr].[Cr].[Cu].[Cu].[Cu]": {
+        "formation_energy": -1.889337599749999,
+        "band_gap": 0.02690000000000037
+    },
+    "O.O.O.O.O.O.[Ti].[W].[Zn].[Zn]": {
+        "formation_energy": -2.051360360416666,
+        "band_gap": 0.5434000000000001
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Co].[Co].[Co].[Co].[MgH2].[MgH2].[Pr].[Pr]": {
+        "formation_energy": -2.153542100750001,
+        "band_gap": 0.003499999999999837
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[CaH2].[CaH2].[CaH2].[CaH2].[Mo].[Mo].[Mo].[Mo]": {
+        "formation_energy": -3.438572342635714,
+        "band_gap": 3.9328
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[CaH2].[CaH2].[CaH2].[CaH2].[Co].[Co].[Co].[Co]": {
+        "formation_energy": -3.108809150492857,
+        "band_gap": 1.9911
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Co].[Co].[Co].[Co].[Pr].[Pr]": {
+        "formation_energy": -1.641881620833334,
+        "band_gap": 0.0
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[CaH2].[CaH2].[CaH2].[CaH2].[Mn].[Mn].[Mn].[Mn]": {
+        "formation_energy": -3.424903471184187,
+        "band_gap": 1.5376
+    },
+    "O.O.O.O.O.O.O.O.[Fe].[Fe].[Fe].[Fe]": {
+        "formation_energy": -1.417642390833334,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.[BaH2].[BaH2].[Fe].[Fe].[Fe].[Y]": {
+        "formation_energy": -2.605686613571428,
+        "band_gap": 0.2115
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[BaH2].[BaH2].[BaH2].[BaH2].[BaH2].[BaH2].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Y].[Y].[Y]": {
+        "formation_energy": -3.770512568630625,
+        "band_gap": 0.1060999999999996
+    },
+    "O.O.O.O.O.O.O.O.[Ti].[W].[W].[Y]": {
+        "formation_energy": -2.673020246388889,
+        "band_gap": 1.083400000000001
+    },
+    "O.O.O.O.O.O.O.O.[AlH3].[Fe].[W].[W]": {
+        "formation_energy": -2.258758458333334,
+        "band_gap": 2.3579
+    },
+    "O.O.O.O.O.O.O.O.[W].[W].[W].[Y]": {
+        "formation_energy": -2.293430095,
+        "band_gap": 2.3212
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[CaH2].[CaH2].[CaH2].[CaH2].[Cr].[Cr].[Cr].[Cr]": {
+        "formation_energy": -3.567443940135714,
+        "band_gap": 2.9997
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[W].[W].[W].[W].[W].[W].[W].[W].[Zn].[Zn]": {
+        "formation_energy": -1.660564027232143,
+        "band_gap": 0.3513999999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[Mn].[Mn].[Nb].[Nb].[Nb].[Nb]": {
+        "formation_energy": -3.053677066333793,
+        "band_gap": 2.6484
+    },
+    "O.O.O.O.O.O.O.O.[AlH3].[AlH3].[Mn].[Mn].[Mn].[Mn]": {
+        "formation_energy": -2.450377557811232,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.[Ni].[Ni].[Ni].[Ni].[Y].[Y]": {
+        "formation_energy": -1.833107506428572,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Nb].[Nb].[Nb].[Nb].[Zn].[Zn]": {
+        "formation_energy": -2.503281860551196,
+        "band_gap": 1.918200000000001
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -1.872067539761905,
+        "band_gap": 1.6078
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[Ni].[Ni].[SrH2].[SrH2].[Zn]": {
+        "formation_energy": -2.465720423295238,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Cu].[Cu].[Cu].[W].[W].[W].[W].[W].[W].[Y]": {
+        "formation_energy": -1.871513052058823,
+        "band_gap": 0.2159
+    },
+    "O.O.O.O.O.[BaH2].[Cu].[Re]": {
+        "formation_energy": -1.81445440640625,
+        "band_gap": 0.02490000000000014
+    },
+    "C.C.C.C.O.O.O.O.O.O.O.O.[KH].[KH].[KH].[KH]": {
+        "formation_energy": -1.9206612359375,
+        "band_gap": 2.7324
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AlH3].[AlH3].[AlH3].[AlH3].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4]": {
+        "formation_energy": -2.570687577474629,
+        "band_gap": 0.1085000000000003
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BaH2].[BaH2].[BaH2].[Ni].[Ni].[Ni].[Y].[Y].[Y].[Y]": {
+        "formation_energy": -2.44503119635,
+        "band_gap": 0.01659999999999995
+    },
+    "O.O.O.O.O.O.O.O.[Ti].[Ti].[Ti].[Ti].[Zn]": {
+        "formation_energy": -3.116851513589743,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[Cr].[Cr].[La].[La].[MgH2].[MgH2]": {
+        "formation_energy": -2.507317352999999,
+        "band_gap": 0.1043000000000003
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AlH3].[AlH3].[Fe].[Fe].[Fe].[Fe].[SrH2].[SrH2].[SrH2].[SrH2].[Y].[Y]": {
+        "formation_energy": -2.90681868298077,
+        "band_gap": 1.4124
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[BaH2].[BaH2].[TlH3].[TlH3].[W].[W].[W].[W]": {
+        "formation_energy": -1.79701520325,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.P.P.[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Zn].[Zn]": {
+        "formation_energy": -2.603155738630953,
+        "band_gap": 0.01120000000000054
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Co].[Co].[Cr].[Cr].[La].[La].[Zn].[Zn]": {
+        "formation_energy": -2.178116481,
+        "band_gap": 0.6222000000000003
+    },
+    "F.F.F.F.F.F.F.F.F.F.[Ti].[Ti].[Zn].[Zn]": {
+        "formation_energy": -3.160941301088096,
+        "band_gap": 0.2247000000000003
+    },
+    "O.O.O.O.O.O.[AlH3].[AlH3].[V].[V]": {
+        "formation_energy": -2.666897905750001,
+        "band_gap": 0.0005999999999994898
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AlH3].[AlH3].[AlH3].[AlH3].[Mn].[Mn].[Mn].[Mn]": {
+        "formation_energy": -2.264137637129874,
+        "band_gap": 1.4741
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[V].[V].[V].[V]": {
+        "formation_energy": -3.14503571421875,
+        "band_gap": 2.0381
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[Co].[Co].[Co].[Co].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4]": {
+        "formation_energy": -3.066696363749999,
+        "band_gap": 2.8054
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.P.P.[MgH2].[MgH2].[MgH2].[MgH2].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti]": {
+        "formation_energy": -2.981738720055273,
+        "band_gap": 0.003700000000000259
+    },
+    "O.O.O.O.O.O.[AlH3].[AlH3].[Cr].[Cr]": {
+        "formation_energy": -2.53346937375,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3].[MgH2].[MgH2].[MgH2].[MgH2].[Ta].[Ta].[Ta].[Ta]": {
+        "formation_energy": -2.760926864531251,
+        "band_gap": 3.7857
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3].[Fe].[Fe].[Fe].[Fe].[MgH2].[MgH2].[MgH2].[MgH2]": {
+        "formation_energy": -1.89897227921875,
+        "band_gap": 0.8773999999999997
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.[CaH2].[CaH2].[Ti].[Ti].[W].[W]": {
+        "formation_energy": -2.886853441719578,
+        "band_gap": 0.7232000000000003
+    },
+    "O.O.O.O.O.O.[AlH3].[AlH3].[SbH3].[SbH3]": {
+        "formation_energy": -1.80392393475,
+        "band_gap": 0.1006999999999998
+    },
+    "O.O.O.O.O.O.[TeH2].[TeH2]": {
+        "formation_energy": -0.6537280471875002,
+        "band_gap": 0.4183
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Ni].[Ni].[SbH3].[SbH3].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -1.48049594825,
+        "band_gap": 0.01219999999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[Mo].[Mo].[SbH3].[SbH3]": {
+        "formation_energy": -2.611991581750001,
+        "band_gap": 0.8235999999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[MgH2].[MgH2].[W].[W].[W].[W]": {
+        "formation_energy": -2.413391458912699,
+        "band_gap": 1.5564
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[Ti].[Ti].[Ti].[Ti]": {
+        "formation_energy": -3.35491305307971,
+        "band_gap": 0.01170000000000027
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.P.P.[MgH2].[MgH2].[MgH2].[MgH2].[Mo].[Mo].[Mo].[Mo].[Ni].[Ni].[Ni].[Ni]": {
+        "formation_energy": -2.42216881892432,
+        "band_gap": 2.0252
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[MgH2].[MgH2].[MgH2].[MgH2].[Ta].[Ta]": {
+        "formation_energy": -2.699317313750001,
+        "band_gap": 2.3372
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[Ti].[Ti].[Ti].[Ti].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -2.875976380260417,
+        "band_gap": 0.03919999999999924
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Cu].[Cu].[MgH2].[MgH2].[MgH2].[MgH2].[Ta].[Ta]": {
+        "formation_energy": -2.520588549750001,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[SbH3].[SbH3].[SiH4].[SiH4]": {
+        "formation_energy": -1.788336639888889,
+        "band_gap": 0.5207000000000006
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[V].[V].[V].[V].[V].[V].[V].[V].[V].[V].[V].[V]": {
+        "formation_energy": -2.324584704444443,
+        "band_gap": 0.8606000000000003
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[MgH2].[MgH2].[SnH2].[SnH2]": {
+        "formation_energy": -2.640247775449135,
+        "band_gap": 3.716499999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[CaH2].[Co].[Co]": {
+        "formation_energy": -2.456472679041949,
+        "band_gap": 0.4995000000000001
+    },
+    "O.O.O.O.O.O.O.O.[Fe].[W].[W].[Y]": {
+        "formation_energy": -2.468895736666667,
+        "band_gap": 2.5855
+    },
+    "O.O.O.O.O.O.O.O.[Fe].[Fe].[Fe].[Fe].[MgH2].[MgH2]": {
+        "formation_energy": -2.115206327857142,
+        "band_gap": 1.8012
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Y].[Y].[Y].[Y]": {
+        "formation_energy": -2.404692003804851,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.[Mn].[W].[W].[Y]": {
+        "formation_energy": -2.523900290194943,
+        "band_gap": 2.2419
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Cr].[Cr].[Cr].[Cr].[Ho].[Ho].[Zn].[Zn]": {
+        "formation_energy": -2.50696449475,
+        "band_gap": 1.876599999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo]": {
+        "formation_energy": -1.715817332708333,
+        "band_gap": 0.2544999999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[SbH3].[SbH3].[SbH3].[SbH3]": {
+        "formation_energy": -2.212679744166666,
+        "band_gap": 1.6342
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[Cr].[Cr].[Zn].[Zn]": {
+        "formation_energy": -2.466177531358225,
+        "band_gap": 2.9708
+    },
+    "O.O.O.[Ni].[Y]": {
+        "formation_energy": -2.17223491475,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -1.541284493846153,
+        "band_gap": 2.3453
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Co].[Co].[Co].[Co].[Co].[Co].[Co].[Co].[MgH2].[MgH2].[MgH2].[MgH2]": {
+        "formation_energy": -1.742336162142857,
+        "band_gap": 0.01429999999999954
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[SbH3].[SbH3].[SbH3].[SbH3].[Zn].[Zn]": {
+        "formation_energy": -1.785842393611111,
+        "band_gap": 1.6918
+    },
+    "S.S.S.S.S.S.S.S.[CaH2].[Mn].[Mn].[Mn].[Mn]": {
+        "formation_energy": -1.195486333693634,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[BiH3].[BiH3].[BiH3].[BiH3]": {
+        "formation_energy": -1.472295599625,
+        "band_gap": 0.0271
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu]": {
+        "formation_energy": -1.457322318214285,
+        "band_gap": 0.00240000000000018
+    },
+    "O.O.O.O.O.O.[Cr].[W]": {
+        "formation_energy": -1.696989985937499,
+        "band_gap": 0.9157
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Cr].[Cr].[Ir].[Ir].[MgH2].[MgH2].[MgH2].[MgH2]": {
+        "formation_energy": -2.18366047675,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Ir].[Ir].[MgH2].[MgH2].[MgH2].[MgH2].[V].[V]": {
+        "formation_energy": -2.24935237825,
+        "band_gap": 0.4298000000000002
+    },
+    "O.O.O.O.O.O.[CaH2].[CaH2].[Ti].[W]": {
+        "formation_energy": -2.989998071416667,
+        "band_gap": 0.3479000000000001
+    },
+    "O.O.O.O.O.O.[CaH2].[CaH2].[Cu].[W]": {
+        "formation_energy": -2.373194398749999,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[SbH3].[SbH3].[Ta].[Ta]": {
+        "formation_energy": -2.68562501675,
+        "band_gap": 1.4425
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.P.P.[MgH2].[MgH2].[MgH2].[MgH2].[W].[W].[W].[W]": {
+        "formation_energy": -2.310461061812771,
+        "band_gap": 1.4064
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.[MgH2].[MgH2].[SbH3].[SbH3].[Ti].[Ti]": {
+        "formation_energy": -2.756438871719577,
+        "band_gap": 1.3197
+    },
+    "N.N.[Cu].[Cu].[Zn]": {
+        "formation_energy": 0.5028686890480003,
+        "band_gap": 1.8487
+    },
+    "Cl.Cl.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[SeH2].[SeH2].[SeH2].[SeH2].[V].[V].[V].[V].[V].[V].[Y].[Y]": {
+        "formation_energy": -1.988302718363168,
+        "band_gap": 0.01149999999999984
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[GaH3].[GaH3].[GaH3].[GaH3].[Mn].[Mn].[Mn].[Mn]": {
+        "formation_energy": -2.476187914539919,
+        "band_gap": 0.2613999999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.[BiH3].[BiH3].[MgH2].[MgH2].[Ti].[Ti]": {
+        "formation_energy": -2.756953567830689,
+        "band_gap": 1.825899999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.P.P.[Cr].[Cr].[Cr].[Cr].[Ni].[Ni].[Ni].[Ni]": {
+        "formation_energy": -2.00768213845696,
+        "band_gap": 0.0
+    },
+    "Cl.Cl.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[SeH2].[SeH2].[SeH2].[SeH2].[Y].[Y]": {
+        "formation_energy": -1.936643252696501,
+        "band_gap": 2.7357
+    },
+    "Cl.Cl.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AlH3].[AlH3].[SeH2].[SeH2].[SeH2].[SeH2].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti]": {
+        "formation_energy": -2.280824213029833,
+        "band_gap": 0.003699999999999815
+    },
+    "N.N.[MgH2].[SnH2].[SnH2]": {
+        "formation_energy": -0.1876457339520002,
+        "band_gap": 0.2622999999999998
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Co].[Co].[Co].[Co].[Co].[Co].[Co].[Co].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn]": {
+        "formation_energy": -1.630965009175328,
+        "band_gap": 0.3923999999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[CaH2].[CaH2].[CaH2].[CaH2]": {
+        "formation_energy": -2.024375681538461,
+        "band_gap": 0.01770000000000005
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[Cu].[Cu].[Zn].[Zn]": {
+        "formation_energy": -2.215535000903679,
+        "band_gap": 0.5194999999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AsH3].[AsH3].[AsH3].[AsH3].[Cu].[Cu].[Cu].[Cu].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -1.380481202656249,
+        "band_gap": 0.3032999999999999
+    },
+    "O.O.O.O.O.O.O.O.[BaH2].[Mn].[Mn].[Mn].[Mn]": {
+        "formation_energy": -1.835959275335173,
+        "band_gap": 0.01519999999999999
+    },
+    "O.O.O.O.O.O.O.O.[BaH2].[BaH2].[Mn].[Mn].[Mn].[Y]": {
+        "formation_energy": -2.686064163358425,
+        "band_gap": 0.1237999999999997
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Ni].[Ni].[Ni].[Ni].[Pr].[Pr].[Zn].[Zn]": {
+        "formation_energy": -1.577599405250001,
+        "band_gap": 0.1284999999999998
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Mo].[Mo].[Mo].[Mo].[Pr].[Pr].[Zn].[Zn]": {
+        "formation_energy": -2.388555677250001,
+        "band_gap": 1.3234
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.P.P.[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -2.182140068210034,
+        "band_gap": 2.4935
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -1.651278499047619,
+        "band_gap": 2.22
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.P.P.[BiH3].[BiH3].[BiH3].[BiH3]": {
+        "formation_energy": -2.235016270494047,
+        "band_gap": 0.2372
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[AlH3].[AlH3].[AlH3].[BaH2].[BaH2].[BaH2].[BaH2].[BaH2].[BaH2].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr]": {
+        "formation_energy": -3.619618631130624,
+        "band_gap": 3.1626
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[V].[V].[V].[V].[V].[V]": {
+        "formation_energy": -2.677356215769231,
+        "band_gap": 1.4053
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.P.P.[Ag].[Ag].[Ag].[Ag].[Ag].[Ag].[Ag].[Ag]": {
+        "formation_energy": -1.612206285932539,
+        "band_gap": 0.0006999999999999992
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn]": {
+        "formation_energy": -2.244123060924456,
+        "band_gap": 1.0046
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[Co].[Co].[Co].[Co].[MgH2].[MgH2].[MgH2].[MgH2]": {
+        "formation_energy": -1.951939875795455,
+        "band_gap": 2.1679
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Zn].[Zn]": {
+        "formation_energy": -1.932200661927083,
+        "band_gap": 0.1440000000000001
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[AsH3].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni]": {
+        "formation_energy": -1.887718168269231,
+        "band_gap": 2.5892
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni]": {
+        "formation_energy": -1.364211905781249,
+        "band_gap": 0.01309999999999967
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[Co].[Co].[Rh].[Rh]": {
+        "formation_energy": -2.396194042954546,
+        "band_gap": 0.006099999999999994
+    },
+    "O.O.O.O.O.O.O.O.[Mo].[Mo].[Mo].[Mo].[Zn].[Zn]": {
+        "formation_energy": -1.67848490357143,
+        "band_gap": 1.1624
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[BaH2].[BaH2].[BaH2].[BaH2].[CaH2].[CaH2].[CaH2].[CaH2].[Ti].[Ti].[Ti].[Ti]": {
+        "formation_energy": -3.956734873999666,
+        "band_gap": 0.2307999999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Co].[Co].[GeH4].[GeH4].[GeH4].[GeH4].[Zn].[Zn]": {
+        "formation_energy": -1.901016013750001,
+        "band_gap": 2.0462
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[Ni].[Ni].[Ni].[Ni]": {
+        "formation_energy": -1.753966379895833,
+        "band_gap": 0.6126999999999998
+    },
+    "Cl.Cl.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[SeH2].[SeH2].[SeH2].[SeH2]": {
+        "formation_energy": -1.260233559674822,
+        "band_gap": 0.08650000000000002
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti]": {
+        "formation_energy": -3.141172232041666,
+        "band_gap": 0.483200000000001
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Cr].[Cr].[GeH4].[GeH4].[GeH4].[GeH4]": {
+        "formation_energy": -1.976705445833334,
+        "band_gap": 0.6371
+    },
+    "O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[Mo].[Mo].[Mo].[Mo]": {
+        "formation_energy": -2.038474153281251,
+        "band_gap": 0.4603999999999995
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.P.P.[CaH2].[CaH2].[Ni].[Ni]": {
+        "formation_energy": -2.667721438187831,
+        "band_gap": 4.3483
+    },
+    "O.O.O.[CaH2].[W]": {
+        "formation_energy": -2.444167646749999,
+        "band_gap": 0.4039999999999999
+    },
+    "S.S.S.S.[Co].[Co]": {
+        "formation_energy": -0.4827754993749996,
+        "band_gap": 0.0
+    },
+    "S.S.S.S.[Mo].[Mo]": {
+        "formation_energy": -0.660446459375,
+        "band_gap": 0.002600000000000158
+    },
+    "S.S.S.S.[SnH2].[SnH2]": {
+        "formation_energy": -0.7537057077083334,
+        "band_gap": 1.8397
+    },
+    "S.S.S.S.[W].[W]": {
+        "formation_energy": -0.5134847893750015,
+        "band_gap": 0.0
+    },
+    "S.S.S.S.[Ti].[Ti]": {
+        "formation_energy": -1.491065368263889,
+        "band_gap": 1.6071
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Co].[Co].[Ta].[Ta].[Ta].[Ta].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -2.565721066923076,
+        "band_gap": 2.8134
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.P.P.[CaH2].[CaH2].[Fe].[Fe]": {
+        "formation_energy": -2.772868361798942,
+        "band_gap": 4.4394
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.P.P.[CaH2].[CaH2].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn]": {
+        "formation_energy": -2.754824797813585,
+        "band_gap": 4.042999999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[Ta].[Ta].[Ta].[Ta].[V].[V]": {
+        "formation_energy": -3.124927989615384,
+        "band_gap": 1.5804
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Ho].[Ho].[V].[V].[V].[V]": {
+        "formation_energy": -2.815832440277779,
+        "band_gap": 0.9714
+    },
+    "[Cu].[Cu].[GeH4].[SeH2].[SeH2].[SeH2].[SeH2]": {
+        "formation_energy": -0.1662173641964288,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Co].[Co].[Co].[Co].[Co].[Co].[Co].[Co].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo]": {
+        "formation_energy": -2.013397581818181,
+        "band_gap": 0.8841999999999994
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[Ni].[Ni].[Ta].[Ta].[Ta].[Ta]": {
+        "formation_energy": -2.928419390384616,
+        "band_gap": 3.8304
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[SrH2].[SrH2].[Ti].[Ti].[Zn].[Zn]": {
+        "formation_energy": -2.787629852912088,
+        "band_gap": 0.004599999999999937
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AsH3].[AsH3].[AsH3].[AsH3].[Cu].[Cu].[Zn].[Zn].[Zn]": {
+        "formation_energy": -1.5026235444,
+        "band_gap": 0.5052
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Fe].[Fe].[MgH2].[MgH2].[MgH2].[MgH2].[Ta].[Ta].[Ta].[Ta]": {
+        "formation_energy": -3.0613688,
+        "band_gap": 3.065999999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Co].[Co].[MgH2].[MgH2].[MgH2].[MgH2].[Ta].[Ta].[Ta].[Ta]": {
+        "formation_energy": -2.99166749923077,
+        "band_gap": 2.8545
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AlH3].[AlH3].[AlH3].[AlH3].[AlH3].[AlH3].[AlH3].[AlH3].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe]": {
+        "formation_energy": -2.387207178421054,
+        "band_gap": 0.05249999999999977
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.[CaH2].[CaH2].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe]": {
+        "formation_energy": -2.592286986276787,
+        "band_gap": 2.1245
+    },
+    "O.O.O.O.O.O.O.[Cr].[Cr].[SrH2].[SrH2].[TlH3].[Y]": {
+        "formation_energy": -2.60920367375,
+        "band_gap": 0.1825000000000001
+    },
+    "O.O.O.O.O.O.[CaH2].[Fe].[La].[La]": {
+        "formation_energy": -3.02135221325,
+        "band_gap": 1.6633
+    },
+    "O.O.O.O.O.O.O.[AlH3].[Mn].[Mn].[SrH2].[SrH2].[TlH3]": {
+        "formation_energy": -2.243990857186817,
+        "band_gap": 0.1859999999999999
+    },
+    "F.F.F.F.F.F.F.F.F.F.[Ag].[Ag].[CaH2].[CaH2]": {
+        "formation_energy": -2.549775799421429,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[AlH3].[AlH3].[AlH3].[AlH3].[BiH3].[BiH3].[BiH3].[BiH3]": {
+        "formation_energy": -2.33589040975,
+        "band_gap": 1.2597
+    },
+    "[Co].[Co].[Co].[Co].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2]": {
+        "formation_energy": -0.2539478940625,
+        "band_gap": 0.0
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[BaH2].[BaH2].[BaH2].[BaH2].[BaH2].[BaH2].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Y].[Y].[Y]": {
+        "formation_energy": -3.423959012172291,
+        "band_gap": 4.708
+    },
+    "O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[Ni].[Ni].[SiH4].[SiH4]": {
+        "formation_energy": -2.096737089531249,
+        "band_gap": 0.3636999999999997
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu]": {
+        "formation_energy": -1.475542973095238,
+        "band_gap": 0.002899999999999903
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[Cu].[Cu].[Cu].[Cu].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4]": {
+        "formation_energy": -2.821729261630435,
+        "band_gap": 0.1928999999999998
+    },
+    "O.O.O.O.O.O.O.O.O.O.P.P.[MgH2].[MgH2].[V].[V]": {
+        "formation_energy": -2.794380931793155,
+        "band_gap": 1.4374
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[Y].[Y].[Y].[Y].[Y].[Y].[Y].[Y]": {
+        "formation_energy": -2.485897648375,
+        "band_gap": 2.9485
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[W].[W].[W].[W].[W].[W].[W].[W].[W].[W].[W].[W]": {
+        "formation_energy": -1.773522855000001,
+        "band_gap": 1.1247
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Y].[Y].[Y].[Y].[Y].[Y]": {
+        "formation_energy": -2.93712426575,
+        "band_gap": 1.2949
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[W].[W].[W].[W].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -2.53426679085,
+        "band_gap": 2.6632
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -2.783142066011905,
+        "band_gap": 0.004000000000000448
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[Mo].[Mo].[Mo].[Mo].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -2.701671442278571,
+        "band_gap": 3.34
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[MgH2].[MgH2].[MgH2].[MgH2].[Mo].[Mo].[Mo].[Mo]": {
+        "formation_energy": -3.222202731564285,
+        "band_gap": 4.040500000000001
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[Mn].[Mn].[Mn].[Mn].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4]": {
+        "formation_energy": -2.922198038790376,
+        "band_gap": 1.7873
+    },
+    "O.O.O.O.O.O.O.O.[BaH2].[CaH2].[SnH2].[SnH2].[SnH2].[SnH2]": {
+        "formation_energy": -2.166479377857143,
+        "band_gap": 0.02809999999999935
+    },
+    "O.O.O.O.O.O.O.O.[Cr].[W].[W].[Y]": {
+        "formation_energy": -2.510786656666667,
+        "band_gap": 2.0714
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.[Mn].[Mn].[Mn].[Mn].[Mn].[Mn]": {
+        "formation_energy": -2.287505512765981,
+        "band_gap": 0.01549999999999996
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo]": {
+        "formation_energy": -1.851376230865385,
+        "band_gap": 0.0636000000000001
+    },
+    "O.O.O.O.O.O.O.O.[Cu].[Cu].[Cu].[Cu].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -1.162761868124999,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[SbH3].[SbH3].[SbH3].[SbH3].[Zn].[Zn]": {
+        "formation_energy": -2.125807937579365,
+        "band_gap": 0.6965999999999997
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[SnH2].[SnH2].[Ta].[Ta]": {
+        "formation_energy": -3.00756631625,
+        "band_gap": 0.01429999999999954
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[BaH2].[BaH2].[CaH2].[Cu].[Cu].[Cu].[Cu].[TlH3].[TlH3]": {
+        "formation_energy": -1.457100682142858,
+        "band_gap": 0.7256
+    },
+    "O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3]": {
+        "formation_energy": -1.310862277499999,
+        "band_gap": 0.5146999999999999
+    },
+    "F.F.F.F.F.F.F.F.F.F.[BiH3].[BiH3]": {
+        "formation_energy": -2.019991039325,
+        "band_gap": 0.6813
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Co].[Co].[Co].[Co].[Y].[Y].[Y].[Y]": {
+        "formation_energy": -2.636526704250001,
+        "band_gap": 1.429
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BaH2].[BaH2].[W].[W].[W].[W].[W].[W].[W].[W]": {
+        "formation_energy": -1.043208017395834,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.[BaH2].[BaH2].[Co].[Co].[Co]": {
+        "formation_energy": -1.703260364479167,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3]": {
+        "formation_energy": -2.192405394230768,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[Fe].[Fe].[La].[La].[SbH3].[SbH3]": {
+        "formation_energy": -2.774602957500001,
+        "band_gap": 2.3123
+    },
+    "O.O.O.O.O.[AlH3].[BaH2].[Cu].[Ti]": {
+        "formation_energy": -2.48446752587963,
+        "band_gap": 0.008899999999999686
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Co].[Co].[Co].[Co].[Co].[Co].[Co].[Co].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni]": {
+        "formation_energy": -1.017822794090909,
+        "band_gap": 0.04370000000000029
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[V].[V].[V].[V].[V].[V].[V].[V].[V].[V].[V].[V].[Y].[Y].[Y].[Y].[Y].[Y].[Y].[Y]": {
+        "formation_energy": -2.803680090685484,
+        "band_gap": 0.009300000000000086
+    },
+    "N.N.N.N.N.N.N.N.N.N.[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[Fe].[Fe]": {
+        "formation_energy": -0.942913995158334,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Fe].[Fe].[La].[La].[Mn].[Mn].[Zn].[Zn]": {
+        "formation_energy": -2.316357980733932,
+        "band_gap": 1.516999999999999
+    },
+    "[AlH3].[AlH3].[AlH3].[AlH3].[AlH3].[AlH3].[AlH3].[AlH3].[BiH3].[BiH3].[BiH3].[BiH3].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2]": {
+        "formation_energy": -0.7444405224107145,
+        "band_gap": 2.3645
+    },
+    "S.S.S.S.[AlH3].[AlH3].[Cu].[Cu]": {
+        "formation_energy": -1.14380183078125,
+        "band_gap": 1.6552
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo]": {
+        "formation_energy": -1.638822874249999,
+        "band_gap": 0.8852000000000002
+    },
+    "O.O.O.O.O.O.O.O.[BaH2].[Cr].[Cr].[Cr].[Cr].[MgH2]": {
+        "formation_energy": -2.200420483928572,
+        "band_gap": 0.01380000000000026
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[Co].[Co].[Sc].[Sc]": {
+        "formation_energy": -3.049358987045454,
+        "band_gap": 2.5862
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Ho].[Ho].[W].[W].[W].[W].[Zn].[Zn]": {
+        "formation_energy": -2.271238912749999,
+        "band_gap": 1.3008
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[Nb].[Nb].[Nb].[Nb].[W].[W]": {
+        "formation_energy": -2.816557084230768,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.P.P.[V].[V].[V].[V].[V].[V].[Zn].[Zn]": {
+        "formation_energy": -2.498757272494589,
+        "band_gap": 0.5868000000000002
+    },
+    "S.S.S.S.[Cu].[Cu].[GeH4].[Zn]": {
+        "formation_energy": -0.7805524539062509,
+        "band_gap": 0.3528000000000002
+    },
+    "O.O.O.O.O.O.O.O.[Re].[W].[W]": {
+        "formation_energy": -1.735672186818182,
+        "band_gap": 0.3728
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Co].[Co].[W].[W].[W].[W]": {
+        "formation_energy": -1.705430204545454,
+        "band_gap": 0.01300000000000001
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.P.P.[Mn].[Mn]": {
+        "formation_energy": -2.387225246160016,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[Co].[Co].[Co].[Co].[Co].[Co].[Co].[Co].[Co]": {
+        "formation_energy": -1.59884477171875,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[Nb].[Nb].[Nb].[Nb].[Ta].[Ta]": {
+        "formation_energy": -2.989237225,
+        "band_gap": 0.1830999999999996
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[MgH2].[MgH2].[MgH2].[MgH2].[Nb].[Nb].[Nb].[Nb]": {
+        "formation_energy": -2.739634425,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.[Co].[Co].[Co].[Co].[MgH2].[MgH2].[MgH2].[MgH2]": {
+        "formation_energy": -1.9942944425,
+        "band_gap": 0.9364999999999997
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[W].[W].[W].[W].[W].[W].[W].[W].[W]": {
+        "formation_energy": -1.15274580359375,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[TeH2].[TeH2].[TeH2].[TeH2].[TeH2].[TeH2].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti]": {
+        "formation_energy": -2.673350553361111,
+        "band_gap": 0.02109999999999967
+    },
+    "O.O.O.O.O.O.[La].[La].[SnH2].[Zn]": {
+        "formation_energy": -2.92474718225,
+        "band_gap": 3.0844
+    },
+    "O.O.O.O.O.O.[BiH3].[CaH2].[La].[La]": {
+        "formation_energy": -3.01001519625,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Y].[Y].[Y].[Y]": {
+        "formation_energy": -2.366725898823529,
+        "band_gap": 1.8619
+    },
+    "N.N.[CaH2].[Fe].[Fe]": {
+        "formation_energy": -0.08987320495200066,
+        "band_gap": 0.03610000000000024
+    },
+    "O.O.O.[AlH3].[SbH3]": {
+        "formation_energy": -1.287017254750001,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.[CaH2].[CaH2].[SnH2].[SnH2].[SnH2]": {
+        "formation_energy": -2.571798574615384,
+        "band_gap": 2.711199999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn]": {
+        "formation_energy": -2.395235150192182,
+        "band_gap": 0.7604000000000002
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[GaH3].[GaH3].[SrH2].[SrH2].[SrH2].[SrH2].[V].[V].[V].[V]": {
+        "formation_energy": -2.564788614062499,
+        "band_gap": 0.8033000000000001
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2]": {
+        "formation_energy": -1.815449657045454,
+        "band_gap": 0.07389999999999919
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Co].[Co].[Co].[Co].[SrH2].[SrH2].[SrH2].[SrH2].[Y].[Y]": {
+        "formation_energy": -2.253112289479166,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.P.P.[Co].[Co].[Co].[Co].[Co].[Co].[Co].[Co].[MgH2].[MgH2].[MgH2].[MgH2]": {
+        "formation_energy": -2.439903149322344,
+        "band_gap": 2.1843
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[TeH2].[TeH2].[TeH2].[TeH2].[TeH2].[TeH2].[TeH2].[TeH2]": {
+        "formation_energy": -1.545169948653846,
+        "band_gap": 0.04059999999999997
+    },
+    "O.O.O.O.O.O.O.O.[SbH3].[SbH3].[SbH3].[SbH3].[Zn]": {
+        "formation_energy": -1.4609261,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Zn].[Zn]": {
+        "formation_energy": -1.275851049017857,
+        "band_gap": 1.4856
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[Cr].[Cr].[SrH2].[SrH2].[Zn].[Zn]": {
+        "formation_energy": -2.729846176630037,
+        "band_gap": 2.5156
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[CaH2].[CaH2].[Co].[Co].[SrH2].[SrH2]": {
+        "formation_energy": -2.947583737014651,
+        "band_gap": 2.8319
+    },
+    "O.O.O.O.O.O.O.[AlH3].[BaH2].[BaH2].[TlH3].[V].[V]": {
+        "formation_energy": -2.39218107528846,
+        "band_gap": 0.2824
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[Mo].[Mo].[SrH2].[SrH2]": {
+        "formation_energy": -2.732726750515873,
+        "band_gap": 1.9981
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[CaH2].[CaH2].[Ni].[Ni].[SrH2].[SrH2]": {
+        "formation_energy": -2.879011097399267,
+        "band_gap": 3.5518
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Nb].[Nb].[Nb].[Nb].[W].[W].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -2.300163392692308,
+        "band_gap": 0.3753000000000002
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[SbH3].[SbH3].[SiH4].[SiH4].[V].[V].[V].[V].[V].[V].[V].[V].[V].[V].[V].[V].[V].[Y].[Y].[Y].[Y]": {
+        "formation_energy": -2.503616292755102,
+        "band_gap": 0.004100000000000215
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[MgH2].[MgH2].[SnH2].[SnH2].[SnH2].[SnH2]": {
+        "formation_energy": -2.442769639912697,
+        "band_gap": 2.8161
+    },
+    "O.O.O.O.O.O.O.O.[V].[V].[V].[V].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -1.852602038124999,
+        "band_gap": 0.01289999999999969
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[Mo].[Mo].[Mo].[Mo]": {
+        "formation_energy": -2.183311013375,
+        "band_gap": 3.5776
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AsH3].[AsH3].[AsH3].[AsH3].[W].[W].[W].[W].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -1.735735194843749,
+        "band_gap": 2.7497
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AlH3].[AlH3].[AlH3].[AlH3].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti]": {
+        "formation_energy": -3.262701938250001,
+        "band_gap": 0.01290000000000013
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[Zn].[Zn]": {
+        "formation_energy": -2.072909294580853,
+        "band_gap": 2.7463
+    },
+    "F.F.F.F.F.F.F.F.F.F.[BiH3].[BiH3].[Zn].[Zn]": {
+        "formation_energy": -2.642869601564286,
+        "band_gap": 3.9204
+    },
+    "O.O.O.O.O.O.O.[AlH3].[BaH2].[BaH2].[Cu].[Cu].[Cu]": {
+        "formation_energy": -1.86669392298077,
+        "band_gap": 0.2172000000000001
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.P.P.[MgH2].[MgH2].[MgH2].[MgH2].[SnH2].[SnH2].[SnH2].[SnH2]": {
+        "formation_energy": -2.665694330676407,
+        "band_gap": 3.7606
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Cr].[Cr].[La].[La].[W].[W].[Zn].[Zn]": {
+        "formation_energy": -2.450391778500001,
+        "band_gap": 1.8628
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti]": {
+        "formation_energy": -3.033603811742424,
+        "band_gap": 0.0
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[BaH2].[BaH2].[BaH2].[BaH2].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Zn].[Zn]": {
+        "formation_energy": -2.626496016083,
+        "band_gap": 0.0101
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[SiH4].[SiH4].[SiH4].[SiH4].[V].[V]": {
+        "formation_energy": -3.01386849925,
+        "band_gap": 1.98
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Co].[Co].[MgH2].[MgH2].[SiH4].[SiH4].[SiH4].[SiH4]": {
+        "formation_energy": -2.84830949225,
+        "band_gap": 2.79
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[Mn].[Mn].[SiH4].[SiH4].[SiH4].[SiH4]": {
+        "formation_energy": -3.005723432983932,
+        "band_gap": 3.3188
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[Cr].[Cr].[SiH4].[SiH4].[SiH4].[SiH4]": {
+        "formation_energy": -3.078424837749998,
+        "band_gap": 2.1623
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[Ni].[Ni].[SiH4].[SiH4].[SiH4].[SiH4]": {
+        "formation_energy": -2.77839770875,
+        "band_gap": 4.4533
+    },
+    "O.O.O.O.O.O.O.O.O.O.[AlH3].[AlH3].[CaH2].[CaH2].[CaH2].[CaH2].[V].[V]": {
+        "formation_energy": -3.185003182916666,
+        "band_gap": 1.5073
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Cr].[Cr].[MgH2].[MgH2].[SiH4].[SiH4].[SiH4].[SiH4]": {
+        "formation_energy": -2.96035030625,
+        "band_gap": 2.1949
+    },
+    "[AlH3].[AlH3].[AlH3].[AlH3].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[CaH2].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3]": {
+        "formation_energy": -0.8404192182142859,
+        "band_gap": 0.1656000000000004
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Sc].[Sc].[Zn].[Zn]": {
+        "formation_energy": -2.227118113461539,
+        "band_gap": 0.4022999999999994
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[Fe].[Fe].[GeH4].[GeH4].[GeH4].[GeH4]": {
+        "formation_energy": -2.397682638250001,
+        "band_gap": 1.9292
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[SnH2].[SnH2].[SnH2].[SnH2].[Zn].[Zn]": {
+        "formation_energy": -2.224777547246032,
+        "band_gap": 2.1955
+    },
+    "O.O.O.O.O.O.O.[BaH2].[BaH2].[Mo].[Mo].[TlH3]": {
+        "formation_energy": -1.979495264895833,
+        "band_gap": 0.2002999999999995
+    },
+    "O.O.O.O.O.O.O.[BaH2].[BaH2].[Ni].[Ni].[TlH3].[Y]": {
+        "formation_energy": -2.073417079903845,
+        "band_gap": 1.3215
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AlH3].[AlH3].[GaH3].[GaH3].[SrH2].[SrH2].[SrH2].[SrH2].[W].[W].[W].[W]": {
+        "formation_energy": -2.16402483875,
+        "band_gap": 0.8571000000000009
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[SiH4].[SiH4].[SiH4].[SiH4].[V].[V]": {
+        "formation_energy": -3.144397101749999,
+        "band_gap": 2.269200000000001
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Co].[Co].[Co].[Co].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4]": {
+        "formation_energy": -2.747169090760869,
+        "band_gap": 1.3757
+    },
+    "O.O.O.O.O.O.O.O.[MgH2].[SbH3].[SbH3].[SbH3].[SbH3]": {
+        "formation_energy": -1.55815814576923,
+        "band_gap": 0.1056999999999997
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[Mn].[Mn].[Nb].[Nb].[Nb].[Nb]": {
+        "formation_energy": -2.956580206333792,
+        "band_gap": 2.697
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3]": {
+        "formation_energy": -1.50500675425,
+        "band_gap": 1.4548
+    },
+    "O.O.O.O.O.O.O.O.[SnH2].[SnH2].[SnH2].[SnH2].[Zn]": {
+        "formation_energy": -1.719971363846154,
+        "band_gap": 0.2168999999999999
+    },
+    "F.F.F.F.F.F.F.F.[SnH2].[SnH2]": {
+        "formation_energy": -2.599351606952,
+        "band_gap": 2.4568
+    },
+    "O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3].[CaH2].[CaH2]": {
+        "formation_energy": -1.79942675640625,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Mn].[Y].[Y].[Y].[Y].[Y].[Y].[Y].[Y]": {
+        "formation_energy": -2.534682064161994,
+        "band_gap": 0.05550000000000033
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AsH3].[AsH3].[AsH3].[AsH3].[Co].[Co].[Co].[Co].[MgH2].[MgH2].[MgH2].[MgH2]": {
+        "formation_energy": -1.88967252453125,
+        "band_gap": 1.0289
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3].[CaH2].[Cu].[Cu].[Cu]": {
+        "formation_energy": -1.477581500750001,
+        "band_gap": 0.00649999999999995
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[Pr].[Pr].[SbH3].[SbH3].[SbH3].[SbH3]": {
+        "formation_energy": -2.358101438249999,
+        "band_gap": 0.3223000000000003
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[Mn].[Mn].[W].[W]": {
+        "formation_energy": -2.595413514193611,
+        "band_gap": 0.7244000000000002
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe].[Fe]": {
+        "formation_energy": -1.283560355,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.[Ni].[Ni]": {
+        "formation_energy": -0.5496999825,
+        "band_gap": 1.5309
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3]": {
+        "formation_energy": -1.810234525238095,
+        "band_gap": 0.1687000000000003
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[Cr].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2]": {
+        "formation_energy": -2.463974291428573,
+        "band_gap": 0.004999999999999893
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Mo].[Mo].[W].[W].[W].[W]": {
+        "formation_energy": -2.075474026363636,
+        "band_gap": 1.1964
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[AlH3].[AlH3].[AlH3].[AlH3].[AlH3].[AlH3].[AlH3].[AlH3].[AlH3].[AlH3].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu]": {
+        "formation_energy": -2.314288129250001,
+        "band_gap": 0.01369999999999916
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Ag].[Ag].[W].[W].[W].[W].[Y].[Y]": {
+        "formation_energy": -2.36456898875,
+        "band_gap": 2.2153
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Fe].[Fe].[SbH3].[SbH3].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -1.796374671749999,
+        "band_gap": 1.7726
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Mo].[Mo].[SbH3].[SbH3].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -1.777966787250001,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Ti].[Ti].[W].[W].[W].[W]": {
+        "formation_energy": -2.43683836060606,
+        "band_gap": 2.4186
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[CaH2].[CaH2].[V].[V].[V].[V]": {
+        "formation_energy": -2.824765402246031,
+        "band_gap": 1.9208
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[BaH2].[BaH2].[BaH2].[BaH2].[V].[V].[V].[V].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -3.352169294333,
+        "band_gap": 2.4777
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[Fe].[Fe].[Fe].[Ti].[Ti].[Ti].[Ti]": {
+        "formation_energy": -2.974608562083334,
+        "band_gap": 1.7925
+    },
+    "O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[Mo].[Mo].[Mo].[Mo]": {
+        "formation_energy": -2.366036480138888,
+        "band_gap": 1.322299999999999
+    },
+    "O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[Ti].[Ti].[Ti].[Ti]": {
+        "formation_energy": -2.755034480416667,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[SnH2].[SnH2].[SnH2].[SnH2]": {
+        "formation_energy": -2.216431038906249,
+        "band_gap": 0.8813
+    },
+    "O.O.O.O.O.O.O.O.[CaH2].[CaH2].[SbH3].[SbH3].[SbH3]": {
+        "formation_energy": -2.247722809230769,
+        "band_gap": 1.016900000000001
+    },
+    "S.S.S.S.S.S.S.S.[CaH2].[Co].[Co].[Co].[Co]": {
+        "formation_energy": -0.951185816346154,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Fe].[Fe].[Fe].[Fe].[MgH2].[MgH2].[MgH2].[MgH2]": {
+        "formation_energy": -2.08868378425,
+        "band_gap": 0.07030000000000003
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[CaH2].[CaH2].[CaH2].[CaH2].[W].[W]": {
+        "formation_energy": -2.56491861075,
+        "band_gap": 1.9657
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Cu].[Cu].[MgH2].[MgH2].[MgH2].[MgH2].[W].[W]": {
+        "formation_energy": -2.265015440249999,
+        "band_gap": 0.4165000000000001
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[CaH2].[CaH2].[CaH2].[CaH2].[SbH3].[SbH3]": {
+        "formation_energy": -2.458158008749999,
+        "band_gap": 1.100099999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[SnH2].[SnH2].[Ta].[Ta].[Ta].[Ta]": {
+        "formation_energy": -2.995760344999999,
+        "band_gap": 2.9323
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Cu].[Cu].[MgH2].[MgH2].[MgH2].[MgH2].[Ta].[Ta].[Ta].[Ta]": {
+        "formation_energy": -2.874847928846153,
+        "band_gap": 0.2326999999999999
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[BaH2].[BaH2].[BaH2].[BaH2].[MgH2].[MgH2].[MgH2].[MgH2].[SbH3].[SbH3].[SbH3].[SbH3]": {
+        "formation_energy": -3.465148769083,
+        "band_gap": 4.8123
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3]": {
+        "formation_energy": -1.681752463333334,
+        "band_gap": 1.9085
+    },
+    "O.O.O.O.O.O.[Ag].[MgH2].[MgH2].[W]": {
+        "formation_energy": -2.161064087750001,
+        "band_gap": 0.1101000000000001
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni]": {
+        "formation_energy": -1.16021874984375,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni]": {
+        "formation_energy": -0.582191922556818,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[SbH3].[SbH3].[SbH3].[SbH3]": {
+        "formation_energy": -2.330201637395833,
+        "band_gap": 0.2144000000000004
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[MgH2].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4]": {
+        "formation_energy": -2.75096208902174,
+        "band_gap": 2.652099999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Cu].[Zn].[Zn]": {
+        "formation_energy": -0.9641189284090914,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[SbH3].[SbH3].[SiH4].[SiH4].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2].[SnH2]": {
+        "formation_energy": -1.897267022777777,
+        "band_gap": 0.6472999999999995
+    },
+    "[AlH3].[AlH3].[AlH3].[AlH3].[BiH3].[BiH3].[BiH3].[BiH3].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2].[SeH2]": {
+        "formation_energy": -0.258814511979167,
+        "band_gap": 0.01349999999999962
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.[Cu].[Cu].[Cu].[Ti].[Ti].[Ti].[Ti].[Zn]": {
+        "formation_energy": -2.439039372083334,
+        "band_gap": 0.1017999999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[V].[V].[V].[V].[V].[V].[V].[V].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn].[Zn]": {
+        "formation_energy": -2.000002301875,
+        "band_gap": 2.8785
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Fe].[Fe].[Fe].[Fe].[MgH2].[MgH2].[MgH2].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3].[SbH3]": {
+        "formation_energy": -1.947056013108108,
+        "band_gap": 1.7069
+    },
+    "O.O.O.O.O.O.O.O.[MgH2].[MgH2].[Ni].[Ni].[Ni].[Ni]": {
+        "formation_energy": -1.257670823571429,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[BiH3].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo].[Mo]": {
+        "formation_energy": -1.590926039464287,
+        "band_gap": 2.8422
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[MgH2].[MgH2].[MgH2].[MgH2].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni]": {
+        "formation_energy": -1.364268350357142,
+        "band_gap": 0.03479999999999972
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni].[Ni]": {
+        "formation_energy": -1.508646136428572,
+        "band_gap": 0.0224000000000002
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[CaH2].[CaH2].[CaH2].[CaH2].[Nb].[Nb].[Nb].[Nb].[Nb].[Nb].[Nb].[Nb]": {
+        "formation_energy": -3.0359753175,
+        "band_gap": 1.6173
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BiH3].[BiH3].[BiH3].[BiH3].[GaH3].[GaH3].[SrH2].[SrH2].[SrH2].[SrH2]": {
+        "formation_energy": -2.248362425729168,
+        "band_gap": 0.05679999999999996
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.[BeH2].[BeH2].[BeH2].[BeH2].[BeH2].[BeH2].[BeH2].[BeH2].[BeH2].[BeH2].[BeH2].[BeH2].[CaH2].[CaH2].[CaH2].[CaH2].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[SiH4].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti]": {
+        "formation_energy": -3.064216585873015,
+        "band_gap": 0.000700000000000145
+    },
+    "S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.S.[CaH2].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti]": {
+        "formation_energy": -1.818332486733334,
+        "band_gap": 0.0
+    },
+    "S.S.S.S.[Mn].[Mn]": {
+        "formation_energy": -0.6922775998347698,
+        "band_gap": 0.0
+    },
+    "O.O.O.O.O.[BaH2].[BiH3].[Cu].[Y]": {
+        "formation_energy": -2.388342781805555,
+        "band_gap": 0.4111000000000002
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.P.P.P.P.[V].[V]": {
+        "formation_energy": -2.533625920434174,
+        "band_gap": 1.0136
+    },
+    "O.O.O.O.O.O.O.O.O.O.P.P.[V].[V]": {
+        "formation_energy": -2.507129959906462,
+        "band_gap": 1.9715
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.P.P.P.P.[SbH3].[SbH3].[SrH2].[SrH2]": {
+        "formation_energy": -2.602225439682539,
+        "band_gap": 0.03929999999999989
+    },
+    "F.F.F.F.F.[AlH3].[Ni]": {
+        "formation_energy": -3.081928271564287,
+        "band_gap": 4.778700000000001
+    },
+    "O.O.O.O.O.O.O.O.O.O.O.O.O.O.[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Ti].[Zn].[Zn]": {
+        "formation_energy": -2.748812038237181,
+        "band_gap": 0.0
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[BaH2].[BaH2].[BaH2].[BaH2].[Cu].[Cu].[Fe].[Fe].[Fe].[Fe].[MgH2].[MgH2]": {
+        "formation_energy": -3.219999630083,
+        "band_gap": 1.5592
+    },
+    "F.F.F.F.F.[AlH3].[Mn]": {
+        "formation_energy": -3.496768873327044,
+        "band_gap": 4.633999999999999
+    },
+    "O.O.O.O.O.O.O.O.O.O.P.P.[Fe].[Fe].[Zn].[Zn]": {
+        "formation_energy": -2.234617814293155,
+        "band_gap": 1.8798
+    },
+    "F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.F.[BaH2].[BaH2].[BaH2].[BaH2].[Cu].[Cu].[Fe].[Fe].[Fe].[Fe].[Zn].[Zn]": {
+        "formation_energy": -3.038741604583,
+        "band_gap": 1.6194
+    },
+    "F.F.F.F.F.F.[MgH2].[V]": {
+        "formation_energy": -3.3149925240175,
+        "band_gap": 0.001100000000000101
+    }
+}

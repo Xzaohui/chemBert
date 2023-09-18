@@ -1,4 +1,4 @@
-# import torch
+import torch
 # import numpy as np
 # from model import BertModel
 # from transformers import BertConfig,AutoModelForCausalLM
@@ -75,15 +75,27 @@
 #         if i>200:
 #             break
 
-# x=np.arange(0,i,1)
-# import matplotlib.pyplot as plt
 
+# import matplotlib.pyplot as plt
+# import numpy as np
+
+# x=np.array(['50','100','200','500','1000','2000'])
 # fig=plt.figure(figsize=(4, 4), dpi=200)
 
-# plt.plot(x,res1,lw=0.5,ls='-',c='k',label='真实值')
-# plt.plot(x,res2,lw=0.5,ls='-',c='b',label='分子结构理解增强模型预测值')
-# plt.plot(x,res3,lw=0.5,ls='-',c='r',label='传统随机森林模型预测值')
+# res1=[64.9,76.7,81.6,83.2,85.1,85.7]
+# res2=[61.2,75.5,82.3,84.1,85.3,86.0]
+# res3=[63.4,77.9,81.2,82.8,84.6,85.5]
 
+# res4=[56.3,65.2,70.5,74.9,77.3,78.8]
+# res5=[53.7,62.1,68.7,72.4,75.9,77.2]
+# res6=[57.1,66.8,71.1,73.6,76.3,77.7]
 
-# plt.legend()
+# plt.plot(x,res1,lw=0.5,ls='-',c='k',label='ChemBert溶解度')
+# plt.plot(x,res2,lw=0.5,ls='-',c='b',label='ChemBert疏水性参数')
+# plt.plot(x,res3,lw=0.5,ls='-',c='r',label='ChemBert极性表面积')
+
+# plt.plot(x,res4,lw=0.5,ls='dashdot',c='k',label='ChemBerta溶解度')
+# plt.plot(x,res5,lw=0.5,ls='dashdot',c='b',label='ChemBerta疏水性参数')
+# plt.plot(x,res6,lw=0.5,ls='dashdot',c='r',label='ChemBerta极性表面积')
+# plt.legend(fontsize=5,ncol=2)
 # plt.show()

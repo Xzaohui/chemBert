@@ -96,23 +96,31 @@ def smiles_data(begin=0):
 # smiles_data()
 
 # df=pd.read_excel('/mnt/workspace/chemBert/data/51.xlsx')
-# f=open('/mnt/workspace/chemBert/data/51.json')
+# # f=open('/mnt/workspace/chemBert/data/51.json')
 # data={}
 # for line in pd.DataFrame(df).itertuples():
-    # data[line._12]={'D_MS刚性-C3H8':line._15*1e9}
-    # data[line._13]={'D_MS刚性-C3H8':line._15*1e9}
-    # data[line._14]={'D_MS刚性-C3H8':line._15*1e9}
+#     data[line._12]={'D_MS刚性-C3H8':line._15*1e9}
+#     data[line._13]={'D_MS刚性-C3H8':line._15*1e9}
+#     data[line._14]={'D_MS刚性-C3H8':line._15*1e9}
 # json.dump(data,open('/mnt/workspace/chemBert/data/COF-smile.json','w'),ensure_ascii=False,indent=4)
 
-f=open('./data/solubility.txt')
+df=pd.read_excel('./origin/crystal.xlsx')
 data={}
-res=0
-for line in f.readlines():
-    line=line.split()
-    data[line[0]]={'solubility':line[2]}
-    res+=math.exp(float(line[2]))
-json.dump(data,open('./data/solubility.json','w'),ensure_ascii=False,indent=4)
-print(res/len(data))
+for line in pd.DataFrame(df).itertuples():
+    data[line.smiles]={'formation_energy':line.formation_energy,'band_gap':line.band_gap}
+json.dump(data,open('./data/crystal.json','w'),ensure_ascii=False,indent=4)
+
+
+
+# f=open('./data/solubility.txt')
+# data={}
+# res=0
+# for line in f.readlines():
+#     line=line.split()
+#     data[line[0]]={'solubility':line[2]}
+#     res+=math.exp(float(line[2]))
+# json.dump(data,open('./data/solubility.json','w'),ensure_ascii=False,indent=4)
+# print(res/len(data))
 # print(data)
 
 # print(data[data.index('> <PUBCHEM_OPENEYE_CAN_SMILES>')+1])

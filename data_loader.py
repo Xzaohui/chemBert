@@ -7,7 +7,7 @@ from tokenizers.implementations import ByteLevelBPETokenizer
 from tokenizers.processors import BertProcessing
 import random
 
-data_title=['D_MS刚性-C3H8', '> <PUBCHEM_XLOGP3_AA>','> <PUBCHEM_EXACT_MASS>','> <PUBCHEM_MOLECULAR_WEIGHT>','> <PUBCHEM_CACTVS_TPSA>','> <PUBCHEM_MONOISOTOPIC_WEIGHT>','> <PUBCHEM_TOTAL_CHARGE>','> <PUBCHEM_HEAVY_ATOM_COUNT>']
+data_title=['formation_energy','D_MS刚性-C3H8', '> <PUBCHEM_XLOGP3_AA>','> <PUBCHEM_EXACT_MASS>','> <PUBCHEM_MOLECULAR_WEIGHT>','> <PUBCHEM_CACTVS_TPSA>','> <PUBCHEM_MONOISOTOPIC_WEIGHT>','> <PUBCHEM_TOTAL_CHARGE>','> <PUBCHEM_HEAVY_ATOM_COUNT>']
 # XLOGP3疏水性
 # TPSA分子极性表面积
 # CHARGE电荷
@@ -85,7 +85,6 @@ def train_data_bert(data_path,tokenizer):
     data_frame={}
     f=open(data_path,'r',encoding='utf-8')
     data=json.load(f)
-    tokenizer = tokenizer
     data_tmp={}
     i=0
     for smile in data:
@@ -98,14 +97,14 @@ def train_data_bert(data_path,tokenizer):
             if t not in data_tmp:
                 data_tmp[t]={}
             data_tmp[t][smile]=data[smile][t]
-    train_num=2000
+    train_num=400
 
     for t in data_tmp:
         smiles=tokenizer(list(data_tmp[t].keys()),truncation=True,padding="max_length",max_length=512,return_tensors="pt")
         # data_frame[t]={'train':dataset(smiles['input_ids'].long(),smiles['attention_mask'].long(),torch.tensor([float(v) for v in list(data_tmp[t].values())]).float())}
         data_frame[t]={'train':dataset(smiles['input_ids'].long()[:train_num],smiles['attention_mask'].long()[:train_num],torch.tensor([float(v) for v in list(data_tmp[t].values())]).float()[:train_num]),
-                        'dev':dataset(smiles['input_ids'].long()[train_num:int(train_num*1.2)],smiles['attention_mask'].long()[train_num:int(train_num*1.2)],torch.tensor([float(v) for v in list(data_tmp[t].values())]).float()[train_num:int(train_num*1.2)]),
-                        'test':dataset(smiles['input_ids'].long()[int(train_num*1.2):int(train_num*1.4)],smiles['attention_mask'].long()[int(train_num*1.2):int(int(train_num*1.4))],torch.tensor([float(v) for v in list(data_tmp[t].values())]).float()[int(train_num*1.2):int(train_num*1.4)])}
+                        'dev':dataset(smiles['input_ids'].long()[train_num:int(train_num*1.1)],smiles['attention_mask'].long()[train_num:int(train_num*1.1)],torch.tensor([float(v) for v in list(data_tmp[t].values())]).float()[train_num:int(train_num*1.1)]),
+                        'test':dataset(smiles['input_ids'].long()[int(train_num*1.1):int(train_num*1.2)],smiles['attention_mask'].long()[int(train_num*1.1):int(int(train_num*1.2))],torch.tensor([float(v) for v in list(data_tmp[t].values())]).float()[int(train_num*1.1):int(train_num*1.2)])}
 
     # print(torch.tensor([float(v) for v in list(data_tmp[t].values())]))
     return data_frame
