@@ -1,7 +1,10 @@
 import torch
 # import numpy as np
 # from model import BertModel
-# from transformers import BertConfig,AutoModelForCausalLM
+
+
+# model.save_pretrained('./models/gpt')
+# tokenizer.save_pretrained('./models/gpt')
 
 
 # config=BertConfig(vocab_size=9999)
@@ -99,3 +102,17 @@ import torch
 # plt.plot(x,res6,lw=0.5,ls='dashdot',c='r',label='ChemBerta极性表面积')
 # plt.legend(fontsize=5,ncol=2)
 # plt.show()
+
+# model=torch.load("./models/chembert/chembert.pt")
+# print(model)
+
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+tokenizer = AutoTokenizer.from_pretrained("msb-roshan/molgpt")
+model = AutoModelForCausalLM.from_pretrained("msb-roshan/molgpt")
+
+chem='cc'
+inputs = tokenizer(chem, return_tensors="pt",truncation=True)
+# print(inputs)
+output=model.generate(inputs['input_ids'].to('cpu'))
+print(tokenizer.decode(output[0]))

@@ -52,7 +52,7 @@ def train_bert(epoch=1):
     scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0.06*total_steps,num_training_steps=total_steps)
 
     best=999
-    for e in range(epoch):
+    for _ in range(epoch):
         for i,(train_data,attention_mask,train_lab) in enumerate(train_dataloader):
             optimizer.zero_grad()
             model.train()

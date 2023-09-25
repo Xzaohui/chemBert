@@ -109,6 +109,19 @@ def train_data_bert(data_path,tokenizer):
     # print(torch.tensor([float(v) for v in list(data_tmp[t].values())]))
     return data_frame
 
+def train_data_gpt(data_path,tokenizer):
+    f=open(data_path,'r',encoding='utf-8')
+    data=json.load(f)
+    train_num=4000
+    smiles=tokenizer(list(data.keys()),truncation=True,padding="max_length",max_length=512,return_tensors="pt")
+    # data_frame[t]={'train':dataset(smiles['input_ids'].long(),smiles['attention_mask'].long(),torch.tensor([float(v) for v in list(data_tmp[t].values())]).float())}
+    data_frame={'train':dataset(smiles['input_ids'].long()[:train_num],smiles['attention_mask'].long()[:train_num],smiles['input_ids'].long()[:train_num]),
+                    'dev':dataset(smiles['input_ids'].long()[train_num:int(train_num*1.1)],smiles['attention_mask'].long()[train_num:int(train_num*1.1)],smiles['input_ids'].long()[train_num:int(train_num*1.1)]),
+                    'test':dataset(smiles['input_ids'].long()[int(train_num*1.1):int(train_num*1.2)],smiles['attention_mask'].long()[int(train_num*1.1):int(int(train_num*1.2))],smiles['input_ids'].long()[int(train_num*1.1):int(train_num*1.2)])}
+
+    # print(torch.tensor([float(v) for v in list(data_tmp[t].values())]))
+    return data_frame
+
 def random_mask(ids):
     for i in range(len(ids)):
         if ids[i] in [0,1,2,4]:
