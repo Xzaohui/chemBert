@@ -111,8 +111,11 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 tokenizer = AutoTokenizer.from_pretrained("msb-roshan/molgpt")
 model = AutoModelForCausalLM.from_pretrained("msb-roshan/molgpt")
 
-chem='cc'
-inputs = tokenizer(chem, return_tensors="pt",truncation=True)
-# print(inputs)
-output=model.generate(inputs['input_ids'].to('cpu'))
-print(tokenizer.decode(output[0]))
+model.save_pretrained('./models/gpt')
+tokenizer.save_pretrained('./models/gpt')
+
+# chem='cc'
+# inputs = tokenizer(chem, return_tensors="pt",truncation=True)
+# # print(inputs)
+# output=model.generate(inputs['input_ids'].to('cpu'))
+# print(tokenizer.decode(output[0]))
